@@ -1,0 +1,123 @@
+<!-- 
+ ! Form modal
+ ! -->
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>	
+	<h4 class="modal-title" id="modalLabel">Resultado da votação para {{documento.docCode}} </h4>
+</div><!-- modal-header-->
+  		
+<div class="modal-body">
+	
+		<div class="row">
+			<div class="col-md-12" >
+				<div class="alert alert-info alert-dismissible col-md-12" role="alert" data-ng-show="documento.closed">
+			 	 	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			 	 	<strong>Encerrada a votação!</strong> para :  {{documento.docName}}.
+				</div>
+				
+			</div>
+			<div class="col-md-12" style="text-align:center">
+				<div class="h3" >{{documento.docName}}</div><br>
+				<div class="h4">{{documento.authorName}}</div>
+			</div>
+			<div class="col-md-12" >
+				<hr>
+			</div>
+			
+		      <div class="col-md-4">
+		        <div class="input-group">
+		          <div class="input-group-btn">
+		            <button class="btn btn-info" type="button">Total de Votos</button>		          
+		          </div>
+		          <input type="text"  readonly class="form-control" value="{{votoDetails.total}}"> 
+		        </div><!-- /.input-group -->
+		      </div><!-- /.col-md-4 -->
+		      <div class="col-md-4">
+		          <div class="input-group">
+		          <div class="input-group-btn">
+		            <button class="btn btn-success" type="button">Concordam</button>		          
+		          </div>
+		          <input type="text"  readonly class="form-control" value="{{votoDetails.agree}}"> 
+		        </div><!-- /.input-group -->
+		      </div><!-- /.col-md-4 -->
+		      <div class="col-md-4">
+		        <div class="input-group">
+		          <div class="input-group-btn">
+		            <button class="btn btn-danger" type="button">Discordam</button>		          
+		          </div>
+		          <input type="text"  readonly class="form-control" value="{{votoDetails.disagree}}"> 
+		        </div><!-- /.input-group -->
+		      </div><!-- /.col-md-4 -->
+		      
+		  	<div class="col-md-12" >
+				<hr>
+			</div>	
+		  
+		     <div class="col-md-4">  
+				<button class="btn btn-info" type="button">
+				  Total de Votos <span class="badge">{{votoDetails.total}}</span>
+				</button>
+		     </div> 		
+		     <div class="col-md-4">  
+				<button class="btn btn-success" type="button">
+				  Concordam <span class="badge">{{votoDetails.agree}}</span>
+				</button>
+		     </div> 
+		     <div class="col-md-4">  
+				<button class="btn btn-danger" type="button">
+				  Discordam <span class="badge">{{votoDetails.disagree}}</span>
+				</button>
+		     </div> 
+			<div class="col-md-12" >
+				<hr>
+			</div>	
+			<div class="col-md-12" >
+				<div class="col-md-2" >
+					<span >Concordam </span>
+				</div>
+				<div class="col-md-8" >
+					<div class="progress">
+					  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{votoDetails.agreePerc}}" aria-valuemin="0" aria-valuemax="100" style="width: {{votoDetails.agreePerc}}%">
+					  </div>
+					</div>	
+				</div>	
+				<div class="col-md-2" >
+					<span >{{votoDetails.agreePerc}} % </span>
+				</div>			
+			</div>			
+			
+			<div class="col-md-12" >
+				<div class="col-md-2" >
+					<span >Discordam</span>
+				</div>	
+				<div class="col-md-8" >
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="{{votoDetails.disagreePerc}}" aria-valuemin="0" aria-valuemax="100" style="width: {{votoDetails.disagreePerc}}%">
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-2" >
+					<span >{{votoDetails.disagreePerc}} % </span>
+				</div>	
+			</div>	
+			<!-- col-md-12 -->
+	
+	
+		</div>
+		<!-- row -->
+	
+		<hr />
+	
+		<!-- ! Submit row !-->
+		<div class="row">
+			<div class="col-md-12">
+				<!-- ! Submit button !-->
+				<div class="pull-right"> 
+					<a data-dismiss="modal"  class="btn btn-primary">Fechar</a>
+				</div>
+			</div>
+		</div>
+		<!-- row -->
+
+</div><!-- modal-body-->
+

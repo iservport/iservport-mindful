@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+<ul class="list-group">
+<a data-ng-repeat="qualifierItem in qualifiers" class="list-group-item" data-ng-click="listUsers(qualifierItem.qualifierValue)">
+	<span class="badge alert-danger ng-binding ng-hide" data-ng-show="qualifierItem.countAlerts>0 ">
+		0
+	</span>
+	<span class="badge alert-warning ng-binding ng-hide" data-ng-show="qualifierItem.countWarnings>0 &amp;&amp; qualifierItem.countAlerts==0 ">
+		0
+	</span>
+	<div data-ng-class="{h4: qualifierItem.qualifierValue==qualifierValue }" >
+		{{qualifierItem.qualifierName}}
+	</div>
+	<span style="font-size: 70%; color: #aaa;" data-ng-show="qualifierItem.countItems==0">Não há usuários cadastrados</span>
+	<span style="font-size: 70%; color: #aaa;" data-ng-show="qualifierItem.countItems==1">1 usuário</span>
+	<span style="font-size: 70%; color: #aaa;" data-ng-show="qualifierItem.countItems>1">{{qualifierItem.countItems}} usuários</span>
+</a>
+</ul>
+</div>

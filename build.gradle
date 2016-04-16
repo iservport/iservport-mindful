@@ -1,0 +1,118 @@
+group = 'com.iservport'
+version = '0.0.1-SNAPSHOT'
+
+description = """Aplicação web o cidadão consiciente"""
+
+buildscript {
+    ext {
+        springBootVersion = '1.3.2.RELEASE'
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url "http://repo.spring.io/release" }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        //classpath 'com.bmuschko:gradle-docker-plugin:2.6.5'
+    }
+}
+
+apply plugin: 'scala'
+apply plugin: 'idea'
+
+apply plugin: 'spring-boot'
+
+springBoot {
+    executable = true
+}
+bootRun {
+    systemProperties System.properties
+}
+//test.onlyIf { ! Boolean.getBoolean('skip.tests') }
+test.onlyIf { false }
+
+repositories {
+//    mavenLocal()
+    maven { url 'http://maven.springframework.org/release' }
+    maven { url "https://s3-sa-east-1.amazonaws.com/maven.helianto.org/release" }
+    maven { url "https://s3-sa-east-1.amazonaws.com/maven.helianto.org/snapshot" }
+    maven { url "http://repo.artima.com/releases" }
+    maven { url "http://repo.spring.io/release" }
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+//configurations {
+//    compile.exclude module: "spring-boot-starter-tomcat"
+//}
+
+dependencies {
+    compile group: 'org.scala-lang',             name: 'scala-library',      version: '2.11.7'
+    compile group: 'org.springframework.boot',   name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.boot',   name: 'spring-boot-starter-actuator'
+    compile group: 'org.springframework.social', name: 'spring-social-web', version: '1.1.4.RELEASE'
+    compile group: 'org.springframework.social', name: 'spring-social-facebook-web', version: '2.0.3.RELEASE'
+    compile group: 'org.helianto', name: 'helianto-core',      version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-partner',   version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-document',  version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-resource',  version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-inventory', version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-security',  version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-sendgrid',  version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-plan',      version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-order',     version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'org.helianto', name: 'helianto-inventory', version: '0.6.0-SNAPSHOT', changing: true
+    compile group: 'commons-io',          name: 'commons-io', version: '2.4'
+    compile group: 'commons-fileupload',  name: 'commons-fileupload', version: '1.2.1'
+    compile(group: 'net.java.dev.jets3t', name: 'jets3t', version: '0.8.1') {
+        exclude(module: 'commons-logging')
+    }
+    compile group: 'org.webjars', name: 'angular-ui-ace', version: '0.2.3'
+    compile group: 'org.webjars', name: 'jquery', version: '2.1.1'
+    compile group: 'org.webjars', name: 'jquery-validation', version: '1.13.0'
+    compile group: 'org.webjars', name: 'bootstrap', version: '3.3.2'
+    compile group: 'org.webjars', name: 'jquery-knob', version: '1.2.2'
+    compile group: 'org.webjars', name: 'morrisjs', version: '0.5.0'
+    compile group: 'org.webjars', name: 'flot', version: '0.8.0-1'
+    compile group: 'org.webjars', name: 'dropzone', version: '3.7.1'
+    compile group: 'org.webjars', name: 'chosen', version: '0.9.12'
+    compile group: 'org.webjars', name: 'fullcalendar', version: '1.6.4'
+    compile group: 'org.webjars', name: 'bootstrap-datepicker', version: '1.3.0-3'
+    compile group: 'org.webjars', name: 'tinymce-jquery', version: '4.0.10'
+    compile(group: 'org.webjars', name: 'font-awesome', version: '4.3.0') {
+        exclude(module: 'bootstrap')
+    }
+    compile group: 'org.webjars', name: 'ionicons', version: '1.5.2'
+    compile group: 'org.webjars', name: 'foundation-icon-fonts', version: 'd596a3cfb3'
+    compile group: 'org.webjars', name: 'jquery-cookie', version: '1.4.0'
+    compile group: 'org.webjars', name: 'angular-ui-bootstrap', version: '0.13.2'
+    compile group: 'org.webjars', name: 'angularjs', version: '1.4.3'
+    compile group: 'org.webjars', name: 'angular-ui-utils', version: '0.2.2'
+    compile group: 'org.webjars', name: 'jquery.inputmask', version: '3.1.0'
+    compile group: 'org.webjars', name: 'json3', version: '3.3.2-1'
+    compile group: 'org.webjars', name: 'nervgh-angular-file-upload', version: '1.1.5-1'
+    compile group: 'org.webjars', name: 'angular-loading-bar', version: '0.7.1'
+    compile group: 'org.webjars.bower', name: 'momentjs', version: '2.10.3'
+    compile group: 'org.webjars.bower', name: 'slimScroll', version: '1.3.3'
+    compile group: 'org.webjars.bower', name: 'countUp.js', version: '1.5.3'
+    compile group: 'org.webjars.bower', name: 'ng-file-upload', version: '10.1.8'
+    compile group: 'org.webjars.bower', name: 'ngImgCrop', version: '0.3.2'
+    compile group: 'org.freemarker', name: 'freemarker', version: '2.3.19'
+    compile group: 'com.itextpdf', name: 'itextpdf', version: '5.0.6'
+    compile group: 'org.apache.tika', name: 'tika-core', version: '1.6'
+    compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.26'
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '2.4.3'
+    compile group: 'com.github.kenglxn.QRGen', name: 'javase', version: '2.1.0'
+    testCompile group: 'junit',  name: 'junit',    version: '4.10'
+    testCompile group: 'org.scalactic',  name: 'scalactic_2.11', version: '2.2.+'
+    testCompile group: 'org.scalatest',  name: 'scalatest_2.11', version: '2.2.+'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}

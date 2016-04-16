@@ -1,0 +1,48 @@
+<div class="panel panel-default" data-ng-controller="EntityController as entityCtrl">
+<!-- 
+Exemplo de dados disponíveis para a entidade:
+{"id":xxx
+,"contextId":1
+,"entityAlias":"CM95"
+,"installDate":1285729200000
+,"summary":"Câmara Municipal de Curitiba"
+,"entityDomain":""
+,"externalLogoUrl":"//s3-sa-east-1.amazonaws.com/iservport/CM95/style/logo-cm95.png"
+,"customProperties":null
+,"activityState":"A"
+,"entityType":"P"
+,"cityId":95
+,"cityName":"Curitiba"
+,"stateId":1
+,"stateCode":"PR"
+,"stateName":"Paraná"
+,"countryId":1}
+ -->
+<div class="panel-heading" >
+<a href="/app/parlamento" class="btn btn-primary pull-right">Mais plenários...</a>
+<h2>{{authorizedEntity.summary}}</h2>
+</div>
+<div class="panel-body" >
+<div class="alert">Estatísticas de votação...</div>
+<ul class="list-group" >
+  <li data-ng-repeat="item in documentos" class="list-group-item" >
+	<div class="row">  
+	  	<div class="col-md-10">
+            <p class="titulo-timeline">
+              <span class="projeto">PROJETO DE LEI N° {{item.docCode}}</span>
+              <span class="autor">{{item.authorName}}</span>
+            </p>
+            <p class="conteudo-timeline">{{item.docName}}</p>
+            <a href="" data-ng-click="getDocumento(item.id)" class="vermais-timeline">
+              Ver Mais
+            </a>
+           <a href=""  data-ng-click="getVotoDetails(item.id)"  class="btn btn-primary pull-right">Resultado</a>
+	  	</div>
+	  	<div class="col-md-2">{{item.nextCheckDate | date:'shortDate'}}
+	  	</div>
+  	</div>
+  </li>
+</ul>
+
+</div>
+</div>

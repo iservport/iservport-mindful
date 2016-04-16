@@ -1,0 +1,67 @@
+<!-- 
+ ! Form modal
+ ! -->
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>	
+	<h4 class="modal-title" id="modalLabel">Votar em {{documento.docCode}} </h4>
+</div><!-- modal-header-->
+  		
+<div class="modal-body">
+	
+		<div class="row">
+			<div class="col-md-12" >
+				<div class="alert alert-info alert-dismissible col-md-12" role="alert" data-ng-show="documento.closed">
+			 	 	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			 	 	<strong>Encerrada a votação!</strong> para :  {{documento.docName}}.
+				</div>
+				
+				<div class="alert alert-success alert-dismissible col-md-12" role="alert" data-ng-hide="documento.open && !documento.closed">
+			 	 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			 	 <strong>Parabéns!</strong> Você votou no projeto {{documento.docName}}.
+				</div>
+			</div>
+			<div class="col-md-12" style="text-align:center">
+				<div class="h3" >{{documento.docName}}</div><br>
+				<div class="h4">{{documento.authorName}}</div>
+			</div>
+			<div class="col-md-12" >
+				<hr>
+			</div>
+			
+			
+			<div class="col-md-6" >
+				<div class="col-md-12" >
+					<blockquote>{{documento.content}}</blockquote>
+				</div>	
+			</div><!-- col-md-6 -->
+			<div class="col-md-6">
+					<blockquote>{{documento.docAbstract}}</blockquote>
+			</div><!--col-md-6  -->	 
+			<div class="col-md-12">
+				<div data-ng-show="documento.open">
+					<div class="btn-group" role="group" >
+						<button data-ng-click="vote(1, documento.id)" type="button" class="btn btn-success col-md-6">Concordo </button>
+						<button data-ng-click="vote(0, documento.id)" type="button" class="btn btn-danger col-md-6"> Discordo</button>
+					</div>	
+				</div>
+			</div>
+	
+	
+		</div>
+		<!-- row -->
+	
+		<hr />
+	
+		<!-- ! Submit row !-->
+		<div class="row">
+			<div class="col-md-12">
+				<!-- ! Submit button !-->
+				<div class="pull-right"> 
+					<a data-dismiss="modal"  class="btn btn-primary">Fechar</a>
+				</div>
+			</div>
+		</div>
+		<!-- row -->
+
+</div><!-- modal-body-->
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="false">
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>[%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <logger name="org.helianto" level="OFF"/>
+  <logger name="org.helianto.core.test.DomainTestSupport" level="OFF"/>
+  <logger name="org.springframework.beans.factory.config" level="OFF"/>
+  <logger name="org.springframework.core" level="OFF"/>
+  <logger name="org.springframework.context" level="OFF"/>
+  <logger name="org.springframework.beans" level="OFF"/>
+  <logger name="org.springframework.beans.factory.support.DefaultListableBeanFactory" level="OFF"/>
+  <logger name="org.springframework.transaction" level="OFF"/>
+  <logger name="org.springframework.orm" level="OFF"/>
+  <logger name="org.springframework.security" level="OFF"/>
+  <logger name="org.springframework.validation" level="OFF"/>
+  <logger name="org.springframework.web.servlet.config" level="OFF"/>
+  <logger name="org.springframework.web" level="ON"/>
+  
+  <logger name="org.hibernate" level="OFF"/>
+  <logger name="org.hibernate.SQL" level="OFF"/>
+  <logger name="org.hibernate.jdbc" level="OFF"/>
+  <logger name="org.hibernate.jdbc.AbstractBatcher" level="OFF"/>
+  <logger name="org.hibernate.impl" level="OFF"/>
+  <logger name="org.aopalliance" level="OFF"/>
+  
+  <logger name="com.iservport.home" level="OFF"/>
+  <logger name="com.iservport.instrument.controller" level="DEBUG"/>
+  <logger name="com.iservport.resource.controller" level="DEBUG"/>
+  <logger name="com.iservport.event" level="DEBUG"/>
+  <logger name="com.iservport.category" level="DEBUG"/>
+  
+  <logger name="com.iservport.mindful" level="DEBUG"/>
+  
+  <root level="INFO">          
+    <appender-ref ref="STDOUT" />
+  </root>  
+  
+</configuration>
+
+

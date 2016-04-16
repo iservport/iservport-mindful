@@ -1,0 +1,127 @@
+<!-- 
+
+{"content":
+[
+	{"id":1,"contextId":1
+	,"userId":3
+	,"entityAlias":"DEFAULT"
+	,"installDate":1285718400000
+	,"summary":"Administrador"
+	,"entityDomain":null
+	,"externalLogoUrl":"//s3-sa-east-1.amazonaws.com/iservport/ISERV/STYLE/3-bubble-256.png"
+	,"customProperties":null
+	,"activityState":"A"
+	,"entityType":"C"
+	,"cityId":95
+	,"cityName":"Curitiba"
+	,"stateId":1
+	,"stateCode":"PR"
+	,"stateName":"Paran"
+	,"countryId":1}
+]
+,"last":true
+,"totalElements":1
+,"totalPages":1
+,"first":true
+,"sort":[{"direction":"DESC"
+,"property":"lastEvent"
+,"ignoreCase":false
+,"nullHandling":"NATIVE"
+,"ascending":false}]
+,"numberOfElements":1
+,"size":100,"number":0}
+
+ -->
+
+<div class="panel panel-default">
+<div class="panel-heading" >
+<h2 data-ng-show="qualifierValue=='M'">Parlamentos Municipais</h2>
+<h2 data-ng-show="qualifierValue=='E'">Parlamentos Estaduais</h2>
+</div>
+<!-- Navegação e busca -->
+<div class="navbar navbar-default">
+
+       <div class="collapse navbar-collapse" id="inner-navbar-collapse">
+
+           <form id="rootForm" data-ng-submit="search(0, '/search/0/')" class="navbar-form navbar-right ng-pristine ng-valid">
+               <div class="input-group input-group-sm">
+                   <input type="hidden" name="qualifierValue" value="C" data-ng-model="searchModel.qualifierValue" class="ng-pristine ng-untouched ng-valid">
+                   <input type="hidden" name="_csrf" value="4078c879-e55c-433b-8fba-6318c09bc596">
+                   <input type="text" class="form-control ng-pristine ng-untouched ng-valid" placeholder="Buscar" size="32" id="searchString" name="searchString" data-ng-model="searchModel.searchString">
+				<span class="input-group-btn">
+					<button value="inst" type="submit" class="btn btn-default inst"><i class="glyphicon glyphicon-search ng-scope" data-tooltip-placement="left" data-tooltip="Pesquisar itens"></i></button>
+				</span>
+               </div>
+           </form>	
+      </div>
+</div><!-- nvabar -->
+<!-- Mensagem -->       
+<div class="alert alert-warning alert-dismissible col-xs-9 ng-hide" data-ng-show="contents.length==0" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <div data-ng-bind-html="NO_CONTENT_MSG" class="ng-binding"><strong>Não há parlamentos cadastrados!</strong> clique no botão abaixo para cadastrar uma nova</div>
+</div>
+<!-- Formulário -->       
+<div data-ng-show="parlamento.userId>0">
+	<div class="media">
+		<div class="media-top media-left">
+			<img style="width: 80px;" data-ng-src="{{root.entity.externalLogoUrl}}"></img>
+		</div>
+		<div class="media-body media-left">
+	   		<div class="h4 text-left" style="white-space: normal;">
+	    			{{root.entity.summary}}
+	    			<hr/>
+	    			<a class="btn btn-default" href="" data-ng-click="authorize()" >Mudar parlamento</a>
+	    	</div>
+	    </div>
+	</div>
+	<hr/>			
+</div>
+<!-- LISTA -->
+<div class="list-group" >
+	<a data-ng-repeat="parlamento in parlamentos.content"
+	   data-ng-click='getRoot(parlamento.userId)'
+	   data-ng-class='{selected: parlamento.id==entity.id}'
+	   class="btn col-md-12">
+		<div class="media">
+			<div class="media-top media-left">
+				<img style="width: 80px;" data-ng-src="{{parlamento.entity.externalLogoUrl}}"></img>
+			</div>
+			<div class="media-body media-left">
+		   		<div class="h4 text-left" style="white-space: normal;">
+		    			{{parlamento.summary}}
+		    	</div>
+		    </div>
+		</div>			
+	</a>
+</div>
+<!-- PAGINAÇÃO -->
+<div class="panel-footer">
+<div class="row">
+<div class="col-md-1" >
+<a class="btn btn-sm btn-default" 
+	data-ng-if="nextAndPrevious.hasNext" 
+	
+	data-ng-click="rootAdapter(qualifierType, rootResolution,nextAndPrevious.next,isSearch())">
+	
+	<i class="glyphicon glyphicon-chevron-down"></i>
+</a>
+</div>
+<div class="col-md-10 text-center" >
+<h4>
+{{RootAdapterList1.number * RootAdapterList1.size}} 
+- {{(RootAdapterList1.number * RootAdapterList1.size) + RootAdapterList1.numberOfElements}} 
+/ {{RootAdapterList1.totalElements}}
+</h4>
+</div>
+<div class="col-md-1" >
+<a class="btn btn-sm btn-default pull-right" 
+	data-ng-if="nextAndPrevious.hasPrevious" 
+	data-ng-click="rootAdapter(qualifierType, rootResolution,nextAndPrevious.previous,isSearch())">
+	<i class="glyphicon glyphicon-chevron-up"></i>
+</a>
+</div>
+</div>
+
+
+</div>
+</div>

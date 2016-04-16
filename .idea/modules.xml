@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iservport-mindful.iml" filepath="$PROJECT_DIR$/.idea/modules/iservport-mindful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iservport-mindful_main.iml" filepath="$PROJECT_DIR$/.idea/modules/iservport-mindful_main.iml" group="iservport-mindful" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iservport-mindful_test.iml" filepath="$PROJECT_DIR$/.idea/modules/iservport-mindful_test.iml" group="iservport-mindful" />
+    </modules>
+  </component>
+</project>
