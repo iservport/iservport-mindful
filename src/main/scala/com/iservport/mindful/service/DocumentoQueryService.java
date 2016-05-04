@@ -6,10 +6,10 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import org.helianto.core.internal.QualifierAdapter;
 import org.helianto.core.internal.SimpleCounter;
 import org.springframework.stereotype.Service;
 
-import com.iservport.mindful.internal.QualifierAdapter;
 import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter;
 import com.iservport.mindful.repository.DocumentoLegislativoRepository;
 import com.iservport.mindful.repository.VotoDetails;

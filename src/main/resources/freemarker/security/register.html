@@ -1,0 +1,178 @@
+[#ftl]
+<div class="security-container" data-ng-cloak >
+    [#--
+    # Logo
+    #--]
+    [#include "../config/login-splash.html" /]
+
+    <div class="heading">
+        <h3 align="middle">{{'PASSWORD_UPDATE' | i18n}}</h3>
+    </div>
+
+    [#if userExists??]
+    <div class="alert alert-danger" role="alert">
+        <p>{{'OK_TO_CHANGE_PASSWORD'}}</p>
+    </div>
+    [/#if]
+
+    [#if recoverFail?? && recoverFail="true" ]
+    <div class="alert alert-danger" role="alert">
+        <p>{{'FAILED_TO_CHANGE_PASSWORD'}}</p>
+    </div>
+    [/#if]
+
+    [#if recoverFail?? && recoverFail="false"]
+    <div class="alert alert-success" role="alert">
+        <p>{{'OK_TO_CHANGE_PASSWORD'}}</p>
+    </div>
+    [/#if]
+
+    [#if recoverFailMsg?? ]
+    <div class="alert alert-warning" role="alert">
+        <@spring.message "${recoverFailMsg}" />
+    </div>
+    [/#if]
+
+    <form class="form-horizontal" role="form" action="/register" method="POST">
+        <div class="panel panel-default">
+            <div class="panel-body" data-ng-init="isAdmin=false; domain=true">
+                <input type="hidden" name="${_csrf.parameterName}"
+                       value="${_csrf.token}" />
+                <div class="form-group">
+                    <div class="col-sm-12 text-center">
+                        [#if hasPrincipal?? && !hasPrincipal]
+                            <input id="username" name="email" data-ng-model="email" required
+                               class="form-control" >
+                        [#else]
+                            <span class="help-block" > [#if form?? && form.principal??]${form.principal}[/#if] </span>
+                            <input type="hidden" name="email" data-ng-model="email" value="${form.principal!''}"
+                               class="form-control" >
+                        [/#if]
+
+                        <span class="help-block" data-ng-show="[#if form??]true[#else]false[/#if]"> ${form.firstName} ${form.lastName}</span>
+
+                    </div>
+                </div>
+                [#--
+                 # Registration type
+                 #--]
+                <div class="form-group">
+                    <div class="col-xs-1">
+                        <input type="checkbox" ng-model="isAdmin" ng-true-value="false"
+                               name="admin"
+                               value="{{isAdmin}}"
+                               ng-false-value="true">
+                    </div>
+                    <div class="col-xs-11">
+                        <b>Solicitar do Administrador do domínio minha inclusão</b>
+                        [#if entityNotFound?? && entityNotFound]
+                        <div class="alert alert-danger" role="alert">
+                            <p>{{'ENTITY_NOT_FOUND' | i18n}}</p>
+                        </div>
+                        [/#if]
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="checkbox" ng-model="isAdmin" ng-true-value="true" name="admin" value="{{isAdmin}}"
+                               ng-false-value="false">
+                    </div>
+                    <div class="col-xs-11">
+                        <b> Criar uma nova conta vinculada a um domínio e administrá-la</b>.
+                        <div class="alert alert-warning" role="alert" data-ng-show="isAdmin">
+                            <h4>Atenção!</h4>
+                            Informe o domínio somente se você tem permissão para administrá-lo. Caso contrário, solicite sua inclusão em um domínio existente.
+                        </div>
+                        [#if entityExists?? && entityExists]
+                        <div class="alert alert-danger" role="alert">
+                            <p>{{'ENTITY_EXISTS' | i18n}}</p>
+                        </div>
+                        [/#if]
+                    </div>
+                </div>
+                <p class="alert alert-warning">Identifique sua organização através do domínio internet (ex. dominio.com.br) ou pelo CNPJ.</p>
+                [#--
+                 # Domain or numberCode?
+                 #--]
+                <div class="form-group">
+                    <div class="col-xs-1">
+                        <input type="checkbox" ng-model="domain" ng-true-value="true" name="isDomain" value="{{domain}}"
+                               ng-false-value="false">
+                    </div>
+                    <div class="col-xs-11">
+                        <b>Domínio</b>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="checkbox" ng-model="domain" ng-true-value="false" name="isDomain" value="{{domain}}"
+                               ng-false-value="true">
+                    </div>
+                    <div class="col-xs-11">
+                        <b> CNPJ </b>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input type="text" required name="entityAlias" data-ng-model="entityAlias"  class="form-control" data-ng-if="domain">
+
+                        <div class="input-group" data-ng-if="!domain">
+                            <input type="text" name="entityAlias" required data-ng-keyup="valideCNPJ(entityAlias)"
+                                   data-ng-blur="valideCNPJ(entityAlias)"
+                                   value="{{entityAlias}}"
+                                   class="form-control" data-ui-mask="99.999.999/9999-99" data-ng-model="entityAlias">
+                             <span class="input-group-btn">
+                                <button aria-label="Help" class="btn btn-default" type="button">
+                                    <i class="fa fa-check" style="color:green;" data-ng-show="cnpjOk"></i>
+                                    <i class="fa fa-close" style="color:red;" data-ng-show="!cnpjOk  || entityAlias.length==0"></i>
+                                </button>
+                             </span>
+                        </div><!-- /input-group -->
+                    </div>
+                </div>
+                [#--
+                 # State and city
+                 #--]
+                <div class="form-group" data-ng-if="isAdmin">
+                    <div class="col-xs-6">
+                        <select id="stateId" class="form-control" name="stateId"  data-ng-model="stateId" data-ng-change="getCities(stateId)"
+                                data-ng-options="state.id as state.stateName +' / ' +  state.stateCode for state in states track by state.id"
+                                required="required">
+                        </select>
+                    </div>
+                    <div class="col-xs-6">
+                        <select id="cityId" class="form-control" name="cityId"  data-ng-model="entity.cityId"
+                                data-ng-options="city.id as city.cityName for city in cities track by city.id"
+                                required="required">
+                        </select>
+                    </div>
+                </div>
+                [#--
+                 # Password confirmation
+                 #--]
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">{{'PASSWORD' | common}}*</label>
+                    <div class="col-sm-9">
+                        <input id="password" type="password" required="" name="password" class="form-control" data-ng-model="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cpassword" class="col-sm-3 control-label">{{'PASSWORD_CONFIRMATION' | common}}*</label>
+                    <div class="col-sm-9">
+                        <input id="cpassword" type="password" required="" name="cpassword" class="form-control" data-ng-model="cpassword">
+                    </div>
+                </div>
+                [#--
+                 # Aceita termos de uso?
+                 #--]
+                <div class="row">
+                    <div class="col-md-8">
+                        <p><input type="checkbox" name="licenseAccepted" data-ng-model="checked"> {{'_ACCEPTED_TERMS_OF_USE'|common}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a target="_new" class="pull-right" data-ng-href="/information/license/" href="/information/license/">{{'_SEE_TERMS_OF_USE'|common}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer text-center">
+                <button type="submit" class="btn btn-primary" data-ng-disabled="cannotChangePassword || (!domain && !cnpjOk)"> {{'PASSWORD_SUBMIT' | i18n}} </button>
+            </div>
+        </div>
+    </form>
+</div>

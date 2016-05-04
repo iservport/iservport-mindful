@@ -41,7 +41,7 @@ import freemarker.template.TemplateException;
  */
 @Configuration
 @EnableTransactionManagement
-@Import({ RootContextConfig.class, SecurityWebConfig.class, SocialConfig.class })
+@Import({ RootContextConfig.class, MultiHttpSecurityConfig.class, SocialConfig.class })
 public class ServletContextConfig extends WebMvcConfigurerAdapter {
 
 	public static final MediaType APPLICATION_JSON_UTF8 = new MediaType(MediaType.APPLICATION_JSON.getType(), MediaType.APPLICATION_JSON.getSubtype(), Charset.forName("utf8"));

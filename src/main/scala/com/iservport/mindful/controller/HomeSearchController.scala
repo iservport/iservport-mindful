@@ -1,8 +1,9 @@
 package com.iservport.mindful.controller
 
-import java.util.List
+
 import javax.inject.Inject
-import org.helianto.core.internal.SimpleCounter
+
+import org.helianto.core.internal.{QualifierAdapter, SimpleCounter}
 import org.helianto.core.repository.EntityReadAdapter
 import org.helianto.security.internal.UserAuthentication
 import org.helianto.user.repository.UserReadAdapter
@@ -16,14 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.ResponseBody
-import com.iservport.mindful.internal.QualifierAdapter
 import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter
 import com.iservport.mindful.repository.VotoDetails
-import com.iservport.mindful.service.DocumentoCommandService
-import com.iservport.mindful.service.DocumentoQueryService
-import com.iservport.mindful.service.HomeCommandService
-import com.iservport.mindful.service.HomeQueryService
-import com.iservport.mindful.service.VotoQueryService
+import com.iservport.mindful.service._
 
 @RequestMapping(value = Array("/app/home", "/home", "/"))
 @Controller class HomeSearchController {
@@ -34,7 +30,7 @@ import com.iservport.mindful.service.VotoQueryService
   @Inject private val homeCommandService: HomeCommandService = null
   @Inject private val documentoQueryService: DocumentoQueryService = null
   @Inject private val documentoCommandService: DocumentoCommandService = null
-  @Inject private val votoQueryService: VotoQueryService = null
+  @Inject private val votoQueryService: VoteQueryService = null
 
   @PreAuthorize("isAuthenticated()")
   @RequestMapping(value = Array("/", ""), method = Array(RequestMethod.GET)) def home(userAuthentication: UserAuthentication, model: Model): String = {

@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import org.helianto.core.internal.QualifierAdapter;
 import org.helianto.security.internal.UserAuthentication;
 import org.helianto.user.repository.UserReadAdapter;
 import org.slf4j.Logger;
@@ -17,10 +18,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.iservport.mindful.internal.QualifierAdapter;
 import com.iservport.mindful.repository.UserRoleReadAdapter;
-import com.iservport.mindful.service.UserCommandService;
-import com.iservport.mindful.service.UserQueryService;
+import com.iservport.user.service.UserCommandService;
+import com.iservport.user.service.UserQueryService;
 
 /**
  * Controlador de usuários (eleitores).
@@ -31,7 +31,7 @@ import com.iservport.mindful.service.UserQueryService;
 @Controller
 public class UserSearchController {
 
-	private static final Logger logger = LoggerFactory.getLogger(ParlamentoSearchController.class);
+	private static final Logger logger = LoggerFactory.getLogger(HouseSearchController.class);
 	
 	@Inject
 	private UserQueryService userQueryService;
@@ -94,44 +94,6 @@ public class UserSearchController {
 	public Page<UserReadAdapter> userList(UserAuthentication userAuthentication, Integer userGroupId) {
 		return userQueryService.userList(userGroupId, "A", 0); // TODO page users
 	}
-	
-//	/**
-//	 * Enumeração interna para definir natureza
-//	 * de grupos de usuários.
-//	 * 
-//	 * @author mauriciofernandesdecastro
-//	 */
-//	public enum InternalUserNature implements KeyNameAdapter {
-//		
-//		ELEITORES('E'),
-//		PARLAMENTARES('P'),
-//		ADMIN('A');
-//		
-//		private char value;
-//		
-//		/**
-//		 * Construtor.
-//		 * 
-//		 * @param value
-//		 */
-//		private InternalUserNature(char value) {
-//			this.value = value;
-//		}
-//		
-//		public Serializable getKey() {
-//			return this.value;
-//		}
-//		
-//		@Override
-//		public String getCode() {
-//			return value+"";
-//		}
-//		
-//		@Override
-//		public String getName() {
-//			return name();
-//		}
-//		
-//	}
+
 	
 }
