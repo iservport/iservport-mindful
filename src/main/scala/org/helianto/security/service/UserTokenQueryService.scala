@@ -13,7 +13,7 @@ import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.stereotype.Service
 
 /**
-  * Signup query service.
+  * User token query service.
   *
   * @author mauriciofernandesdecastro
   */
@@ -26,23 +26,8 @@ class UserTokenQueryService @Inject()
  , entityRepository: EntityRepository
  , keyTypeRepository: KeyTypeRepository
  , operatorRepository: OperatorRepository
- , publicEntityCommandService: PublicEntityCommandService
  , userGroupRepository: UserGroupRepository
 ){
-  def install(registration: Registration) : UserToken = {
-    val identity = entityInstallService.installIdentity(registration.getEmail, registration.getPassword)
-    if(EntityAliasType.getType(registration.getEntityAlias).equals(EntityAliasType.NUMBER_CODE_TYPE)){
-      logger.info("Creating NUMBER_CODE_TYPE  for {}", registration.getEntityAlias)
-      Option(keyTypeRepository.findByOperatorAndKeyCode(operatorRepository.findOne(registration.getContextId), "CNPJ")) match {
-        case Some(keyType)=>{
-          publicEntityCommandService.saveOrUpdatePublicEntityKey(entityRepository.findByOperator_IdAndAlias(registration.getContextId, registration.getEntityAlias).getId, keyType.getId, registration.getEntityAlias)
-        }
-        case None => logger.info("Cannot create PublicEntityKey without keyType(CNPJ) for {} ", registration.getEntityAlias)
-      }
-    }
-    Option(entityInstallService.install(registration.getContextId, identity, registration)).getOrElse(new UserToken(TokenSources.SIGNUP.name(),registration.getEmail).appendFirstName(identity.getIdentityFirstName))
-  }
-
 
   val logger: Logger = LoggerFactory.getLogger(classOf[UserTokenQueryService])
 

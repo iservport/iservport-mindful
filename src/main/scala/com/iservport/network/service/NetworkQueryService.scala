@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service
 @Service
 class NetworkQueryService {
 
-  @Inject private val rootRepository: NetworkRepository = _
+  @Inject private val rootRepository: NetworkRepository = null
 
   def qualifierList(entityId: Int): java.util.List[QualifierAdapter] =
     QualifierAdapter.qualifierAdapterList(MindfulNetworkKeyName.values.map(v => v.asInstanceOf[KeyNameAdapter]))

@@ -1,7 +1,7 @@
-package com.iservport.home.test;
+package com.iservport.mindful.test;
 
 import com.iservport.mindful.config.MultiHttpSecurityConfig;
-import com.iservport.mindful.config.OAuth2ClientConfig;
+import com.iservport.mindful.config.SocialConfig;
 import org.helianto.core.config.HeliantoServiceConfig;
 import org.helianto.core.test.TestDataSourceConfig;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +22,7 @@ import org.springframework.validation.Validator;
 @Import({TestDataSourceConfig.class
 		, HeliantoServiceConfig.class
 		, MultiHttpSecurityConfig.class
-		, OAuth2ClientConfig.class})
+		, SocialConfig.class})
 @ComponentScan(
 		basePackages = {"com.iservport.*.controller"})
 @PropertySource("classpath:/test.properties")

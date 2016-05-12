@@ -19,8 +19,8 @@ import java.util.Locale
 import javax.inject.Inject
 
 import org.helianto.core.social.SignupForm
+import org.helianto.security.internal.Registration
 import org.helianto.security.service._
-import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation._
@@ -34,13 +34,9 @@ import org.springframework.web.bind.annotation._
 class RegistrationController @Inject()
 (responseService: ResponseService
  , userTokenQueryService: UserTokenQueryService
- , commandService:UserTokenCommandService
+ , registrationService: RegistrationService
  , entityInstallService: EntityInstallService
- , notificationService: SecurityNotification
 ) {
-
-  private val logger: Logger = LoggerFactory.getLogger(classOf[RegistrationController])
-
 
   /**
     * Get the registration page.
@@ -71,30 +67,8 @@ class RegistrationController @Inject()
     *
     */
   @RequestMapping(method = Array(RequestMethod.POST))
-  def postRegistrationPage(model: Model, @ModelAttribute registration : Registration , locale: Locale): String = {
-    val identity = entityInstallService.installIdentity(registration.getEmail, registration.getPassword);
-    model.addAttribute("form", new SignupForm(registration.getEmail, "", ""))
-    logger.info("registration {}", registration)
-    entityInstallService.entityOption(registration.getContextId, registration.getEntityAlias) match {
-      case Some(entity) if registration.isAdmin=>
-        // entity exists, but user is not admin
-        model.addAttribute("entityExists", true)
-        responseService.registerResponse(model, locale)
-      case None if !registration.isAdmin =>
-        //
-        model.addAttribute("entityNotFound", true)
-        responseService.registerResponse(model, locale)
-      case _ =>
-        // otherwise
-        val userToken = userTokenQueryService.install(registration)
-        try {notificationService.sendWelcome(userToken)} catch {
-          case e:Exception  => {
-            e.printStackTrace();
-          }
-        }
-        responseService.loginResponse(model, locale)
-    }
-  }
+  def postRegistrationPage(model: Model, @ModelAttribute registration : Registration , locale: Locale) =
+    registrationService.doRegister(registration, model , locale)
 
   /**
     * Ajax call to check if identity already exists.

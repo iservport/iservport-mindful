@@ -2,11 +2,16 @@ package org.helianto.security.service
 
 import javax.inject.Inject
 
+import org.helianto.core.`def`.UserState
 import org.helianto.core.domain._
 import org.helianto.core.repository._
 import org.helianto.install.service.{EntityInstallStrategy, UserInstallService}
+import org.helianto.security.SecurityNotification
 import org.helianto.security.domain.IdentitySecret
-import org.helianto.user.domain.User
+import org.helianto.security.internal.Registration
+import org.helianto.user.domain.UserToken.TokenSources
+import org.helianto.user.domain.{User, UserToken}
+import org.helianto.user.repository.{UserRepository, UserTokenRepository}
 import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.stereotype.Service
 
@@ -19,7 +24,11 @@ class EntityInstallService @Inject()
  , entityRepository: EntityRepository
  , userInstallService: UserInstallService
  , entityInstallStrategy: EntityInstallStrategy
- , signupRepository: SignupRepository) {
+ , signupRepository: SignupRepository
+ , userTokenRepository: UserTokenRepository
+ , userRepository : UserRepository
+ , notificationService: SecurityNotification
+) {
 
   private val logger: Logger = LoggerFactory.getLogger(classOf[EntityInstallService])
 
@@ -27,29 +36,38 @@ class EntityInstallService @Inject()
     return signupRepository.findByContextIdAndPrincipal(contextId, identity.getPrincipal)
   }
 
-  def generateEntityPrototypes(signup: Signup): java.util.List[Entity] = {
-    return entityInstallStrategy.generateEntityPrototypes(signup)
+  def generateEntityPrototypes(registration: Registration): java.util.List[Entity] = {
+    return entityInstallStrategy.generateEntityPrototypes(registration)
   }
 
-  def createEntities(context: Operator, prototypes: java.util.List[Entity], identity: Identity) {
+  def createEntities(context: Operator, prototypes: java.util.List[Entity], identity: Identity, isAdmin: Boolean) {
     import scala.collection.JavaConversions._
     for (prototype <- prototypes) {
-      createEntity(context, prototype, identity)
+      createEntity(context, prototype, identity, isAdmin)
     }
   }
 
-  def createEntity(context: Operator, command: Entity, identity: Identity): Entity = {
+  def createEntity(context: Operator, command: Entity, identity: Identity, isAdmin: Boolean): Entity = {
     val entity: Entity = entityInstallStrategy.installEntity(context, command)
     if (entity != null) {
-      createUser(entity, identity)
+      createUser(entity, identity, isAdmin)
     }
     return entity
   }
 
-  def createUser(entity: Entity, identity: Identity): User = {
+
+
+  def createUser(entity: Entity, identity: Identity, isAdmin: Boolean): User = {
     try {
       val principal: String = identity.getPrincipal
-      val user: User = userInstallService.installUser(entity, principal)
+      var user: User = userInstallService.installUser(entity, principal)
+      if(!isAdmin){
+        user = userRepository.findOne(user.getId)
+        user.setAccountNonExpired(false)
+        user.setUserState(UserState.INACTIVE.getValue)
+        user = userRepository.saveAndFlush(user)
+        try{ notificationService.sendAdminNotify(entity, identity)}  catch { case e:Exception=>e.printStackTrace() }
+      }
       removeLead(principal)
       return user
     }
@@ -70,9 +88,15 @@ class EntityInstallService @Inject()
     return leadPrincipal
   }
 
-  def installIdentity(email:String,password:String):Identity = {
-    val identity: Identity = identityRepository.findByPrincipal(email)
-    logger.debug("User {} exists", identity.getPrincipal)
+  //TODO change to option case
+  def installIdentity(email:String, password:String):Identity = {
+    var identity: Identity = identityRepository.findByPrincipal(email)
+    if(identity == null) {
+      logger.info("Will install identity for {}.", email);
+      identity = identityRepository.saveAndFlush(new Identity(email));
+    } else {
+      logger.debug("Found existing identity for {}.", email);
+    }
     var identitySecret: IdentitySecret = identityCrypto.getIdentitySecretByPrincipal(identity.getPrincipal)
     if (identitySecret == null) {
       logger.info("Will install identity secret for {}.", identity)
@@ -90,13 +114,13 @@ class EntityInstallService @Inject()
     Option(entityRepository.findByContextNameAndAlias(context.getOperatorName, entityAlias))
   }
 
-  def install(contextId:Int, identity:Identity, entityAlias:String) = {
+  def install(contextId:Int, identity:Identity, registration: Registration) = {
+    //TODO ver se é usuário é admin e cadastrar ou entao notificar
     val context: Operator = contextRepository.findOne(contextId)
-    val entity: Entity = entityRepository.findByContextNameAndAlias(context.getOperatorName, entityAlias)
-    val signup: Signup = signupRepository.findByContextIdAndPrincipal(contextId, identity.getPrincipal)
-    signup.setDomain(entityAlias)
-    val prototypes: java.util.List[Entity] = generateEntityPrototypes(signup)
-    createEntities(context, prototypes, identity)
-    signup
+    val userToken: UserToken = userTokenRepository.findByTokenSourceAndPrincipal(TokenSources.SIGNUP.name(), identity.getPrincipal)
+    val prototypes: java.util.List[Entity] = generateEntityPrototypes(registration)
+    createEntities(context, prototypes, identity, registration.isAdmin)
+
+    userToken
   }
 }

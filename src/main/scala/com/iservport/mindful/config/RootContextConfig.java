@@ -4,7 +4,7 @@ import javax.naming.NamingException;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-import com.iservport.mindful.internal.DefaultInstallStrategy;
+import com.iservport.install.service.DefaultInstallStrategy;
 import org.apache.tika.config.TikaConfig;
 import org.apache.tika.exception.TikaException;
 import org.helianto.core.config.HeliantoServiceConfig;

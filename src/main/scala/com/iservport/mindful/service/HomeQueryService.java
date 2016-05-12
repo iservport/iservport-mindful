@@ -4,6 +4,7 @@ import javax.inject.Inject;
 
 import org.helianto.core.repository.EntityReadAdapter;
 import org.helianto.core.repository.EntityRepository;
+import org.helianto.user.domain.User;
 import org.helianto.user.repository.UserReadAdapter;
 import org.helianto.user.repository.UserRepository;
 import org.slf4j.Logger;
@@ -42,10 +43,10 @@ public class HomeQueryService {
 	 * 
 	 * @param userId
 	 */
-	public UserReadAdapter user(int userId) {
-		UserReadAdapter adapter = userRepository.findAdapter(userId);
-		logger.debug("User found: {}.", adapter);
-		return adapter;
+	public User user(int userId) {
+		User user = userRepository.findAdapter(userId);
+		logger.debug("User found: {}.", user);
+		return user;
 	}
 
 }

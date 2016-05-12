@@ -16,13 +16,13 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-web:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-facebook-web:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-inventory:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.1-RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-plan:0.6.2.1-RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-inventory:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-plan:0.6.2.15-BUILD" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jets3t:jets3t:0.8.1" level="project" />
@@ -81,10 +81,10 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-taglibs:4.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-config:4.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-web:4.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-config:1.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-security:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.8" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.8" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:4.2.4.RELEASE" level="project" />
@@ -136,11 +136,10 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.6.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-config:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:1.11.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-acl:4.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:4.3.11.Final" level="project" />

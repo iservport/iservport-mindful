@@ -17,6 +17,9 @@ package org.helianto.security.controller
 
 import java.util.Locale
 import javax.inject.Inject
+
+import org.helianto.security.SecurityNotification
+import org.helianto.security.service.{ResponseService, UserTokenQueryService}
 import org.helianto.user.domain.UserToken
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -29,8 +32,8 @@ import org.springframework.web.bind.annotation.{RequestMapping, RequestMethod, R
 @RequestMapping(value = Array("/recovery"))
 class PasswordRecoveryController @Inject()
 (responseService: ResponseService
-, signUpService: UserTokenQueryService
-, notificationService: SecurityNotification){
+ , userTokenQueryService: UserTokenQueryService
+ , notificationService: SecurityNotification){
 
   /**
     * Get e-mail recovery page.
@@ -57,11 +60,11 @@ class PasswordRecoveryController @Inject()
     */
   @RequestMapping(method = Array(RequestMethod.POST))
   def postRecoveryPage(model: Model, @RequestParam(required = false) principal: String, locale: Locale) = {
-    signUpService.createOrRefreshToken(principal, "PASSWORD_RECOVERY") match {
+    userTokenQueryService.createOrRefreshToken(principal, "PASSWORD_RECOVERY") match {
       case token: UserToken if token.getId>0 =>
-        model.addAttribute("emailRecoverySent", notificationService.sendRecovery(token))
+        model.addAttribute("emailSent", notificationService.sendRecovery(token))
       case _ =>
-        model.addAttribute("recoveryFail", true)
+        model.addAttribute("emailSent", false)
     }
     responseService.confirmationResponse(model, locale)
   }

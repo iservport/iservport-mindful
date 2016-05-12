@@ -4,6 +4,7 @@ import javax.inject.Inject
 import javax.servlet.http.HttpServletRequest
 import javax.validation.Valid
 
+import org.helianto.security.SecurityNotification
 import org.helianto.security.service._
 import org.helianto.user.domain.UserToken
 import org.springframework.stereotype.Controller
@@ -38,10 +39,6 @@ class SignUpController @Inject()
   @RequestMapping(method = Array(RequestMethod.GET))
   def getSignupPage(model: Model, @RequestParam(defaultValue = "1") contextId: Integer, @RequestParam(required = false) principal: String, request: WebRequest):String =
     providerSignUpService.signUpOrRegister(request,model)
-  //    queryService.notifyAdminIfUserIsNotValid(contextId, principal) match {
-//      case true => "forward:/signin"
-//      case _ =>
-//      }
 
   /**
     * Quando o usuário confirma o pedido de inclusão no cadastro.
@@ -72,9 +69,7 @@ class SignUpController @Inject()
     // TODO-SGNUP prevent double signup submission
     val userExists: Boolean = queryService.allUsersForIdentityAreValid(userToken)
     val emailSent: Boolean = userExists && notificationService.sendSignUp(queryService.createOrRefreshToken(userToken.getPrincipal, UserToken.TokenSources.SIGNUP.name()))
-    model.addAttribute("userExists", userExists)
     model.addAttribute("emailSent", emailSent)
-    model.addAttribute("form", userToken)
     responseService.confirmationResponse(model, request.getLocale)
   }
 

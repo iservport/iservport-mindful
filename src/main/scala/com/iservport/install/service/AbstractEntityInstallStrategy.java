@@ -1,4 +1,4 @@
-package com.iservport.mindful.internal;
+package com.iservport.install.service;
 
 
 import org.helianto.core.domain.*;
@@ -7,6 +7,7 @@ import org.helianto.install.service.EntityInstallStrategy;
 import org.helianto.install.service.IdentityCrypto;
 import org.helianto.install.service.UserInstallService;
 import org.helianto.security.domain.UserAuthority;
+import org.helianto.security.internal.Registration;
 import org.helianto.security.repository.UserAuthorityRepository;
 import org.helianto.user.domain.User;
 import org.helianto.user.domain.UserGroup;
@@ -184,23 +185,14 @@ public abstract class AbstractEntityInstallStrategy
 	 * @param newAlias
 	 * @param form
 	 */
-	protected Entity createPrototype(String newAlias, Signup form) {
-		if (form==null || form.getCityId()==null || form.getCityId()==0) {
-			throw new IllegalArgumentException("A city is required to build an entity.");
-		}
-		if (cityRepository==null) {System.out.println("AHHHH");}
-		City city = cityRepository.findOne(form.getCityId());
-		if (city==null) {
-			logger.error("Unable to create entity, city with id {} not found", form.getCityId());
-			throw new IllegalArgumentException("Unable to create entity");
-		}
+	protected Entity createPrototype(String newAlias, Registration form) {
 		Entity entity = new Entity();
-		entity.setCity(city);
+		entity.setCityId(form.getCityId());
 		entity.setAlias(newAlias);
-		entity.setSummary(form.getSummary());
-		entity.setEntityType(form.getEntityType());
-		entity.setExternalLogoUrl(form.getExternalLogoUrl());
-		entity.setEntityDomain(form.getDomain());
+//		entity.setSummary(form.getSummary());
+//		entity.setEntityType(form.getEntityType());
+//		entity.setExternalLogoUrl(form.getExternalLogoUrl());
+		entity.setEntityDomain(form.getEntityAlias());
 		return entity;
 	}
 	
@@ -211,6 +203,16 @@ public abstract class AbstractEntityInstallStrategy
 		Entity entity = entityRepository.findByContextNameAndAlias(context.getOperatorName(), prototype.getAlias());
 		if (entity==null) {
 			logger.info("Will install entity for context {} and alias {}.", context.getOperatorName(), prototype.getAlias());
+			if (prototype==null || prototype.getCityId()==0) {
+				throw new IllegalArgumentException("A city is required to build an entity.");
+			}
+			if (cityRepository==null) {System.out.println("AHHHH");}
+			City city = cityRepository.findOne(prototype.getCityId());
+			if (city==null) {
+				logger.error("Unable to create entity, city with id {} not found", prototype.getCityId());
+				throw new IllegalArgumentException("Unable to create entity");
+			}
+			prototype.setCity(city);
 			entity = entityRepository.saveAndFlush(new Entity(context, prototype));
 		}
 		else {
@@ -238,9 +240,8 @@ public abstract class AbstractEntityInstallStrategy
 	 * Create new user.
 	 * 
 	 * @param entity
-	 * @param form
-	 * @param formBinding
-	 */
+	 * @param identity
+     */
 	public User createUser(Entity entity, Identity identity) {
 		try {
 			String principal = identity.getPrincipal();

@@ -3,6 +3,7 @@ package org.helianto.security.service
 import java.util.Locale
 import javax.inject.Inject
 
+import org.helianto.core.social.SignupForm
 import org.springframework.core.env.Environment
 import org.springframework.stereotype.Service
 import org.springframework.ui.Model
@@ -20,6 +21,7 @@ class ResponseService @Inject() (env:Environment) {
 
   def signUpResponse(model: Model, locale: Locale) = {
     model.addAttribute("main", "security/signup.html")
+    model.addAttribute("form", new SignupForm())
     response(model, locale)
   }
 
@@ -29,7 +31,7 @@ class ResponseService @Inject() (env:Environment) {
   }
 
   def confirmationResponse(model: Model, locale: Locale) = {
-    model.addAttribute("main", "security/password-verify.html")
+    model.addAttribute("main", "security/read-your-email.html")
     response(model, locale)
   }
 

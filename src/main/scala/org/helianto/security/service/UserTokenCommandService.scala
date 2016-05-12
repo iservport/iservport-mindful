@@ -5,7 +5,9 @@ import javax.inject.Inject
 import org.helianto.core.domain.Identity
 import org.helianto.core.repository.{IdentityRepository, SignupRepository}
 import org.helianto.core.social.UserTokenIdentityAdapter
+import org.helianto.security.internal.Registration
 import org.helianto.user.domain.UserToken
+import org.helianto.user.domain.UserToken.TokenSources
 import org.helianto.user.repository.UserTokenRepository
 import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.stereotype.Service
@@ -19,6 +21,7 @@ import org.springframework.stereotype.Service
 class UserTokenCommandService @Inject()
 (  identityRepository: IdentityRepository
    , userTokenRepository: UserTokenRepository
+   , entityInstallService: EntityInstallService
    , signupRepository: SignupRepository){
 
   private val logger: Logger = LoggerFactory.getLogger(classOf[EntityInstallService])
@@ -48,4 +51,15 @@ class UserTokenCommandService @Inject()
           new UserToken(UserToken.TokenSources.SIGNUP, command.getPrincipal).appendFirstName(command.getFirstName))
     }
   }
+
+  def install(registration: Registration) : UserToken = {
+    val identity = entityInstallService.installIdentity(registration.getEmail, registration.getPassword)
+    Option(userTokenRepository.findByTokenSourceAndPrincipal(TokenSources.SIGNUP.name(), identity.getPrincipal)) match {
+      case Some(userToken) => userToken
+      case None => {
+        new UserToken(TokenSources.SIGNUP.name(),registration.getEmail).appendFirstName(identity.getIdentityFirstName)
+      }
+    }
+  }
+
 }

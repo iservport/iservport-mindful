@@ -1,7 +1,7 @@
-package com.iservport.mindful.internal;
+package com.iservport.install.service;
 
 import org.helianto.core.domain.Entity;
-import org.helianto.core.domain.Signup;
+import org.helianto.security.internal.Registration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -27,10 +27,10 @@ public class DefaultInstallStrategy
 	 * @param params
 	 */
 	public List<Entity> generateEntityPrototypes(Object... params) {
-		if (params!=null && params.length>0 && params[0] instanceof Signup) {
-			Signup signup =	(Signup) params[0];
+		if (params!=null && params.length>0 && params[0] instanceof Registration) {
+			Registration registration =	(Registration) params[0];
 			List<Entity> entityList = new ArrayList<>();
-			Entity prototype = createPrototype(signup.getDomain(), signup);
+			Entity prototype = createPrototype(registration.getEntityAlias(), registration);
 			logger.info("Created prototype from domain {}.", prototype);
 			entityList.add(prototype);
 			return entityList;

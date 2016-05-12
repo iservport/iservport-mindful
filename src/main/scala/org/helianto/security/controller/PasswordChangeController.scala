@@ -3,7 +3,7 @@ package org.helianto.security.controller
 import java.util.Locale
 import javax.inject.Inject
 
-import org.helianto.security.service.ResponseService
+import org.helianto.security.service.{PasswordService, ResponseService}
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.{RequestMapping, RequestMethod, RequestParam}

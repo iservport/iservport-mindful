@@ -1,16 +1,9 @@
 package com.iservport.mindful.config;
 
-import javax.inject.Inject;
-import javax.sql.DataSource;
-
-import org.helianto.user.repository.UserRepository;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
-import org.springframework.context.annotation.ScopedProxyMode;
+import org.helianto.security.social.SimpleSignInAdapter;
+import org.helianto.security.social.UserSignInService;
+import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.encrypt.Encryptors;
 import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
 import org.springframework.social.UserIdSource;
@@ -24,16 +17,18 @@ import org.springframework.social.connect.UsersConnectionRepository;
 import org.springframework.social.connect.jdbc.JdbcUsersConnectionRepository;
 import org.springframework.social.connect.web.ConnectController;
 import org.springframework.social.connect.web.ProviderSignInController;
+import org.springframework.social.connect.web.ProviderSignInUtils;
 import org.springframework.social.connect.web.ReconnectFilter;
 import org.springframework.social.facebook.api.Facebook;
-import org.springframework.social.facebook.connect.FacebookConnectionFactory;
 import org.springframework.social.facebook.web.DisconnectController;
+import org.springframework.social.security.AuthenticationNameUserIdSource;
 
-import com.iservport.mindful.social.SimpleSignInAdapter;
+import javax.inject.Inject;
+import javax.sql.DataSource;
 
 /**
  * Social configuration.
- * 
+ *
  * @author mauriciofernandesdecastro
  */
 @Configuration
@@ -44,25 +39,15 @@ public class SocialConfig implements SocialConfigurer {
 	private DataSource dataSource;
 
 	@Inject
-	private  UserRepository userRepository;
+	private UserSignInService userSignInService;
 
 	@Override
 	public void addConnectionFactories(ConnectionFactoryConfigurer cfConfig, Environment env) {
-		cfConfig.addConnectionFactory(new FacebookConnectionFactory(env.getProperty("facebook.appKey"), env.getProperty("facebook.appSecret")));
 	}
 
 	public UserIdSource getUserIdSource() {
-		return new UserIdSource() {
-			@Override
-			public String getUserId() {
-				Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-				if (authentication == null) {
-					throw new IllegalStateException("Unable to get a ConnectionRepository: no user signed in");
-				}
-				return authentication.getName();
-			}
-		};
-	}
+        return new AuthenticationNameUserIdSource();
+    }
 
 	/**
 	 * Singleton data access object providing access to connections across all users.
@@ -70,16 +55,22 @@ public class SocialConfig implements SocialConfigurer {
 	@Override
 	public UsersConnectionRepository getUsersConnectionRepository(ConnectionFactoryLocator connectionFactoryLocator) {
 		JdbcUsersConnectionRepository repository = new JdbcUsersConnectionRepository(dataSource, connectionFactoryLocator, Encryptors.noOpText());
+		repository.setTablePrefix("core_");
 		return repository;
 	}
-	
+
+    /**
+     * Facebook API.
+     *
+     * @param repository
+     */
 	@Bean
 	@Scope(value="request", proxyMode=ScopedProxyMode.INTERFACES)
 	public Facebook facebook(ConnectionRepository repository) {
 		Connection<Facebook> connection = repository.findPrimaryConnection(Facebook.class);
 		return connection != null ? connection.getApi() : null;
 	}
-	
+
 	@Bean
 	public ConnectController connectController(ConnectionFactoryLocator connectionFactoryLocator, ConnectionRepository connectionRepository) {
 		ConnectController connectController = new ConnectController(connectionFactoryLocator, connectionRepository);
@@ -87,10 +78,25 @@ public class SocialConfig implements SocialConfigurer {
 	}
 
 	@Bean
-	public ProviderSignInController providerSignInController(ConnectionFactoryLocator connectionFactoryLocator, UsersConnectionRepository usersConnectionRepository) {
-		return new ProviderSignInController(connectionFactoryLocator, usersConnectionRepository, new SimpleSignInAdapter(new HttpSessionRequestCache(), userRepository));
+	public UserSignInService userSignInService() {
+		return new UserSignInService();
 	}
-	
+
+    /**
+     * Similar to ConnectController, but results in a Spring Security authentication.
+     *
+     * @param connectionFactoryLocator
+     * @param usersConnectionRepository
+     */
+	@Bean
+	@DependsOn("userSignInService")
+	public ProviderSignInController providerSignInController(ConnectionFactoryLocator connectionFactoryLocator, UsersConnectionRepository usersConnectionRepository) {
+        ProviderSignInController controller =
+                new ProviderSignInController(connectionFactoryLocator, usersConnectionRepository, new SimpleSignInAdapter(new HttpSessionRequestCache(), userSignInService));
+        return controller;
+
+	}
+
 	@Bean
 	public DisconnectController disconnectController(UsersConnectionRepository usersConnectionRepository, Environment env) {
 		return new DisconnectController(usersConnectionRepository, env.getProperty("facebook.appSecret"));
@@ -99,6 +105,11 @@ public class SocialConfig implements SocialConfigurer {
 	@Bean
 	public ReconnectFilter apiExceptionHandler(UsersConnectionRepository usersConnectionRepository, UserIdSource userIdSource) {
 		return new ReconnectFilter(usersConnectionRepository, userIdSource);
+	}
+
+	@Bean
+	public ProviderSignInUtils providerSignInUtils(ConnectionFactoryLocator connectionFactoryLocator, UsersConnectionRepository usersConnectionRepository){
+		return new ProviderSignInUtils(connectionFactoryLocator, usersConnectionRepository);
 	}
 
 }

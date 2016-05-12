@@ -24,8 +24,8 @@ class HouseSearchController {
 
   private val logger: Logger = LoggerFactory.getLogger(classOf[HouseSearchController])
 
-  @Inject private val queryService: HouseQueryService = _
-  @Inject private val commandService: HouseCommandService = _
+  @Inject val queryService: HouseQueryService = null
+  @Inject val commandService: HouseCommandService = null
 
   /**
     * List qualifiers, i.e., type of legislative houses.
