@@ -63,7 +63,7 @@ public interface DocumentoLegislativoRepository
 	List<SimpleCounter> countFeatureByContextId(int contextId);
 	
 	@Query("select new "
-			+ "com.iservport.atuacao.repository.DocumentoLegislativoReadAdapter"
+			+ "com.iservport.mindful.repository.DocumentoLegislativoReadAdapter"
 			+ "(doc.id"			
 			+ ", doc.docCode"
 			+ ", doc.docName"
@@ -81,7 +81,7 @@ public interface DocumentoLegislativoRepository
 
 	
 	@Query("select new "
-			+ "com.iservport.atuacao.repository.DocumentoLegislativoReadAdapter"
+			+ "com.iservport.mindful.repository.DocumentoLegislativoReadAdapter"
 			+ "(doc.id"			
 			+ ", doc.docCode"
 			+ ", doc.docName"

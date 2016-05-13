@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="MA" >
+	<city prioridade="2" uf="21" cityCode="2100204" cityName="Alcântara" />
+	<city prioridade="2" uf="21" cityCode="2100832" cityName="Apicum-Açu" />
+	<city prioridade="2" uf="21" cityCode="2101301" cityName="Bacuri" />
+	<city prioridade="2" uf="21" cityCode="2101350" cityName="Bacurituba" />
+	<city prioridade="2" uf="21" cityCode="2101905" cityName="Bequimão" />
+	<city prioridade="2" uf="21" cityCode="2102408" cityName="Cajapió" />
+	<city prioridade="2" uf="21" cityCode="2103109" cityName="Cedral" />
+	<city prioridade="2" uf="21" cityCode="2103125" cityName="Central do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2103703" cityName="Cururupu" />
+	<city prioridade="2" uf="21" cityCode="2104909" cityName="Guimarães" />
+	<city prioridade="2" uf="21" cityCode="2106805" cityName="Mirinzal" />
+	<city prioridade="2" uf="21" cityCode="2109056" cityName="Porto Rico do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111789" cityName="Serrano do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2107506" cityName="Paço do Lumiar" />
+	<city prioridade="2" uf="21" cityCode="2109452" cityName="Raposa" />
+	<city prioridade="2" uf="21" cityCode="2111201" cityName="São José de Ribamar" />
+	<city prioridade="2" uf="21" cityCode="2111300" cityName="São Luís" />
+	<city prioridade="2" uf="21" cityCode="2101103" cityName="Axixá" />
+	<city prioridade="2" uf="21" cityCode="2101251" cityName="Bacabeira" />
+	<city prioridade="2" uf="21" cityCode="2102374" cityName="Cachoeira Grande" />
+	<city prioridade="2" uf="21" cityCode="2105104" cityName="Icatu" />
+	<city prioridade="2" uf="21" cityCode="2107100" cityName="Morros" />
+	<city prioridade="2" uf="21" cityCode="2109205" cityName="Presidente Juscelino" />
+	<city prioridade="2" uf="21" cityCode="2109601" cityName="Rosário" />
+	<city prioridade="2" uf="21" cityCode="2110203" cityName="Santa Rita" />
+	<city prioridade="2" uf="21" cityCode="2101707" cityName="Barreirinhas" />
+	<city prioridade="2" uf="21" cityCode="2105005" cityName="Humberto de Campos" />
+	<city prioridade="2" uf="21" cityCode="2108058" cityName="Paulino Neves" />
+	<city prioridade="2" uf="21" cityCode="2109403" cityName="Primeira Cruz" />
+	<city prioridade="2" uf="21" cityCode="2110278" cityName="Santo Amaro do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2112506" cityName="Tutóia" />
+	<city prioridade="2" uf="21" cityCode="2100709" cityName="Anajatuba" />
+	<city prioridade="2" uf="21" cityCode="2101004" cityName="Arari" />
+	<city prioridade="2" uf="21" cityCode="2101772" cityName="Bela Vista do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2102507" cityName="Cajari" />
+	<city prioridade="2" uf="21" cityCode="2103554" cityName="Conceição do Lago-Açu" />
+	<city prioridade="2" uf="21" cityCode="2105153" cityName="Igarapé do Meio" />
+	<city prioridade="2" uf="21" cityCode="2106508" cityName="Matinha" />
+	<city prioridade="2" uf="21" cityCode="2106904" cityName="Monção" />
+	<city prioridade="2" uf="21" cityCode="2107456" cityName="Olinda Nova do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2107605" cityName="Palmeirândia" />
+	<city prioridade="2" uf="21" cityCode="2108256" cityName="Pedro do Rosário" />
+	<city prioridade="2" uf="21" cityCode="2108306" cityName="Penalva" />
+	<city prioridade="2" uf="21" cityCode="2108405" cityName="Peri Mirim" />
+	<city prioridade="2" uf="21" cityCode="2108603" cityName="Pinheiro" />
+	<city prioridade="2" uf="21" cityCode="2109270" cityName="Presidente Sarney" />
+	<city prioridade="2" uf="21" cityCode="2109809" cityName="Santa Helena" />
+	<city prioridade="2" uf="21" cityCode="2110500" cityName="São Bento" />
+	<city prioridade="2" uf="21" cityCode="2111003" cityName="São João Batista" />
+	<city prioridade="2" uf="21" cityCode="2111706" cityName="São Vicente Ferrer" />
+	<city prioridade="2" uf="21" cityCode="2112803" cityName="Viana" />
+	<city prioridade="2" uf="21" cityCode="2112902" cityName="Vitória do Mearim" />
+	<city prioridade="2" uf="21" cityCode="2102705" cityName="Cantanhede" />
+	<city prioridade="2" uf="21" cityCode="2105401" cityName="Itapecuru Mirim" />
+	<city prioridade="2" uf="21" cityCode="2106631" cityName="Matões do Norte" />
+	<city prioridade="2" uf="21" cityCode="2106755" cityName="Miranda do Norte" />
+	<city prioridade="2" uf="21" cityCode="2107209" cityName="Nina Rodrigues" />
+	<city prioridade="2" uf="21" cityCode="2108801" cityName="Pirapemas" />
+	<city prioridade="2" uf="21" cityCode="2109304" cityName="Presidente Vargas" />
+	<city prioridade="2" uf="21" cityCode="2112704" cityName="Vargem Grande" />
+	<city prioridade="2" uf="21" cityCode="2100550" cityName="Amapá do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2101970" cityName="Boa Vista do Gurupi" />
+	<city prioridade="2" uf="21" cityCode="2102606" cityName="Cândido Mendes" />
+	<city prioridade="2" uf="21" cityCode="2102903" cityName="Carutapera" />
+	<city prioridade="2" uf="21" cityCode="2103158" cityName="Centro do Guilherme" />
+	<city prioridade="2" uf="21" cityCode="2103174" cityName="Centro Novo do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2104305" cityName="Godofredo Viana" />
+	<city prioridade="2" uf="21" cityCode="2104677" cityName="Governador Nunes Freire" />
+	<city prioridade="2" uf="21" cityCode="2105658" cityName="Junco do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2106201" cityName="Luís Domingues" />
+	<city prioridade="2" uf="21" cityCode="2106326" cityName="Maracaçumé" />
+	<city prioridade="2" uf="21" cityCode="2106375" cityName="Maranhãozinho" />
+	<city prioridade="2" uf="21" cityCode="2112407" cityName="Turiaçu" />
+	<city prioridade="2" uf="21" cityCode="2112456" cityName="Turilândia" />
+	<city prioridade="2" uf="21" cityCode="2100402" cityName="Altamira do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2100477" cityName="Alto Alegre do Pindaré" />
+	<city prioridade="2" uf="21" cityCode="2100873" cityName="Araguanã" />
+	<city prioridade="2" uf="21" cityCode="2102002" cityName="Bom Jardim" />
+	<city prioridade="2" uf="21" cityCode="2102036" cityName="Bom Jesus das Selvas" />
+	<city prioridade="2" uf="21" cityCode="2102150" cityName="Brejo de Areia" />
+	<city prioridade="2" uf="21" cityCode="2102325" cityName="Buriticupu" />
+	<city prioridade="2" uf="21" cityCode="2104651" cityName="Governador Newton Bello" />
+	<city prioridade="2" uf="21" cityCode="2105708" cityName="Lago da Pedra" />
+	<city prioridade="2" uf="21" cityCode="2105963" cityName="Lagoa Grande do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2106359" cityName="Marajá do Sena" />
+	<city prioridade="2" uf="21" cityCode="2107357" cityName="Nova Olinda do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2108108" cityName="Paulo Ramos" />
+	<city prioridade="2" uf="21" cityCode="2108504" cityName="Pindaré-Mirim" />
+	<city prioridade="2" uf="21" cityCode="2109239" cityName="Presidente Médici" />
+	<city prioridade="2" uf="21" cityCode="2109908" cityName="Santa Inês" />
+	<city prioridade="2" uf="21" cityCode="2110005" cityName="Santa Luzia" />
+	<city prioridade="2" uf="21" cityCode="2110039" cityName="Santa Luzia do Paruá" />
+	<city prioridade="2" uf="21" cityCode="2111029" cityName="São João do Carú" />
+	<city prioridade="2" uf="21" cityCode="2112274" cityName="Tufilândia" />
+	<city prioridade="2" uf="21" cityCode="2113009" cityName="Vitorino Freire" />
+	<city prioridade="2" uf="21" cityCode="2114007" cityName="Zé Doca" />
+	<city prioridade="2" uf="21" cityCode="2100055" cityName="Açailândia" />
+	<city prioridade="2" uf="21" cityCode="2100600" cityName="Amarante do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2102358" cityName="Buritirana" />
+	<city prioridade="2" uf="21" cityCode="2103257" cityName="Cidelândia" />
+	<city prioridade="2" uf="21" cityCode="2103752" cityName="Davinópolis" />
+	<city prioridade="2" uf="21" cityCode="2104552" cityName="Governador Edison Lobão" />
+	<city prioridade="2" uf="21" cityCode="2105302" cityName="Imperatriz" />
+	<city prioridade="2" uf="21" cityCode="2105427" cityName="Itinga do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2105500" cityName="João Lisboa" />
+	<city prioridade="2" uf="21" cityCode="2105989" cityName="Lajeado Novo" />
+	<city prioridade="2" uf="21" cityCode="2107001" cityName="Montes Altos" />
+	<city prioridade="2" uf="21" cityCode="2109551" cityName="Ribamar Fiquene" />
+	<city prioridade="2" uf="21" cityCode="2110856" cityName="São Francisco do Brejão" />
+	<city prioridade="2" uf="21" cityCode="2111532" cityName="São Pedro da Água Branca" />
+	<city prioridade="2" uf="21" cityCode="2111763" cityName="Senador La Rocque" />
+	<city prioridade="2" uf="21" cityCode="2112852" cityName="Vila Nova dos Martírios" />
+	<city prioridade="2" uf="21" cityCode="2101202" cityName="Bacabal" />
+	<city prioridade="2" uf="21" cityCode="2101939" cityName="Bernardo do Mearim" />
+	<city prioridade="2" uf="21" cityCode="2102077" cityName="Bom Lugar" />
+	<city prioridade="2" uf="21" cityCode="2104008" cityName="Esperantinópolis" />
+	<city prioridade="2" uf="21" cityCode="2105203" cityName="Igarapé Grande" />
+	<city prioridade="2" uf="21" cityCode="2105807" cityName="Lago do Junco" />
+	<city prioridade="2" uf="21" cityCode="2105906" cityName="Lago Verde" />
+	<city prioridade="2" uf="21" cityCode="2105948" cityName="Lago dos Rodrigues" />
+	<city prioridade="2" uf="21" cityCode="2106003" cityName="Lima Campos" />
+	<city prioridade="2" uf="21" cityCode="2107407" cityName="Olho d'Água das Cunhãs" />
+	<city prioridade="2" uf="21" cityCode="2108207" cityName="Pedreiras" />
+	<city prioridade="2" uf="21" cityCode="2108702" cityName="Pio XII" />
+	<city prioridade="2" uf="21" cityCode="2108900" cityName="Poção de Pedras" />
+	<city prioridade="2" uf="21" cityCode="2110302" cityName="Santo Antônio dos Lopes" />
+	<city prioridade="2" uf="21" cityCode="2111409"
+		cityName="São Luís Gonzaga do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111508" cityName="São Mateus do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111631"
+		cityName="São Raimundo do Doca Bezerra" />
+	<city prioridade="2" uf="21" cityCode="2111672" cityName="São Roberto" />
+	<city prioridade="2" uf="21" cityCode="2111722" cityName="Satubinha" />
+	<city prioridade="2" uf="21" cityCode="2112233" cityName="Trizidela do Vale" />
+	<city prioridade="2" uf="21" cityCode="2100956" cityName="Arame" />
+	<city prioridade="2" uf="21" cityCode="2101608" cityName="Barra do Corda" />
+	<city prioridade="2" uf="21" cityCode="2104081" cityName="Fernando Falcão" />
+	<city prioridade="2" uf="21" cityCode="2104099" cityName="Formosa da Serra Negra" />
+	<city prioridade="2" uf="21" cityCode="2104800" cityName="Grajaú" />
+	<city prioridade="2" uf="21" cityCode="2105351" cityName="Itaipava do Grajaú" />
+	<city prioridade="2" uf="21" cityCode="2105476" cityName="Jenipapo dos Vieiras" />
+	<city prioridade="2" uf="21" cityCode="2105609" cityName="Joselândia" />
+	<city prioridade="2" uf="21" cityCode="2109759" cityName="Santa Filomena do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111805" cityName="Sítio Novo" />
+	<city prioridade="2" uf="21" cityCode="2112308" cityName="Tuntum" />
+	<city prioridade="2" uf="21" cityCode="2103802" cityName="Dom Pedro" />
+	<city prioridade="2" uf="21" cityCode="2104206" cityName="Fortuna" />
+	<city prioridade="2" uf="21" cityCode="2104404" cityName="Gonçalves Dias" />
+	<city prioridade="2" uf="21" cityCode="2104503" cityName="Governador Archer" />
+	<city prioridade="2" uf="21" cityCode="2104602" cityName="Governador Eugênio Barros" />
+	<city prioridade="2" uf="21" cityCode="2104628" cityName="Governador Luiz Rocha" />
+	<city prioridade="2" uf="21" cityCode="2104701" cityName="Graça Aranha" />
+	<city prioridade="2" uf="21" cityCode="2109106" cityName="Presidente Dutra" />
+	<city prioridade="2" uf="21" cityCode="2110708" cityName="São Domingos do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111250" cityName="São José dos Basílios" />
+	<city prioridade="2" uf="21" cityCode="2111748" cityName="Senador Alexandre Costa" />
+	<city prioridade="2" uf="21" cityCode="2100154" cityName="Água Doce do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2100907" cityName="Araioses" />
+	<city prioridade="2" uf="21" cityCode="2106300" cityName="Magalhães de Almeida" />
+	<city prioridade="2" uf="21" cityCode="2110104" cityName="Santa Quitéria do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2110237" cityName="Santana do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2110609" cityName="São Bernardo" />
+	<city prioridade="2" uf="21" cityCode="2100808" cityName="Anapurus" />
+	<city prioridade="2" uf="21" cityCode="2101731" cityName="Belágua" />
+	<city prioridade="2" uf="21" cityCode="2102101" cityName="Brejo" />
+	<city prioridade="2" uf="21" cityCode="2102200" cityName="Buriti" />
+	<city prioridade="2" uf="21" cityCode="2103208" cityName="Chapadinha" />
+	<city prioridade="2" uf="21" cityCode="2106409" cityName="Mata Roma" />
+	<city prioridade="2" uf="21" cityCode="2106672" cityName="Milagres do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2110401" cityName="São Benedito do Rio Preto" />
+	<city prioridade="2" uf="21" cityCode="2112605" cityName="Urbano Santos" />
+	<city prioridade="2" uf="21" cityCode="2100436" cityName="Alto Alegre do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2102754" cityName="Capinzal do Norte" />
+	<city prioridade="2" uf="21" cityCode="2103307" cityName="Codó" />
+	<city prioridade="2" uf="21" cityCode="2103604" cityName="Coroatá" />
+	<city prioridade="2" uf="21" cityCode="2108454" cityName="Peritoró" />
+	<city prioridade="2" uf="21" cityCode="2112100" cityName="Timbiras" />
+	<city prioridade="2" uf="21" cityCode="2100105" cityName="Afonso Cunha" />
+	<city prioridade="2" uf="21" cityCode="2100303" cityName="Aldeias Altas" />
+	<city prioridade="2" uf="21" cityCode="2103406" cityName="Coelho Neto" />
+	<city prioridade="2" uf="21" cityCode="2103901" cityName="Duque Bacelar" />
+	<city prioridade="2" uf="21" cityCode="2102309" cityName="Buriti Bravo" />
+	<city prioridade="2" uf="21" cityCode="2103000" cityName="Caxias" />
+	<city prioridade="2" uf="21" cityCode="2106607" cityName="Matões" />
+	<city prioridade="2" uf="21" cityCode="2107803" cityName="Parnarama" />
+	<city prioridade="2" uf="21" cityCode="2111078" cityName="São João do Soter" />
+	<city prioridade="2" uf="21" cityCode="2112209" cityName="Timon" />
+	<city prioridade="2" uf="21" cityCode="2101509" cityName="Barão de Grajaú" />
+	<city prioridade="2" uf="21" cityCode="2103505" cityName="Colinas" />
+	<city prioridade="2" uf="21" cityCode="2105450" cityName="Jatobá" />
+	<city prioridade="2" uf="21" cityCode="2105922" cityName="Lagoa do Mato" />
+	<city prioridade="2" uf="21" cityCode="2106706" cityName="Mirador" />
+	<city prioridade="2" uf="21" cityCode="2107308" cityName="Nova Iorque" />
+	<city prioridade="2" uf="21" cityCode="2107704" cityName="Paraibano" />
+	<city prioridade="2" uf="21" cityCode="2107902" cityName="Passagem Franca" />
+	<city prioridade="2" uf="21" cityCode="2108009" cityName="Pastos Bons" />
+	<city prioridade="2" uf="21" cityCode="2110906" cityName="São Francisco do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2111102" cityName="São João dos Patos" />
+	<city prioridade="2" uf="21" cityCode="2111904" cityName="Sucupira do Norte" />
+	<city prioridade="2" uf="21" cityCode="2111953" cityName="Sucupira do Riachão" />
+	<city prioridade="2" uf="21" cityCode="2102556" cityName="Campestre do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2102804" cityName="Carolina" />
+	<city prioridade="2" uf="21" cityCode="2104057" cityName="Estreito" />
+	<city prioridade="2" uf="21" cityCode="2109007" cityName="Porto Franco" />
+	<city prioridade="2" uf="21" cityCode="2111052" cityName="São João do Paraíso" />
+	<city prioridade="2" uf="21" cityCode="2111573" cityName="São Pedro dos Crentes" />
+	<city prioridade="2" uf="21" cityCode="2100501" cityName="Alto Parnaíba" />
+	<city prioridade="2" uf="21" cityCode="2101400" cityName="Balsas" />
+	<city prioridade="2" uf="21" cityCode="2104073" cityName="Feira Nova do Maranhão" />
+	<city prioridade="2" uf="21" cityCode="2109502" cityName="Riachão" />
+	<city prioridade="2" uf="21" cityCode="2112001" cityName="Tasso Fragoso" />
+	<city prioridade="2" uf="21" cityCode="2101806" cityName="Benedito Leite" />
+	<city prioridade="2" uf="21" cityCode="2104107" cityName="Fortaleza dos Nogueiras" />
+	<city prioridade="2" uf="21" cityCode="2106102" cityName="Loreto" />
+	<city prioridade="2" uf="21" cityCode="2107258" cityName="Nova Colinas" />
+	<city prioridade="2" uf="21" cityCode="2109700" cityName="Sambaíba" />
+	<city prioridade="2" uf="21" cityCode="2110658" cityName="São Domingos do Azeitão" />
+	<city prioridade="2" uf="21" cityCode="2110807" cityName="São Félix de Balsas" />
+	<city prioridade="2" uf="21" cityCode="2111607"
+		cityName="São Raimundo das Mangabeiras" />
+</cities>

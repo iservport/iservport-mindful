@@ -1,13 +1,7 @@
 package com.iservport.mindful.config;
 
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.text.ParseException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.Properties;
-
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.helianto.security.resolver.CurrentUserHandlerMethodArgumentResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,16 +17,13 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
-import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import org.springframework.web.servlet.view.ContentNegotiatingViewResolver;
-import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
-import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import freemarker.template.TemplateException;
+import java.nio.charset.Charset;
+import java.text.ParseException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * Configuracao Java.
@@ -62,47 +53,6 @@ public class ServletContextConfig extends WebMvcConfigurerAdapter {
 					currentUserHandlerMethodArgumentResolver()
 			)
 		);
-	}
-	
-	/**
-	 * Freemarker configurer.
-	 * 
-	 * @throws TemplateException 
-	 * @throws IOException 
-	 */
-	@Bean
-	public FreeMarkerConfigurer freeMarkerConfigurer() {
-		FreeMarkerConfigurer configurer = new FreeMarkerConfigurer();
-		configurer.setPreferFileSystemAccess(false);
-		configurer.setTemplateLoaderPaths(
-				new String[] {"/WEB-INF/classes/freemarker/"
-						,"/WEB-INF/freemarker/"} );
-		Properties props = new Properties();
-		props.put("default_encoding", "utf-8");
-		props.put("number_format", "computer");
-		props.put("whitespace_stripping", "true");
-		configurer.setFreemarkerSettings(props);
-		return configurer;
-	}
-	
-	/**
-	 * Freemarker view resolver.
-	 */
-	public ViewResolver freeMarkerViewResolver() {
-		FreeMarkerViewResolver resolver = new FreeMarkerViewResolver();
-		resolver.setExposeSpringMacroHelpers(true);
-		resolver.setCache(true);
-		resolver.setPrefix("");
-		resolver.setSuffix(".ftl");
-		resolver.setContentType("text/html;charset=iso-8859-1");
-		return resolver;
-	}
-	
-	@Bean
-	public ViewResolver viewResolver() {
-		ContentNegotiatingViewResolver resolver = new ContentNegotiatingViewResolver();
-		resolver.setViewResolvers(Arrays.asList(freeMarkerViewResolver()));
-		return resolver;
 	}
 
     @Bean

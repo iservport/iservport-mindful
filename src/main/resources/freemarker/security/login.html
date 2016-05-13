@@ -1,5 +1,6 @@
 [#ftl]
-<div class="security-container" data-ng-cloak >
+<div class="security-container"  >
+    <!-- login-redirect-token -->
 	[#--
 	 # Logo
 	 #--]
@@ -8,11 +9,13 @@
 	<br/>
 	<script >
 		var email = [#if email??]'${email}' [#else]''[/#if];
+		var signed = false;
 	</script>
     <div class="panel panel-default">
         <!-- E-MAIL SIGNIN -->
         <div class="panel-body">
-            <form  name="form" action="login" method="POST">
+            <form  name="form" action="/login" method="POST">
+
                 [#--
                  # CSRF
                  #--]
@@ -39,6 +42,17 @@
                         </div>
                     [/#if]
                 [/#if]
+                [#if errorNumber?? ]
+                    [#if errorNumber=='403'  ]
+                        <!--
+                         ! Inactive user
+                         !-->
+                        <div class="alert alert-danger" role="alert">
+                            {{'_ERROR_403'|common}}
+                        </div>
+                    [/#if]
+                [/#if]
+
                 [#if userConfirmed?? ]
                         <div class="alert alert-success" role="alert"><i class="fa fa-unlock"></i>{{'USER_ACTIVE'|common}}</div>
                 [/#if]

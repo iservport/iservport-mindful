@@ -1,18 +1,16 @@
 
 package com.iservport.mindful.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.inject.Inject;
-
+import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter;
+import com.iservport.mindful.repository.DocumentoLegislativoRepository;
+import com.iservport.mindful.repository.VotoDetails;
 import org.helianto.core.internal.QualifierAdapter;
 import org.helianto.core.internal.SimpleCounter;
 import org.springframework.stereotype.Service;
 
-import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter;
-import com.iservport.mindful.repository.DocumentoLegislativoRepository;
-import com.iservport.mindful.repository.VotoDetails;
+import javax.inject.Inject;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Serviço para leitura de documentos.
@@ -23,7 +21,7 @@ import com.iservport.mindful.repository.VotoDetails;
 public class DocumentoQueryService {
 	
 	@Inject
-	protected DocumentoLegislativoRepository documentoLegislativoRepository;
+	private DocumentoLegislativoRepository documentoLegislativoRepository;
 
 	/**
 	 * Lista prioridades como qualificadores.

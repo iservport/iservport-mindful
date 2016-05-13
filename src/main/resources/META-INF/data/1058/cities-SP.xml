@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="SP">
+	<city prioridade="2" uf="35" cityCode="3502606" cityName="Aparecida d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3503950" cityName="Aspásia"/>
+	<city prioridade="2" uf="35" cityCode="3513850" cityName="Dirce Reis"/>
+	<city prioridade="2" uf="35" cityCode="3514205" cityName="Dolcinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3524808" cityName="Jales"/>
+	<city prioridade="2" uf="35" cityCode="3529104" cityName="Marinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3529658" cityName="Mesópolis"/>
+	<city prioridade="2" uf="35" cityCode="3532843" cityName="Nova Canaã Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3535200" cityName="Palmeira d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3535903" cityName="Paranapuã"/>
+	<city prioridade="2" uf="35" cityCode="3540259" cityName="Pontalinda"/>
+	<city prioridade="2" uf="35" cityCode="3540408" cityName="Populina"/>
+	<city prioridade="2" uf="35" cityCode="3544509" cityName="Rubinéia"/>
+	<city prioridade="2" uf="35" cityCode="3545704" cityName="Santa Albertina"/>
+	<city prioridade="2" uf="35" cityCode="3546108" cityName="Santa Clara d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3546603" cityName="Santa Fé do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3547205" cityName="Santana da Ponte Pensa"/>
+	<city prioridade="2" uf="35" cityCode="3547403" cityName="Santa Rita d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3547650" cityName="Santa Salete"/>
+	<city prioridade="2" uf="35" cityCode="3549003" cityName="São Francisco"/>
+	<city prioridade="2" uf="35" cityCode="3554904" cityName="Três Fronteiras"/>
+	<city prioridade="2" uf="35" cityCode="3555802" cityName="Urânia"/>
+	<city prioridade="2" uf="35" cityCode="3556958" cityName="Vitória Brasil"/>
+	<city prioridade="2" uf="35" cityCode="3515202" cityName="Estrela d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3515509" cityName="Fernandópolis"/>
+	<city prioridade="2" uf="35" cityCode="3518008" cityName="Guarani d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3520707" cityName="Indiaporã"/>
+	<city prioridade="2" uf="35" cityCode="3528205" cityName="Macedônia"/>
+	<city prioridade="2" uf="35" cityCode="3529609" cityName="Meridiano"/>
+	<city prioridade="2" uf="35" cityCode="3530003" cityName="Mira Estrela"/>
+	<city prioridade="2" uf="35" cityCode="3534757" cityName="Ouroeste"/>
+	<city prioridade="2" uf="35" cityCode="3536901" cityName="Pedranópolis"/>
+	<city prioridade="2" uf="35" cityCode="3549201" cityName="São João das Duas Pontes"/>
+	<city prioridade="2" uf="35" cityCode="3555307" cityName="Turmalina"/>
+	<city prioridade="2" uf="35" cityCode="3501202" cityName="Álvares Florence"/>
+	<city prioridade="2" uf="35" cityCode="3501806" cityName="Américo de Campos"/>
+	<city prioridade="2" uf="35" cityCode="3510708" cityName="Cardoso"/>
+	<city prioridade="2" uf="35" cityCode="3512902" cityName="Cosmorama"/>
+	<city prioridade="2" uf="35" cityCode="3536257" cityName="Parisi"/>
+	<city prioridade="2" uf="35" cityCode="3540309" cityName="Pontes Gestal"/>
+	<city prioridade="2" uf="35" cityCode="3544202" cityName="Riolândia"/>
+	<city prioridade="2" uf="35" cityCode="3556107" cityName="Valentim Gentil"/>
+	<city prioridade="2" uf="35" cityCode="3557105" cityName="Votuporanga"/>
+	<city prioridade="2" uf="35" cityCode="3500204" cityName="Adolfo"/>
+	<city prioridade="2" uf="35" cityCode="3500907" cityName="Altair"/>
+	<city prioridade="2" uf="35" cityCode="3504602" cityName="Bady Bassitt"/>
+	<city prioridade="2" uf="35" cityCode="3504800" cityName="Bálsamo"/>
+	<city prioridade="2" uf="35" cityCode="3511300" cityName="Cedral"/>
+	<city prioridade="2" uf="35" cityCode="3517505" cityName="Guapiaçu"/>
+	<city prioridade="2" uf="35" cityCode="3517901" cityName="Guaraci"/>
+	<city prioridade="2" uf="35" cityCode="3519402" cityName="Ibirá"/>
+	<city prioridade="2" uf="35" cityCode="3519808" cityName="Icém"/>
+	<city prioridade="2" uf="35" cityCode="3521150" cityName="Ipiguá"/>
+	<city prioridade="2" uf="35" cityCode="3524501" cityName="Jaci"/>
+	<city prioridade="2" uf="35" cityCode="3525706" cityName="José Bonifácio"/>
+	<city prioridade="2" uf="35" cityCode="3529500" cityName="Mendonça"/>
+	<city prioridade="2" uf="35" cityCode="3530300" cityName="Mirassol"/>
+	<city prioridade="2" uf="35" cityCode="3530409" cityName="Mirassolândia"/>
+	<city prioridade="2" uf="35" cityCode="3532801" cityName="Nova Aliança"/>
+	<city prioridade="2" uf="35" cityCode="3533007" cityName="Nova Granada"/>
+	<city prioridade="2" uf="35" cityCode="3533908" cityName="Olímpia"/>
+	<city prioridade="2" uf="35" cityCode="3534005" cityName="Onda Verde"/>
+	<city prioridade="2" uf="35" cityCode="3534203" cityName="Orindiúva"/>
+	<city prioridade="2" uf="35" cityCode="3535002" cityName="Palestina"/>
+	<city prioridade="2" uf="35" cityCode="3536604" cityName="Paulo de Faria"/>
+	<city prioridade="2" uf="35" cityCode="3539608" cityName="Planalto"/>
+	<city prioridade="2" uf="35" cityCode="3540804" cityName="Potirendaba"/>
+	<city prioridade="2" uf="35" cityCode="3549805" cityName="São José do Rio Preto"/>
+	<city prioridade="2" uf="35" cityCode="3553401" cityName="Tanabi"/>
+	<city prioridade="2" uf="35" cityCode="3555356" cityName="Ubarana"/>
+	<city prioridade="2" uf="35" cityCode="3555604" cityName="Uchoa"/>
+	<city prioridade="2" uf="35" cityCode="3557154" cityName="Zacarias"/>
+	<city prioridade="2" uf="35" cityCode="3503703" cityName="Ariranha"/>
+	<city prioridade="2" uf="35" cityCode="3509304" cityName="Cajobi"/>
+	<city prioridade="2" uf="35" cityCode="3511102" cityName="Catanduva"/>
+	<city prioridade="2" uf="35" cityCode="3511201" cityName="Catiguá"/>
+	<city prioridade="2" uf="35" cityCode="3514924" cityName="Elisiário"/>
+	<city prioridade="2" uf="35" cityCode="3514957" cityName="Embaúba"/>
+	<city prioridade="2" uf="35" cityCode="3533254" cityName="Novais"/>
+	<city prioridade="2" uf="35" cityCode="3535101" cityName="Palmares Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3535705" cityName="Paraíso"/>
+	<city prioridade="2" uf="35" cityCode="3538105" cityName="Pindorama"/>
+	<city prioridade="2" uf="35" cityCode="3545605" cityName="Santa Adélia"/>
+	<city prioridade="2" uf="35" cityCode="3551900" cityName="Severínia"/>
+	<city prioridade="2" uf="35" cityCode="3552601" cityName="Tabapuã"/>
+	<city prioridade="2" uf="35" cityCode="3504206" cityName="Auriflama"/>
+	<city prioridade="2" uf="35" cityCode="3515905" cityName="Floreal"/>
+	<city prioridade="2" uf="35" cityCode="3516804" cityName="Gastão Vidigal"/>
+	<city prioridade="2" uf="35" cityCode="3516903" cityName="General Salgado"/>
+	<city prioridade="2" uf="35" cityCode="3518909" cityName="Guzolândia"/>
+	<city prioridade="2" uf="35" cityCode="3528304" cityName="Magda"/>
+	<city prioridade="2" uf="35" cityCode="3532868" cityName="Nova Castilho"/>
+	<city prioridade="2" uf="35" cityCode="3533304" cityName="Nova Luzitânia"/>
+	<city prioridade="2" uf="35" cityCode="3549250" cityName="São João de Iracema"/>
+	<city prioridade="2" uf="35" cityCode="3528106" cityName="Macaubal"/>
+	<city prioridade="2" uf="35" cityCode="3531001" cityName="Monções"/>
+	<city prioridade="2" uf="35" cityCode="3531407" cityName="Monte Aprazível"/>
+	<city prioridade="2" uf="35" cityCode="3532504" cityName="Neves Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3532603" cityName="Nhandeara"/>
+	<city prioridade="2" uf="35" cityCode="3532702" cityName="Nipoã"/>
+	<city prioridade="2" uf="35" cityCode="3539905" cityName="Poloni"/>
+	<city prioridade="2" uf="35" cityCode="3551306" cityName="Sebastianópolis do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3555703" cityName="União Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3521507" cityName="Irapuã"/>
+	<city prioridade="2" uf="35" cityCode="3521903" cityName="Itajobi"/>
+	<city prioridade="2" uf="35" cityCode="3528858" cityName="Marapoama"/>
+	<city prioridade="2" uf="35" cityCode="3533502" cityName="Novo Horizonte"/>
+	<city prioridade="2" uf="35" cityCode="3544806" cityName="Sales"/>
+	<city prioridade="2" uf="35" cityCode="3556008" cityName="Urupês"/>
+	<city prioridade="2" uf="35" cityCode="3505500" cityName="Barretos"/>
+	<city prioridade="2" uf="35" cityCode="3512001" cityName="Colina"/>
+	<city prioridade="2" uf="35" cityCode="3512100" cityName="Colômbia"/>
+	<city prioridade="2" uf="35" cityCode="3517406" cityName="Guaíra"/>
+	<city prioridade="2" uf="35" cityCode="3521309" cityName="Ipuã"/>
+	<city prioridade="2" uf="35" cityCode="3524204" cityName="Jaborandi"/>
+	<city prioridade="2" uf="35" cityCode="3529708" cityName="Miguelópolis"/>
+	<city prioridade="2" uf="35" cityCode="3531902" cityName="Morro Agudo"/>
+	<city prioridade="2" uf="35" cityCode="3533601" cityName="Nuporanga"/>
+	<city prioridade="2" uf="35" cityCode="3534302" cityName="Orlândia"/>
+	<city prioridade="2" uf="35" cityCode="3544905" cityName="Sales Oliveira"/>
+	<city prioridade="2" uf="35" cityCode="3549409" cityName="São Joaquim da Barra"/>
+	<city prioridade="2" uf="35" cityCode="3503000" cityName="Aramina"/>
+	<city prioridade="2" uf="35" cityCode="3508207" cityName="Buritizal"/>
+	<city prioridade="2" uf="35" cityCode="3517703" cityName="Guará"/>
+	<city prioridade="2" uf="35" cityCode="3520103" cityName="Igarapava"/>
+	<city prioridade="2" uf="35" cityCode="3524105" cityName="Ituverava"/>
+	<city prioridade="2" uf="35" cityCode="3513207" cityName="Cristais Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3516200" cityName="Franca"/>
+	<city prioridade="2" uf="35" cityCode="3523701" cityName="Itirapuã"/>
+	<city prioridade="2" uf="35" cityCode="3525409" cityName="Jeriquara"/>
+	<city prioridade="2" uf="35" cityCode="3536307" cityName="Patrocínio Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3537008" cityName="Pedregulho"/>
+	<city prioridade="2" uf="35" cityCode="3542701" cityName="Restinga"/>
+	<city prioridade="2" uf="35" cityCode="3543105" cityName="Ribeirão Corrente"/>
+	<city prioridade="2" uf="35" cityCode="3543600" cityName="Rifaina"/>
+	<city prioridade="2" uf="35" cityCode="3549508" cityName="São José da Bela Vista"/>
+	<city prioridade="2" uf="35" cityCode="3506102" cityName="Bebedouro"/>
+	<city prioridade="2" uf="35" cityCode="3510104" cityName="Cândido Rodrigues"/>
+	<city prioridade="2" uf="35" cityCode="3515608" cityName="Fernando Prestes"/>
+	<city prioridade="2" uf="35" cityCode="3518602" cityName="Guariba"/>
+	<city prioridade="2" uf="35" cityCode="3524303" cityName="Jaboticabal"/>
+	<city prioridade="2" uf="35" cityCode="3531308" cityName="Monte Alto"/>
+	<city prioridade="2" uf="35" cityCode="3531506" cityName="Monte Azul Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3539004" cityName="Pirangi"/>
+	<city prioridade="2" uf="35" cityCode="3539509" cityName="Pitangueiras"/>
+	<city prioridade="2" uf="35" cityCode="3546504" cityName="Santa Ernestina"/>
+	<city prioridade="2" uf="35" cityCode="3553104" cityName="Taiaçu"/>
+	<city prioridade="2" uf="35" cityCode="3553203" cityName="Taiúva"/>
+	<city prioridade="2" uf="35" cityCode="3553658" cityName="Taquaral"/>
+	<city prioridade="2" uf="35" cityCode="3553708" cityName="Taquaritinga"/>
+	<city prioridade="2" uf="35" cityCode="3554409" cityName="Terra Roxa"/>
+	<city prioridade="2" uf="35" cityCode="3556800" cityName="Viradouro"/>
+	<city prioridade="2" uf="35" cityCode="3556909" cityName="Vista Alegre do Alto"/>
+	<city prioridade="2" uf="35" cityCode="3505609" cityName="Barrinha"/>
+	<city prioridade="2" uf="35" cityCode="3507803" cityName="Brodowski"/>
+	<city prioridade="2" uf="35" cityCode="3513108" cityName="Cravinhos"/>
+	<city prioridade="2" uf="35" cityCode="3514601" cityName="Dumont"/>
+	<city prioridade="2" uf="35" cityCode="3518859" cityName="Guatapará"/>
+	<city prioridade="2" uf="35" cityCode="3525102" cityName="Jardinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3527603" cityName="Luís Antônio"/>
+	<city prioridade="2" uf="35" cityCode="3540200" cityName="Pontal"/>
+	<city prioridade="2" uf="35" cityCode="3540903" cityName="Pradópolis"/>
+	<city prioridade="2" uf="35" cityCode="3543402" cityName="Ribeirão Preto"/>
+	<city prioridade="2" uf="35" cityCode="3547502" cityName="Santa Rita do Passa Quatro"/>
+	<city prioridade="2" uf="35" cityCode="3547601" cityName="Santa Rosa de Viterbo"/>
+	<city prioridade="2" uf="35" cityCode="3550902" cityName="São Simão"/>
+	<city prioridade="2" uf="35" cityCode="3551405" cityName="Serra Azul"/>
+	<city prioridade="2" uf="35" cityCode="3551504" cityName="Serrana"/>
+	<city prioridade="2" uf="35" cityCode="3551702" cityName="Sertãozinho"/>
+	<city prioridade="2" uf="35" cityCode="3501004" cityName="Altinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3505906" cityName="Batatais"/>
+	<city prioridade="2" uf="35" cityCode="3509403" cityName="Cajuru"/>
+	<city prioridade="2" uf="35" cityCode="3510906" cityName="Cássia dos Coqueiros"/>
+	<city prioridade="2" uf="35" cityCode="3546256" cityName="Santa Cruz da Esperança"/>
+	<city prioridade="2" uf="35" cityCode="3547908" cityName="Santo Antônio da Alegria"/>
+	<city prioridade="2" uf="35" cityCode="3502101" cityName="Andradina"/>
+	<city prioridade="2" uf="35" cityCode="3511003" cityName="Castilho"/>
+	<city prioridade="2" uf="35" cityCode="3517802" cityName="Guaraçaí"/>
+	<city prioridade="2" uf="35" cityCode="3520442" cityName="Ilha Solteira"/>
+	<city prioridade="2" uf="35" cityCode="3523008" cityName="Itapura"/>
+	<city prioridade="2" uf="35" cityCode="3530102" cityName="Mirandópolis"/>
+	<city prioridade="2" uf="35" cityCode="3532108" cityName="Murutinga do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3533205" cityName="Nova Independência"/>
+	<city prioridade="2" uf="35" cityCode="3537404" cityName="Pereira Barreto"/>
+	<city prioridade="2" uf="35" cityCode="3552304" cityName="Sud Mennucci"/>
+	<city prioridade="2" uf="35" cityCode="3552551" cityName="Suzanápolis"/>
+	<city prioridade="2" uf="35" cityCode="3502804" cityName="Araçatuba"/>
+	<city prioridade="2" uf="35" cityCode="3506201" cityName="Bento de Abreu"/>
+	<city prioridade="2" uf="35" cityCode="3518206" cityName="Guararapes"/>
+	<city prioridade="2" uf="35" cityCode="3526506" cityName="Lavínia"/>
+	<city prioridade="2" uf="35" cityCode="3544400" cityName="Rubiácea"/>
+	<city prioridade="2" uf="35" cityCode="3548054" cityName="Santo Antônio do Aracanguá"/>
+	<city prioridade="2" uf="35" cityCode="3556305" cityName="Valparaíso"/>
+	<city prioridade="2" uf="35" cityCode="3501103" cityName="Alto Alegre"/>
+	<city prioridade="2" uf="35" cityCode="3504404" cityName="Avanhandava"/>
+	<city prioridade="2" uf="35" cityCode="3505104" cityName="Barbosa"/>
+	<city prioridade="2" uf="35" cityCode="3506409" cityName="Bilac"/>
+	<city prioridade="2" uf="35" cityCode="3506508" cityName="Birigui"/>
+	<city prioridade="2" uf="35" cityCode="3507704" cityName="Braúna"/>
+	<city prioridade="2" uf="35" cityCode="3507753" cityName="Brejo Alegre"/>
+	<city prioridade="2" uf="35" cityCode="3508108" cityName="Buritama"/>
+	<city prioridade="2" uf="35" cityCode="3511904" cityName="Clementina"/>
+	<city prioridade="2" uf="35" cityCode="3512506" cityName="Coroados"/>
+	<city prioridade="2" uf="35" cityCode="3516507" cityName="Gabriel Monteiro"/>
+	<city prioridade="2" uf="35" cityCode="3517109" cityName="Glicério"/>
+	<city prioridade="2" uf="35" cityCode="3527256" cityName="Lourdes"/>
+	<city prioridade="2" uf="35" cityCode="3527702" cityName="Luiziânia"/>
+	<city prioridade="2" uf="35" cityCode="3537305" cityName="Penápolis"/>
+	<city prioridade="2" uf="35" cityCode="3537701" cityName="Piacatu"/>
+	<city prioridade="2" uf="35" cityCode="3548401" cityName="Santópolis do Aguapeí"/>
+	<city prioridade="2" uf="35" cityCode="3555208" cityName="Turiúba"/>
+	<city prioridade="2" uf="35" cityCode="3508801" cityName="Cafelândia"/>
+	<city prioridade="2" uf="35" cityCode="3517000" cityName="Getulina"/>
+	<city prioridade="2" uf="35" cityCode="3517208" cityName="Guaiçara"/>
+	<city prioridade="2" uf="35" cityCode="3517307" cityName="Guaimbê"/>
+	<city prioridade="2" uf="35" cityCode="3525805" cityName="Júlio Mesquita"/>
+	<city prioridade="2" uf="35" cityCode="3527108" cityName="Lins"/>
+	<city prioridade="2" uf="35" cityCode="3541604" cityName="Promissão"/>
+	<city prioridade="2" uf="35" cityCode="3544608" cityName="Sabino"/>
+	<city prioridade="2" uf="35" cityCode="3500709" cityName="Agudos"/>
+	<city prioridade="2" uf="35" cityCode="3503406" cityName="Arealva"/>
+	<city prioridade="2" uf="35" cityCode="3503604" cityName="Areiópolis"/>
+	<city prioridade="2" uf="35" cityCode="3504305" cityName="Avaí"/>
+	<city prioridade="2" uf="35" cityCode="3504701" cityName="Balbinos"/>
+	<city prioridade="2" uf="35" cityCode="3506003" cityName="Bauru"/>
+	<city prioridade="2" uf="35" cityCode="3507456" cityName="Borebi"/>
+	<city prioridade="2" uf="35" cityCode="3508306" cityName="Cabrália Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3514502" cityName="Duartina"/>
+	<city prioridade="2" uf="35" cityCode="3518107" cityName="Guarantã"/>
+	<city prioridade="2" uf="35" cityCode="3519105" cityName="Iacanga"/>
+	<city prioridade="2" uf="35" cityCode="3526803" cityName="Lençóis Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3527504" cityName="Lucianópolis"/>
+	<city prioridade="2" uf="35" cityCode="3536570" cityName="Paulistânia"/>
+	<city prioridade="2" uf="35" cityCode="3538907" cityName="Pirajuí"/>
+	<city prioridade="2" uf="35" cityCode="3539400" cityName="Piratininga"/>
+	<city prioridade="2" uf="35" cityCode="3540101" cityName="Pongaí"/>
+	<city prioridade="2" uf="35" cityCode="3541109" cityName="Presidente Alves"/>
+	<city prioridade="2" uf="35" cityCode="3542503" cityName="Reginópolis"/>
+	<city prioridade="2" uf="35" cityCode="3555505" cityName="Ubirajara"/>
+	<city prioridade="2" uf="35" cityCode="3555901" cityName="Uru"/>
+	<city prioridade="2" uf="35" cityCode="3505203" cityName="Bariri"/>
+	<city prioridade="2" uf="35" cityCode="3505302" cityName="Barra Bonita"/>
+	<city prioridade="2" uf="35" cityCode="3506805" cityName="Bocaina"/>
+	<city prioridade="2" uf="35" cityCode="3507308" cityName="Boracéia"/>
+	<city prioridade="2" uf="35" cityCode="3514106" cityName="Dois Córregos"/>
+	<city prioridade="2" uf="35" cityCode="3520004" cityName="Igaraçu do Tietê"/>
+	<city prioridade="2" uf="35" cityCode="3522000" cityName="Itaju"/>
+	<city prioridade="2" uf="35" cityCode="3522901" cityName="Itapuí"/>
+	<city prioridade="2" uf="35" cityCode="3525300" cityName="Jaú"/>
+	<city prioridade="2" uf="35" cityCode="3528007" cityName="Macatuba"/>
+	<city prioridade="2" uf="35" cityCode="3529807" cityName="Mineiros do Tietê"/>
+	<city prioridade="2" uf="35" cityCode="3536703" cityName="Pederneiras"/>
+	<city prioridade="2" uf="35" cityCode="3500550" cityName="Águas de Santa Bárbara"/>
+	<city prioridade="2" uf="35" cityCode="3503109" cityName="Arandu"/>
+	<city prioridade="2" uf="35" cityCode="3504503" cityName="Avaré"/>
+	<city prioridade="2" uf="35" cityCode="3511409" cityName="Cerqueira César"/>
+	<city prioridade="2" uf="35" cityCode="3519253" cityName="Iaras"/>
+	<city prioridade="2" uf="35" cityCode="3521804" cityName="Itaí"/>
+	<city prioridade="2" uf="35" cityCode="3523503" cityName="Itatinga"/>
+	<city prioridade="2" uf="35" cityCode="3535804" cityName="Paranapanema"/>
+	<city prioridade="2" uf="35" cityCode="3502309" cityName="Anhembi"/>
+	<city prioridade="2" uf="35" cityCode="3506904" cityName="Bofete"/>
+	<city prioridade="2" uf="35" cityCode="3507506" cityName="Botucatu"/>
+	<city prioridade="2" uf="35" cityCode="3512308" cityName="Conchas"/>
+	<city prioridade="2" uf="35" cityCode="3536109" cityName="Pardinho"/>
+	<city prioridade="2" uf="35" cityCode="3541059" cityName="Pratânia"/>
+	<city prioridade="2" uf="35" cityCode="3550100" cityName="São Manuel"/>
+	<city prioridade="2" uf="35" cityCode="3501707" cityName="Américo Brasiliense"/>
+	<city prioridade="2" uf="35" cityCode="3503208" cityName="Araraquara"/>
+	<city prioridade="2" uf="35" cityCode="3506706" cityName="Boa Esperança do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3507407" cityName="Borborema"/>
+	<city prioridade="2" uf="35" cityCode="3514007" cityName="Dobrada"/>
+	<city prioridade="2" uf="35" cityCode="3516853" cityName="Gavião Peixoto"/>
+	<city prioridade="2" uf="35" cityCode="3519600" cityName="Ibitinga"/>
+	<city prioridade="2" uf="35" cityCode="3522703" cityName="Itápolis"/>
+	<city prioridade="2" uf="35" cityCode="3529302" cityName="Matão"/>
+	<city prioridade="2" uf="35" cityCode="3532058" cityName="Motuca"/>
+	<city prioridade="2" uf="35" cityCode="3532900" cityName="Nova Europa"/>
+	<city prioridade="2" uf="35" cityCode="3543709" cityName="Rincão"/>
+	<city prioridade="2" uf="35" cityCode="3546900" cityName="Santa Lúcia"/>
+	<city prioridade="2" uf="35" cityCode="3552700" cityName="Tabatinga"/>
+	<city prioridade="2" uf="35" cityCode="3554755" cityName="Trabiju"/>
+	<city prioridade="2" uf="35" cityCode="3502002" cityName="Analândia"/>
+	<city prioridade="2" uf="35" cityCode="3513702" cityName="Descalvado"/>
+	<city prioridade="2" uf="35" cityCode="3514304" cityName="Dourado"/>
+	<city prioridade="2" uf="35" cityCode="3519303" cityName="Ibaté"/>
+	<city prioridade="2" uf="35" cityCode="3542909" cityName="Ribeirão Bonito"/>
+	<city prioridade="2" uf="35" cityCode="3548906" cityName="São Carlos"/>
+	<city prioridade="2" uf="35" cityCode="3507902" cityName="Brotas"/>
+	<city prioridade="2" uf="35" cityCode="3512704" cityName="Corumbataí"/>
+	<city prioridade="2" uf="35" cityCode="3521101" cityName="Ipeúna"/>
+	<city prioridade="2" uf="35" cityCode="3523602" cityName="Itirapina"/>
+	<city prioridade="2" uf="35" cityCode="3543907" cityName="Rio Claro"/>
+	<city prioridade="2" uf="35" cityCode="3554706" cityName="Torrinha"/>
+	<city prioridade="2" uf="35" cityCode="3503307" cityName="Araras"/>
+	<city prioridade="2" uf="35" cityCode="3512209" cityName="Conchal"/>
+	<city prioridade="2" uf="35" cityCode="3512407" cityName="Cordeirópolis"/>
+	<city prioridade="2" uf="35" cityCode="3521408" cityName="Iracemápolis"/>
+	<city prioridade="2" uf="35" cityCode="3526704" cityName="Leme"/>
+	<city prioridade="2" uf="35" cityCode="3526902" cityName="Limeira"/>
+	<city prioridade="2" uf="35" cityCode="3546207" cityName="Santa Cruz da Conceição"/>
+	<city prioridade="2" uf="35" cityCode="3546702" cityName="Santa Gertrudes"/>
+	<city prioridade="2" uf="35" cityCode="3500600" cityName="Águas de São Pedro"/>
+	<city prioridade="2" uf="35" cityCode="3510401" cityName="Capivari"/>
+	<city prioridade="2" uf="35" cityCode="3511706" cityName="Charqueada"/>
+	<city prioridade="2" uf="35" cityCode="3525854" cityName="Jumirim"/>
+	<city prioridade="2" uf="35" cityCode="3530904" cityName="Mombuca"/>
+	<city prioridade="2" uf="35" cityCode="3538709" cityName="Piracicaba"/>
+	<city prioridade="2" uf="35" cityCode="3542107" cityName="Rafard"/>
+	<city prioridade="2" uf="35" cityCode="3544004" cityName="Rio das Pedras"/>
+	<city prioridade="2" uf="35" cityCode="3545159" cityName="Saltinho"/>
+	<city prioridade="2" uf="35" cityCode="3547007" cityName="Santa Maria da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3550407" cityName="São Pedro"/>
+	<city prioridade="2" uf="35" cityCode="3554508" cityName="Tietê"/>
+	<city prioridade="2" uf="35" cityCode="3500303" cityName="Aguaí"/>
+	<city prioridade="2" uf="35" cityCode="3539301" cityName="Pirassununga"/>
+	<city prioridade="2" uf="35" cityCode="3540705" cityName="Porto Ferreira"/>
+	<city prioridade="2" uf="35" cityCode="3546306" cityName="Santa Cruz das Palmeiras"/>
+	<city prioridade="2" uf="35" cityCode="3500402" cityName="Águas da Prata"/>
+	<city prioridade="2" uf="35" cityCode="3508702" cityName="Caconde"/>
+	<city prioridade="2" uf="35" cityCode="3510807" cityName="Casa Branca"/>
+	<city prioridade="2" uf="35" cityCode="3513900" cityName="Divinolândia"/>
+	<city prioridade="2" uf="35" cityCode="3515186" cityName="Espírito Santo do Pinhal"/>
+	<city prioridade="2" uf="35" cityCode="3523800" cityName="Itobi"/>
+	<city prioridade="2" uf="35" cityCode="3530508" cityName="Mococa"/>
+	<city prioridade="2" uf="35" cityCode="3548104" cityName="Santo Antônio do Jardim"/>
+	<city prioridade="2" uf="35" cityCode="3549102" cityName="São João da Boa Vista"/>
+	<city prioridade="2" uf="35" cityCode="3549706" cityName="São José do Rio Pardo"/>
+	<city prioridade="2" uf="35" cityCode="3550803" cityName="São Sebastião da Grama"/>
+	<city prioridade="2" uf="35" cityCode="3553302" cityName="Tambaú"/>
+	<city prioridade="2" uf="35" cityCode="3553609" cityName="Tapiratiba"/>
+	<city prioridade="2" uf="35" cityCode="3556404" cityName="Vargem Grande do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3503802" cityName="Artur Nogueira"/>
+	<city prioridade="2" uf="35" cityCode="3515152" cityName="Engenheiro Coelho"/>
+	<city prioridade="2" uf="35" cityCode="3522604" cityName="Itapira"/>
+	<city prioridade="2" uf="35" cityCode="3530706" cityName="Mogi Guaçu"/>
+	<city prioridade="2" uf="35" cityCode="3530805" cityName="Moji Mirim"/>
+	<city prioridade="2" uf="35" cityCode="3548005" cityName="Santo Antônio de Posse"/>
+	<city prioridade="2" uf="35" cityCode="3557303" cityName="Estiva Gerbi"/>
+	<city prioridade="2" uf="35" cityCode="3501608" cityName="Americana"/>
+	<city prioridade="2" uf="35" cityCode="3509502" cityName="Campinas"/>
+	<city prioridade="2" uf="35" cityCode="3512803" cityName="Cosmópolis"/>
+	<city prioridade="2" uf="35" cityCode="3514908" cityName="Elias Fausto"/>
+	<city prioridade="2" uf="35" cityCode="3519055" cityName="Holambra"/>
+	<city prioridade="2" uf="35" cityCode="3519071" cityName="Hortolândia"/>
+	<city prioridade="2" uf="35" cityCode="3520509" cityName="Indaiatuba"/>
+	<city prioridade="2" uf="35" cityCode="3524709" cityName="Jaguariúna"/>
+	<city prioridade="2" uf="35" cityCode="3531803" cityName="Monte Mor"/>
+	<city prioridade="2" uf="35" cityCode="3533403" cityName="Nova Odessa"/>
+	<city prioridade="2" uf="35" cityCode="3536505" cityName="Paulínia"/>
+	<city prioridade="2" uf="35" cityCode="3537107" cityName="Pedreira"/>
+	<city prioridade="2" uf="35" cityCode="3545803" cityName="Santa Bárbara d'Oeste"/>
+	<city prioridade="2" uf="35" cityCode="3552403" cityName="Sumaré"/>
+	<city prioridade="2" uf="35" cityCode="3556206" cityName="Valinhos"/>
+	<city prioridade="2" uf="35" cityCode="3556701" cityName="Vinhedo"/>
+	<city prioridade="2" uf="35" cityCode="3500501" cityName="Águas de Lindóia"/>
+	<city prioridade="2" uf="35" cityCode="3501905" cityName="Amparo"/>
+	<city prioridade="2" uf="35" cityCode="3527009" cityName="Lindóia"/>
+	<city prioridade="2" uf="35" cityCode="3531209" cityName="Monte Alegre do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3536802" cityName="Pedra Bela"/>
+	<city prioridade="2" uf="35" cityCode="3538204" cityName="Pinhalzinho"/>
+	<city prioridade="2" uf="35" cityCode="3551603" cityName="Serra Negra"/>
+	<city prioridade="2" uf="35" cityCode="3552106" cityName="Socorro"/>
+	<city prioridade="2" uf="35" cityCode="3514403" cityName="Dracena"/>
+	<city prioridade="2" uf="35" cityCode="3526001" cityName="Junqueirópolis"/>
+	<city prioridade="2" uf="35" cityCode="3531605" cityName="Monte Castelo"/>
+	<city prioridade="2" uf="35" cityCode="3533106" cityName="Nova Guataporanga"/>
+	<city prioridade="2" uf="35" cityCode="3534807" cityName="Ouro Verde"/>
+	<city prioridade="2" uf="35" cityCode="3535408" cityName="Panorama"/>
+	<city prioridade="2" uf="35" cityCode="3536406" cityName="Paulicéia"/>
+	<city prioridade="2" uf="35" cityCode="3547106" cityName="Santa Mercedes"/>
+	<city prioridade="2" uf="35" cityCode="3549300" cityName="São João do Pau d'Alho"/>
+	<city prioridade="2" uf="35" cityCode="3555109" cityName="Tupi Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3500105" cityName="Adamantina"/>
+	<city prioridade="2" uf="35" cityCode="3515806" cityName="Flora Rica"/>
+	<city prioridade="2" uf="35" cityCode="3516002" cityName="Flórida Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3520806" cityName="Inúbia Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3521606" cityName="Irapuru"/>
+	<city prioridade="2" uf="35" cityCode="3527405" cityName="Lucélia"/>
+	<city prioridade="2" uf="35" cityCode="3528908" cityName="Mariápolis"/>
+	<city prioridade="2" uf="35" cityCode="3534609" cityName="Osvaldo Cruz"/>
+	<city prioridade="2" uf="35" cityCode="3534906" cityName="Pacaembu"/>
+	<city prioridade="2" uf="35" cityCode="3536000" cityName="Parapuã"/>
+	<city prioridade="2" uf="35" cityCode="3540853" cityName="Pracinha"/>
+	<city prioridade="2" uf="35" cityCode="3543808" cityName="Rinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3544707" cityName="Sagres"/>
+	<city prioridade="2" uf="35" cityCode="3545100" cityName="Salmourão"/>
+	<city prioridade="2" uf="35" cityCode="3500808" cityName="Alfredo Marcondes"/>
+	<city prioridade="2" uf="35" cityCode="3501301" cityName="Álvares Machado"/>
+	<city prioridade="2" uf="35" cityCode="3502408" cityName="Anhumas"/>
+	<city prioridade="2" uf="35" cityCode="3508900" cityName="Caiabu"/>
+	<city prioridade="2" uf="35" cityCode="3509106" cityName="Caiuá"/>
+	<city prioridade="2" uf="35" cityCode="3515129" cityName="Emilianópolis"/>
+	<city prioridade="2" uf="35" cityCode="3515301" cityName="Estrela do Norte"/>
+	<city prioridade="2" uf="35" cityCode="3515350" cityName="Euclides da Cunha Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3520608" cityName="Indiana"/>
+	<city prioridade="2" uf="35" cityCode="3525607" cityName="João Ramalho"/>
+	<city prioridade="2" uf="35" cityCode="3528700" cityName="Marabá Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3529203" cityName="Martinópolis"/>
+	<city prioridade="2" uf="35" cityCode="3530201" cityName="Mirante do Paranapanema"/>
+	<city prioridade="2" uf="35" cityCode="3532207" cityName="Narandiba"/>
+	<city prioridade="2" uf="35" cityCode="3538303" cityName="Piquerobi"/>
+	<city prioridade="2" uf="35" cityCode="3539202" cityName="Pirapozinho"/>
+	<city prioridade="2" uf="35" cityCode="3541208" cityName="Presidente Bernardes"/>
+	<city prioridade="2" uf="35" cityCode="3541307" cityName="Presidente Epitácio"/>
+	<city prioridade="2" uf="35" cityCode="3541406" cityName="Presidente Prudente"/>
+	<city prioridade="2" uf="35" cityCode="3541505" cityName="Presidente Venceslau"/>
+	<city prioridade="2" uf="35" cityCode="3542206" cityName="Rancharia"/>
+	<city prioridade="2" uf="35" cityCode="3542404" cityName="Regente Feijó"/>
+	<city prioridade="2" uf="35" cityCode="3543238" cityName="Ribeirão dos Índios"/>
+	<city prioridade="2" uf="35" cityCode="3544251" cityName="Rosana"/>
+	<city prioridade="2" uf="35" cityCode="3545506" cityName="Sandovalina"/>
+	<city prioridade="2" uf="35" cityCode="3547700" cityName="Santo Anastácio"/>
+	<city prioridade="2" uf="35" cityCode="3548302" cityName="Santo Expedito"/>
+	<city prioridade="2" uf="35" cityCode="3552908" cityName="Taciba"/>
+	<city prioridade="2" uf="35" cityCode="3553906" cityName="Tarabai"/>
+	<city prioridade="2" uf="35" cityCode="3554300" cityName="Teodoro Sampaio"/>
+	<city prioridade="2" uf="35" cityCode="3503356" cityName="Arco-Íris"/>
+	<city prioridade="2" uf="35" cityCode="3505807" cityName="Bastos"/>
+	<city prioridade="2" uf="35" cityCode="3519006" cityName="Herculândia"/>
+	<city prioridade="2" uf="35" cityCode="3519204" cityName="Iacri"/>
+	<city prioridade="2" uf="35" cityCode="3541802" cityName="Queiroz"/>
+	<city prioridade="2" uf="35" cityCode="3542008" cityName="Quintana"/>
+	<city prioridade="2" uf="35" cityCode="3555000" cityName="Tupã"/>
+	<city prioridade="2" uf="35" cityCode="3501400" cityName="Álvaro de Carvalho"/>
+	<city prioridade="2" uf="35" cityCode="3501509" cityName="Alvinlândia"/>
+	<city prioridade="2" uf="35" cityCode="3514700" cityName="Echaporã"/>
+	<city prioridade="2" uf="35" cityCode="3515657" cityName="Fernão"/>
+	<city prioridade="2" uf="35" cityCode="3516606" cityName="Gália"/>
+	<city prioridade="2" uf="35" cityCode="3516705" cityName="Garça"/>
+	<city prioridade="2" uf="35" cityCode="3527801" cityName="Lupércio"/>
+	<city prioridade="2" uf="35" cityCode="3529005" cityName="Marília"/>
+	<city prioridade="2" uf="35" cityCode="3533700" cityName="Ocauçu"/>
+	<city prioridade="2" uf="35" cityCode="3534104" cityName="Oriente"/>
+	<city prioridade="2" uf="35" cityCode="3534500" cityName="Oscar Bressane"/>
+	<city prioridade="2" uf="35" cityCode="3540002" cityName="Pompéia"/>
+	<city prioridade="2" uf="35" cityCode="3556602" cityName="Vera Cruz"/>
+	<city prioridade="2" uf="35" cityCode="3504008" cityName="Assis"/>
+	<city prioridade="2" uf="35" cityCode="3507209" cityName="Borá"/>
+	<city prioridade="2" uf="35" cityCode="3509809" cityName="Campos Novos Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3510005" cityName="Cândido Mota"/>
+	<city prioridade="2" uf="35" cityCode="3513306" cityName="Cruzália"/>
+	<city prioridade="2" uf="35" cityCode="3516101" cityName="Florínia"/>
+	<city prioridade="2" uf="35" cityCode="3519501" cityName="Ibirarema"/>
+	<city prioridade="2" uf="35" cityCode="3519907" cityName="Iepê"/>
+	<city prioridade="2" uf="35" cityCode="3527900" cityName="Lutécia"/>
+	<city prioridade="2" uf="35" cityCode="3528809" cityName="Maracaí"/>
+	<city prioridade="2" uf="35" cityCode="3532157" cityName="Nantes"/>
+	<city prioridade="2" uf="35" cityCode="3535309" cityName="Palmital"/>
+	<city prioridade="2" uf="35" cityCode="3535507" cityName="Paraguaçu Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3537156" cityName="Pedrinhas Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3539707" cityName="Platina"/>
+	<city prioridade="2" uf="35" cityCode="3541703" cityName="Quatá"/>
+	<city prioridade="2" uf="35" cityCode="3553955" cityName="Tarumã"/>
+	<city prioridade="2" uf="35" cityCode="3506300" cityName="Bernardino de Campos"/>
+	<city prioridade="2" uf="35" cityCode="3510153" cityName="Canitar"/>
+	<city prioridade="2" uf="35" cityCode="3515194" cityName="Espírito Santo do Turvo"/>
+	<city prioridade="2" uf="35" cityCode="3515400" cityName="Fartura"/>
+	<city prioridade="2" uf="35" cityCode="3520905" cityName="Ipaussu"/>
+	<city prioridade="2" uf="35" cityCode="3528601" cityName="Manduri"/>
+	<city prioridade="2" uf="35" cityCode="3533809" cityName="Óleo"/>
+	<city prioridade="2" uf="35" cityCode="3534708" cityName="Ourinhos"/>
+	<city prioridade="2" uf="35" cityCode="3538808" cityName="Piraju"/>
+	<city prioridade="2" uf="35" cityCode="3543204" cityName="Ribeirão do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3545407" cityName="Salto Grande"/>
+	<city prioridade="2" uf="35" cityCode="3546405" cityName="Santa Cruz do Rio Pardo"/>
+	<city prioridade="2" uf="35" cityCode="3550506" cityName="São Pedro do Turvo"/>
+	<city prioridade="2" uf="35" cityCode="3551207" cityName="Sarutaiá"/>
+	<city prioridade="2" uf="35" cityCode="3553005" cityName="Taguaí"/>
+	<city prioridade="2" uf="35" cityCode="3554201" cityName="Tejupá"/>
+	<city prioridade="2" uf="35" cityCode="3554607" cityName="Timburi"/>
+	<city prioridade="2" uf="35" cityCode="3557204" cityName="Chavantes"/>
+	<city prioridade="2" uf="35" cityCode="3505005" cityName="Barão de Antonina"/>
+	<city prioridade="2" uf="35" cityCode="3507159" cityName="Bom Sucesso de Itararé"/>
+	<city prioridade="2" uf="35" cityCode="3508009" cityName="Buri"/>
+	<city prioridade="2" uf="35" cityCode="3512605" cityName="Coronel Macedo"/>
+	<city prioridade="2" uf="35" cityCode="3521705" cityName="Itaberá"/>
+	<city prioridade="2" uf="35" cityCode="3522406" cityName="Itapeva"/>
+	<city prioridade="2" uf="35" cityCode="3522802" cityName="Itaporanga"/>
+	<city prioridade="2" uf="35" cityCode="3523206" cityName="Itararé"/>
+	<city prioridade="2" uf="35" cityCode="3532827" cityName="Nova Campina"/>
+	<city prioridade="2" uf="35" cityCode="3543501" cityName="Riversul"/>
+	<city prioridade="2" uf="35" cityCode="3553807" cityName="Taquarituba"/>
+	<city prioridade="2" uf="35" cityCode="3553856" cityName="Taquarivaí"/>
+	<city prioridade="2" uf="35" cityCode="3500758" cityName="Alambari"/>
+	<city prioridade="2" uf="35" cityCode="3502200" cityName="Angatuba"/>
+	<city prioridade="2" uf="35" cityCode="3509452" cityName="Campina do Monte Alegre"/>
+	<city prioridade="2" uf="35" cityCode="3518503" cityName="Guareí"/>
+	<city prioridade="2" uf="35" cityCode="3522307" cityName="Itapetininga"/>
+	<city prioridade="2" uf="35" cityCode="3507001" cityName="Boituva"/>
+	<city prioridade="2" uf="35" cityCode="3511508" cityName="Cerquilho"/>
+	<city prioridade="2" uf="35" cityCode="3511607" cityName="Cesário Lange"/>
+	<city prioridade="2" uf="35" cityCode="3526407" cityName="Laranjal Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3537503" cityName="Pereiras"/>
+	<city prioridade="2" uf="35" cityCode="3540507" cityName="Porangaba"/>
+	<city prioridade="2" uf="35" cityCode="3541653" cityName="Quadra"/>
+	<city prioridade="2" uf="35" cityCode="3554003" cityName="Tatuí"/>
+	<city prioridade="2" uf="35" cityCode="3554656" cityName="Torre de Pedra"/>
+	<city prioridade="2" uf="35" cityCode="3502705" cityName="Apiaí"/>
+	<city prioridade="2" uf="35" cityCode="3505351" cityName="Barra do Chapéu"/>
+	<city prioridade="2" uf="35" cityCode="3510203" cityName="Capão Bonito"/>
+	<city prioridade="2" uf="35" cityCode="3517604" cityName="Guapiara"/>
+	<city prioridade="2" uf="35" cityCode="3521200" cityName="Iporanga"/>
+	<city prioridade="2" uf="35" cityCode="3522158" cityName="Itaóca"/>
+	<city prioridade="2" uf="35" cityCode="3522653" cityName="Itapirapuã Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3542800" cityName="Ribeira"/>
+	<city prioridade="2" uf="35" cityCode="3543006" cityName="Ribeirão Branco"/>
+	<city prioridade="2" uf="35" cityCode="3543253" cityName="Ribeirão Grande"/>
+	<city prioridade="2" uf="35" cityCode="3519709" cityName="Ibiúna"/>
+	<city prioridade="2" uf="35" cityCode="3537800" cityName="Piedade"/>
+	<city prioridade="2" uf="35" cityCode="3537909" cityName="Pilar do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3550209" cityName="São Miguel Arcanjo"/>
+	<city prioridade="2" uf="35" cityCode="3553500" cityName="Tapiraí"/>
+	<city prioridade="2" uf="35" cityCode="3501152" cityName="Alumínio"/>
+	<city prioridade="2" uf="35" cityCode="3502754" cityName="Araçariguama"/>
+	<city prioridade="2" uf="35" cityCode="3502903" cityName="Araçoiaba da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3508405" cityName="Cabreúva"/>
+	<city prioridade="2" uf="35" cityCode="3510302" cityName="Capela do Alto"/>
+	<city prioridade="2" uf="35" cityCode="3521002" cityName="Iperó"/>
+	<city prioridade="2" uf="35" cityCode="3523909" cityName="Itu"/>
+	<city prioridade="2" uf="35" cityCode="3528403" cityName="Mairinque"/>
+	<city prioridade="2" uf="35" cityCode="3540606" cityName="Porto Feliz"/>
+	<city prioridade="2" uf="35" cityCode="3545209" cityName="Salto"/>
+	<city prioridade="2" uf="35" cityCode="3545308" cityName="Salto de Pirapora"/>
+	<city prioridade="2" uf="35" cityCode="3550605" cityName="São Roque"/>
+	<city prioridade="2" uf="35" cityCode="3551108" cityName="Sarapuí"/>
+	<city prioridade="2" uf="35" cityCode="3552205" cityName="Sorocaba"/>
+	<city prioridade="2" uf="35" cityCode="3557006" cityName="Votorantim"/>
+	<city prioridade="2" uf="35" cityCode="3509601" cityName="Campo Limpo Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3524006" cityName="Itupeva"/>
+	<city prioridade="2" uf="35" cityCode="3525904" cityName="Jundiaí"/>
+	<city prioridade="2" uf="35" cityCode="3527306" cityName="Louveira"/>
+	<city prioridade="2" uf="35" cityCode="3556503" cityName="Várzea Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3504107" cityName="Atibaia"/>
+	<city prioridade="2" uf="35" cityCode="3507100" cityName="Bom Jesus dos Perdões"/>
+	<city prioridade="2" uf="35" cityCode="3507605" cityName="Bragança Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3523404" cityName="Itatiba"/>
+	<city prioridade="2" uf="35" cityCode="3525201" cityName="Jarinu"/>
+	<city prioridade="2" uf="35" cityCode="3525508" cityName="Joanópolis"/>
+	<city prioridade="2" uf="35" cityCode="3532009" cityName="Morungaba"/>
+	<city prioridade="2" uf="35" cityCode="3532405" cityName="Nazaré Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3538600" cityName="Piracaia"/>
+	<city prioridade="2" uf="35" cityCode="3554953" cityName="Tuiuti"/>
+	<city prioridade="2" uf="35" cityCode="3556354" cityName="Vargem"/>
+	<city prioridade="2" uf="35" cityCode="3509700" cityName="Campos do Jordão"/>
+	<city prioridade="2" uf="35" cityCode="3531704" cityName="Monteiro Lobato"/>
+	<city prioridade="2" uf="35" cityCode="3548203" cityName="Santo Antônio do Pinhal"/>
+	<city prioridade="2" uf="35" cityCode="3548609" cityName="São Bento do Sapucaí"/>
+	<city prioridade="2" uf="35" cityCode="3508504" cityName="Caçapava"/>
+	<city prioridade="2" uf="35" cityCode="3520202" cityName="Igaratá"/>
+	<city prioridade="2" uf="35" cityCode="3524402" cityName="Jacareí"/>
+	<city prioridade="2" uf="35" cityCode="3538006" cityName="Pindamonhangaba"/>
+	<city prioridade="2" uf="35" cityCode="3546009" cityName="Santa Branca"/>
+	<city prioridade="2" uf="35" cityCode="3549904" cityName="São José dos Campos"/>
+	<city prioridade="2" uf="35" cityCode="3554102" cityName="Taubaté"/>
+	<city prioridade="2" uf="35" cityCode="3554805" cityName="Tremembé"/>
+	<city prioridade="2" uf="35" cityCode="3502507" cityName="Aparecida"/>
+	<city prioridade="2" uf="35" cityCode="3508603" cityName="Cachoeira Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3509957" cityName="Canas"/>
+	<city prioridade="2" uf="35" cityCode="3513405" cityName="Cruzeiro"/>
+	<city prioridade="2" uf="35" cityCode="3518404" cityName="Guaratinguetá"/>
+	<city prioridade="2" uf="35" cityCode="3526605" cityName="Lavrinhas"/>
+	<city prioridade="2" uf="35" cityCode="3527207" cityName="Lorena"/>
+	<city prioridade="2" uf="35" cityCode="3538501" cityName="Piquete"/>
+	<city prioridade="2" uf="35" cityCode="3540754" cityName="Potim"/>
+	<city prioridade="2" uf="35" cityCode="3541901" cityName="Queluz"/>
+	<city prioridade="2" uf="35" cityCode="3544301" cityName="Roseira"/>
+	<city prioridade="2" uf="35" cityCode="3503158" cityName="Arapeí"/>
+	<city prioridade="2" uf="35" cityCode="3503505" cityName="Areias"/>
+	<city prioridade="2" uf="35" cityCode="3504909" cityName="Bananal"/>
+	<city prioridade="2" uf="35" cityCode="3549607" cityName="São José do Barreiro"/>
+	<city prioridade="2" uf="35" cityCode="3552007" cityName="Silveiras"/>
+	<city prioridade="2" uf="35" cityCode="3513603" cityName="Cunha"/>
+	<city prioridade="2" uf="35" cityCode="3524907" cityName="Jambeiro"/>
+	<city prioridade="2" uf="35" cityCode="3526308" cityName="Lagoinha"/>
+	<city prioridade="2" uf="35" cityCode="3532306" cityName="Natividade da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3535606" cityName="Paraibuna"/>
+	<city prioridade="2" uf="35" cityCode="3542305" cityName="Redenção da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3550001" cityName="São Luís do Paraitinga"/>
+	<city prioridade="2" uf="35" cityCode="3510500" cityName="Caraguatatuba"/>
+	<city prioridade="2" uf="35" cityCode="3520400" cityName="Ilhabela"/>
+	<city prioridade="2" uf="35" cityCode="3550704" cityName="São Sebastião"/>
+	<city prioridade="2" uf="35" cityCode="3555406" cityName="Ubatuba"/>
+	<city prioridade="2" uf="35" cityCode="3505401" cityName="Barra do Turvo"/>
+	<city prioridade="2" uf="35" cityCode="3509254" cityName="Cajati"/>
+	<city prioridade="2" uf="35" cityCode="3509908" cityName="Cananéia"/>
+	<city prioridade="2" uf="35" cityCode="3514809" cityName="Eldorado"/>
+	<city prioridade="2" uf="35" cityCode="3520301" cityName="Iguape"/>
+	<city prioridade="2" uf="35" cityCode="3520426" cityName="Ilha Comprida"/>
+	<city prioridade="2" uf="35" cityCode="3524600" cityName="Jacupiranga"/>
+	<city prioridade="2" uf="35" cityCode="3526100" cityName="Juquiá"/>
+	<city prioridade="2" uf="35" cityCode="3529906" cityName="Miracatu"/>
+	<city prioridade="2" uf="35" cityCode="3536208" cityName="Pariquera-Açu"/>
+	<city prioridade="2" uf="35" cityCode="3542602" cityName="Registro"/>
+	<city prioridade="2" uf="35" cityCode="3551801" cityName="Sete Barras"/>
+	<city prioridade="2" uf="35" cityCode="3522109" cityName="Itanhaém"/>
+	<city prioridade="2" uf="35" cityCode="3523305" cityName="Itariri"/>
+	<city prioridade="2" uf="35" cityCode="3531100" cityName="Mongaguá"/>
+	<city prioridade="2" uf="35" cityCode="3537206" cityName="Pedro de Toledo"/>
+	<city prioridade="2" uf="35" cityCode="3537602" cityName="Peruíbe"/>
+	<city prioridade="2" uf="35" cityCode="3505708" cityName="Barueri"/>
+	<city prioridade="2" uf="35" cityCode="3509205" cityName="Cajamar"/>
+	<city prioridade="2" uf="35" cityCode="3510609" cityName="Carapicuíba"/>
+	<city prioridade="2" uf="35" cityCode="3522505" cityName="Itapevi"/>
+	<city prioridade="2" uf="35" cityCode="3525003" cityName="Jandira"/>
+	<city prioridade="2" uf="35" cityCode="3534401" cityName="Osasco"/>
+	<city prioridade="2" uf="35" cityCode="3539103" cityName="Pirapora do Bom Jesus"/>
+	<city prioridade="2" uf="35" cityCode="3547304" cityName="Santana de Parnaíba"/>
+	<city prioridade="2" uf="35" cityCode="3509007" cityName="Caieiras"/>
+	<city prioridade="2" uf="35" cityCode="3516309" cityName="Francisco Morato"/>
+	<city prioridade="2" uf="35" cityCode="3516408" cityName="Franco da Rocha"/>
+	<city prioridade="2" uf="35" cityCode="3528502" cityName="Mairiporã"/>
+	<city prioridade="2" uf="35" cityCode="3503901" cityName="Arujá"/>
+	<city prioridade="2" uf="35" cityCode="3518800" cityName="Guarulhos"/>
+	<city prioridade="2" uf="35" cityCode="3546801" cityName="Santa Isabel"/>
+	<city prioridade="2" uf="35" cityCode="3513009" cityName="Cotia"/>
+	<city prioridade="2" uf="35" cityCode="3515004" cityName="Embu"/>
+	<city prioridade="2" uf="35" cityCode="3515103" cityName="Embu-Guaçu"/>
+	<city prioridade="2" uf="35" cityCode="3522208" cityName="Itapecerica da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3526209" cityName="Juquitiba"/>
+	<city prioridade="2" uf="35" cityCode="3549953" cityName="São Lourenço da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3552809" cityName="Taboão da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3556453" cityName="Vargem Grande Paulista"/>
+	<city prioridade="2" uf="35" cityCode="3513801" cityName="Diadema"/>
+	<city prioridade="2" uf="35" cityCode="3529401" cityName="Mauá"/>
+	<city prioridade="2" uf="35" cityCode="3543303" cityName="Ribeirão Pires"/>
+	<city prioridade="2" uf="35" cityCode="3544103" cityName="Rio Grande da Serra"/>
+	<city prioridade="2" uf="35" cityCode="3547809" cityName="Santo André"/>
+	<city prioridade="2" uf="35" cityCode="3548708" cityName="São Bernardo do Campo"/>
+	<city prioridade="2" uf="35" cityCode="3548807" cityName="São Caetano do Sul"/>
+	<city prioridade="2" uf="35" cityCode="3550308" cityName="São Paulo"/>
+	<city prioridade="2" uf="35" cityCode="3506607" cityName="Biritiba-Mirim"/>
+	<city prioridade="2" uf="35" cityCode="3515707" cityName="Ferraz de Vasconcelos"/>
+	<city prioridade="2" uf="35" cityCode="3518305" cityName="Guararema"/>
+	<city prioridade="2" uf="35" cityCode="3523107" cityName="Itaquaquecetuba"/>
+	<city prioridade="2" uf="35" cityCode="3530607" cityName="Mogi das Cruzes"/>
+	<city prioridade="2" uf="35" cityCode="3539806" cityName="Poá"/>
+	<city prioridade="2" uf="35" cityCode="3545001" cityName="Salesópolis"/>
+	<city prioridade="2" uf="35" cityCode="3552502" cityName="Suzano"/>
+	<city prioridade="2" uf="35" cityCode="3506359" cityName="Bertioga"/>
+	<city prioridade="2" uf="35" cityCode="3513504" cityName="Cubatão"/>
+	<city prioridade="2" uf="35" cityCode="3518701" cityName="Guarujá"/>
+	<city prioridade="2" uf="35" cityCode="3541000" cityName="Praia Grande"/>
+	<city prioridade="2" uf="35" cityCode="3548500" cityName="Santos"/>
+	<city prioridade="2" uf="35" cityCode="3551009" cityName="São Vicente"/>
+</cities>

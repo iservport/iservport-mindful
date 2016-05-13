@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="CE" >
+	<city prioridade="2" uf="23" cityCode="2300200" cityName="Acaraú" />
+	<city prioridade="2" uf="23" cityCode="2302057" cityName="Barroquinha" />
+	<city prioridade="2" uf="23" cityCode="2302305" cityName="Bela Cruz" />
+	<city prioridade="2" uf="23" cityCode="2302602" cityName="Camocim" />
+	<city prioridade="2" uf="23" cityCode="2303907" cityName="Chaval" />
+	<city prioridade="2" uf="23" cityCode="2304251" cityName="Cruz" />
+	<city prioridade="2" uf="23" cityCode="2304707" cityName="Granja" />
+	<city prioridade="2" uf="23" cityCode="2306553" cityName="Itarema" />
+	<city prioridade="2" uf="23" cityCode="2307254" cityName="Jijoca de Jericoacoara" />
+	<city prioridade="2" uf="23" cityCode="2307809" cityName="Marco" />
+	<city prioridade="2" uf="23" cityCode="2307908" cityName="Martinópole" />
+	<city prioridade="2" uf="23" cityCode="2308906" cityName="Morrinhos" />
+	<city prioridade="2" uf="23" cityCode="2303402" cityName="Carnaubal" />
+	<city prioridade="2" uf="23" cityCode="2304236" cityName="Croatá" />
+	<city prioridade="2" uf="23" cityCode="2305001" cityName="Guaraciaba do Norte" />
+	<city prioridade="2" uf="23" cityCode="2305308" cityName="Ibiapina" />
+	<city prioridade="2" uf="23" cityCode="2312304" cityName="São Benedito" />
+	<city prioridade="2" uf="23" cityCode="2313401" cityName="Tianguá" />
+	<city prioridade="2" uf="23" cityCode="2313609" cityName="Ubajara" />
+	<city prioridade="2" uf="23" cityCode="2314102" cityName="Viçosa do Ceará" />
+	<city prioridade="2" uf="23" cityCode="2304004" cityName="Coreaú" />
+	<city prioridade="2" uf="23" cityCode="2304509" cityName="Frecheirinha" />
+	<city prioridade="2" uf="23" cityCode="2308807" cityName="Moraújo" />
+	<city prioridade="2" uf="23" cityCode="2313906" cityName="Uruoca" />
+	<city prioridade="2" uf="23" cityCode="2300507" cityName="Alcântaras" />
+	<city prioridade="2" uf="23" cityCode="2308203" cityName="Meruoca" />
+	<city prioridade="2" uf="23" cityCode="2303105" cityName="Cariré" />
+	<city prioridade="2" uf="23" cityCode="2304350" cityName="Forquilha" />
+	<city prioridade="2" uf="23" cityCode="2304657" cityName="Graça" />
+	<city prioridade="2" uf="23" cityCode="2304905" cityName="Groaíras" />
+	<city prioridade="2" uf="23" cityCode="2306108" cityName="Irauçuba" />
+	<city prioridade="2" uf="23" cityCode="2308005" cityName="Massapê" />
+	<city prioridade="2" uf="23" cityCode="2308377" cityName="Miraíma" />
+	<city prioridade="2" uf="23" cityCode="2309003" cityName="Mucambo" />
+	<city prioridade="2" uf="23" cityCode="2309904" cityName="Pacujá" />
+	<city prioridade="2" uf="23" cityCode="2312007" cityName="Santana do Acaraú" />
+	<city prioridade="2" uf="23" cityCode="2312809" cityName="Senador Sá" />
+	<city prioridade="2" uf="23" cityCode="2312908" cityName="Sobral" />
+	<city prioridade="2" uf="23" cityCode="2305803" cityName="Ipu" />
+	<city prioridade="2" uf="23" cityCode="2305902" cityName="Ipueiras" />
+	<city prioridade="2" uf="23" cityCode="2310951" cityName="Pires Ferreira" />
+	<city prioridade="2" uf="23" cityCode="2311009" cityName="Poranga" />
+	<city prioridade="2" uf="23" cityCode="2311702" cityName="Reriutaba" />
+	<city prioridade="2" uf="23" cityCode="2313955" cityName="Varjota" />
+	<city prioridade="2" uf="23" cityCode="2303659" cityName="Catunda" />
+	<city prioridade="2" uf="23" cityCode="2305209" cityName="Hidrolândia" />
+	<city prioridade="2" uf="23" cityCode="2312205" cityName="Santa Quitéria" />
+	<city prioridade="2" uf="23" cityCode="2300754" cityName="Amontada" />
+	<city prioridade="2" uf="23" cityCode="2306405" cityName="Itapipoca" />
+	<city prioridade="2" uf="23" cityCode="2313500" cityName="Trairi" />
+	<city prioridade="2" uf="23" cityCode="2310209" cityName="Paracuru" />
+	<city prioridade="2" uf="23" cityCode="2310258" cityName="Paraipaba" />
+	<city prioridade="2" uf="23" cityCode="2312403" cityName="São Gonçalo do Amarante" />
+	<city prioridade="2" uf="23" cityCode="2306306" cityName="Itapagé" />
+	<city prioridade="2" uf="23" cityCode="2313559" cityName="Tururu" />
+	<city prioridade="2" uf="23" cityCode="2313757" cityName="Umirim" />
+	<city prioridade="2" uf="23" cityCode="2313807" cityName="Uruburetama" />
+	<city prioridade="2" uf="23" cityCode="2300903" cityName="Apuiarés" />
+	<city prioridade="2" uf="23" cityCode="2304608" cityName="General Sampaio" />
+	<city prioridade="2" uf="23" cityCode="2310704" cityName="Pentecoste" />
+	<city prioridade="2" uf="23" cityCode="2312601" cityName="São Luís do Curu" />
+	<city prioridade="2" uf="23" cityCode="2313351" cityName="Tejuçuoca" />
+	<city prioridade="2" uf="23" cityCode="2302800" cityName="Canindé" />
+	<city prioridade="2" uf="23" cityCode="2303006" cityName="Caridade" />
+	<city prioridade="2" uf="23" cityCode="2306603" cityName="Itatira" />
+	<city prioridade="2" uf="23" cityCode="2310407" cityName="Paramoti" />
+	<city prioridade="2" uf="23" cityCode="2300150" cityName="Acarape" />
+	<city prioridade="2" uf="23" cityCode="2301208" cityName="Aracoiaba" />
+	<city prioridade="2" uf="23" cityCode="2301406" cityName="Aratuba" />
+	<city prioridade="2" uf="23" cityCode="2302107" cityName="Baturité" />
+	<city prioridade="2" uf="23" cityCode="2302909" cityName="Capistrano" />
+	<city prioridade="2" uf="23" cityCode="2305100" cityName="Guaramiranga" />
+	<city prioridade="2" uf="23" cityCode="2306504" cityName="Itapiúna" />
+	<city prioridade="2" uf="23" cityCode="2309102" cityName="Mulungu" />
+	<city prioridade="2" uf="23" cityCode="2309805" cityName="Pacoti" />
+	<city prioridade="2" uf="23" cityCode="2310100" cityName="Palmácia" />
+	<city prioridade="2" uf="23" cityCode="2311603" cityName="Redenção" />
+	<city prioridade="2" uf="23" cityCode="2301950" cityName="Barreira" />
+	<city prioridade="2" uf="23" cityCode="2303956" cityName="Chorozinho" />
+	<city prioridade="2" uf="23" cityCode="2309458" cityName="Ocara" />
+	<city prioridade="2" uf="23" cityCode="2302206" cityName="Beberibe" />
+	<city prioridade="2" uf="23" cityCode="2303501" cityName="Cascavel" />
+	<city prioridade="2" uf="23" cityCode="2310852" cityName="Pindoretama" />
+	<city prioridade="2" uf="23" cityCode="2301000" cityName="Aquiraz" />
+	<city prioridade="2" uf="23" cityCode="2303709" cityName="Caucaia" />
+	<city prioridade="2" uf="23" cityCode="2304285" cityName="Eusébio" />
+	<city prioridade="2" uf="23" cityCode="2304400" cityName="Fortaleza" />
+	<city prioridade="2" uf="23" cityCode="2304954" cityName="Guaiúba" />
+	<city prioridade="2" uf="23" cityCode="2306256" cityName="Itaitinga" />
+	<city prioridade="2" uf="23" cityCode="2307650" cityName="Maracanaú" />
+	<city prioridade="2" uf="23" cityCode="2307700" cityName="Maranguape" />
+	<city prioridade="2" uf="23" cityCode="2309706" cityName="Pacatuba" />
+	<city prioridade="2" uf="23" cityCode="2305233" cityName="Horizonte" />
+	<city prioridade="2" uf="23" cityCode="2309607" cityName="Pacajus" />
+	<city prioridade="2" uf="23" cityCode="2301257" cityName="Ararendá" />
+	<city prioridade="2" uf="23" cityCode="2304103" cityName="Crateús" />
+	<city prioridade="2" uf="23" cityCode="2305605" cityName="Independência" />
+	<city prioridade="2" uf="23" cityCode="2305654" cityName="Ipaporanga" />
+	<city prioridade="2" uf="23" cityCode="2308609" cityName="Monsenhor Tabosa" />
+	<city prioridade="2" uf="23" cityCode="2309300" cityName="Nova Russas" />
+	<city prioridade="2" uf="23" cityCode="2309409" cityName="Novo Oriente" />
+	<city prioridade="2" uf="23" cityCode="2311264" cityName="Quiterianópolis" />
+	<city prioridade="2" uf="23" cityCode="2313203" cityName="Tamboril" />
+	<city prioridade="2" uf="23" cityCode="2301851" cityName="Banabuiú" />
+	<city prioridade="2" uf="23" cityCode="2302404" cityName="Boa Viagem" />
+	<city prioridade="2" uf="23" cityCode="2303931" cityName="Choró" />
+	<city prioridade="2" uf="23" cityCode="2305266" cityName="Ibaretama" />
+	<city prioridade="2" uf="23" cityCode="2307635" cityName="Madalena" />
+	<city prioridade="2" uf="23" cityCode="2311306" cityName="Quixadá" />
+	<city prioridade="2" uf="23" cityCode="2311405" cityName="Quixeramobim" />
+	<city prioridade="2" uf="23" cityCode="2300408" cityName="Aiuaba" />
+	<city prioridade="2" uf="23" cityCode="2301505" cityName="Arneiroz" />
+	<city prioridade="2" uf="23" cityCode="2303600" cityName="Catarina" />
+	<city prioridade="2" uf="23" cityCode="2310308" cityName="Parambu" />
+	<city prioridade="2" uf="23" cityCode="2311900" cityName="Saboeiro" />
+	<city prioridade="2" uf="23" cityCode="2313302" cityName="Tauá" />
+	<city prioridade="2" uf="23" cityCode="2300309" cityName="Acopiara" />
+	<city prioridade="2" uf="23" cityCode="2304269" cityName="Deputado Irapuan Pinheiro" />
+	<city prioridade="2" uf="23" cityCode="2308351" cityName="Milhã" />
+	<city prioridade="2" uf="23" cityCode="2308500" cityName="Mombaça" />
+	<city prioridade="2" uf="23" cityCode="2310506" cityName="Pedra Branca" />
+	<city prioridade="2" uf="23" cityCode="2310902" cityName="Piquet Carneiro" />
+	<city prioridade="2" uf="23" cityCode="2312700" cityName="Senador Pompeu" />
+	<city prioridade="2" uf="23" cityCode="2313005" cityName="Solonópole" />
+	<city prioridade="2" uf="23" cityCode="2301109" cityName="Aracati" />
+	<city prioridade="2" uf="23" cityCode="2304459" cityName="Fortim" />
+	<city prioridade="2" uf="23" cityCode="2305357" cityName="Icapuí" />
+	<city prioridade="2" uf="23" cityCode="2306207" cityName="Itaiçaba" />
+	<city prioridade="2" uf="23" cityCode="2300705" cityName="Alto Santo" />
+	<city prioridade="2" uf="23" cityCode="2305332" cityName="Ibicuitinga" />
+	<city prioridade="2" uf="23" cityCode="2307007" cityName="Jaguaruana" />
+	<city prioridade="2" uf="23" cityCode="2307601" cityName="Limoeiro do Norte" />
+	<city prioridade="2" uf="23" cityCode="2308708" cityName="Morada Nova" />
+	<city prioridade="2" uf="23" cityCode="2310001" cityName="Palhano" />
+	<city prioridade="2" uf="23" cityCode="2311504" cityName="Quixeré" />
+	<city prioridade="2" uf="23" cityCode="2311801" cityName="Russas" />
+	<city prioridade="2" uf="23" cityCode="2312502" cityName="São João do Jaguaribe" />
+	<city prioridade="2" uf="23" cityCode="2313104" cityName="Tabuleiro do Norte" />
+	<city prioridade="2" uf="23" cityCode="2306702" cityName="Jaguaretama" />
+	<city prioridade="2" uf="23" cityCode="2306801" cityName="Jaguaribara" />
+	<city prioridade="2" uf="23" cityCode="2306900" cityName="Jaguaribe" />
+	<city prioridade="2" uf="23" cityCode="2304277" cityName="Ererê" />
+	<city prioridade="2" uf="23" cityCode="2306009" cityName="Iracema" />
+	<city prioridade="2" uf="23" cityCode="2310803" cityName="Pereiro" />
+	<city prioridade="2" uf="23" cityCode="2311231" cityName="Potiretama" />
+	<city prioridade="2" uf="23" cityCode="2303808" cityName="Cedro" />
+	<city prioridade="2" uf="23" cityCode="2305407" cityName="Icó" />
+	<city prioridade="2" uf="23" cityCode="2305506" cityName="Iguatu" />
+	<city prioridade="2" uf="23" cityCode="2309508" cityName="Orós" />
+	<city prioridade="2" uf="23" cityCode="2311355" cityName="Quixelô" />
+	<city prioridade="2" uf="23" cityCode="2300804" cityName="Antonina do Norte" />
+	<city prioridade="2" uf="23" cityCode="2303303" cityName="Cariús" />
+	<city prioridade="2" uf="23" cityCode="2307403" cityName="Jucás" />
+	<city prioridade="2" uf="23" cityCode="2313252" cityName="Tarrafas" />
+	<city prioridade="2" uf="23" cityCode="2314003" cityName="Várzea Alegre" />
+	<city prioridade="2" uf="23" cityCode="2301802" cityName="Baixio" />
+	<city prioridade="2" uf="23" cityCode="2305704" cityName="Ipaumirim" />
+	<city prioridade="2" uf="23" cityCode="2307502" cityName="Lavras da Mangabeira" />
+	<city prioridade="2" uf="23" cityCode="2313708" cityName="Umari" />
+	<city prioridade="2" uf="23" cityCode="2301307" cityName="Araripe" />
+	<city prioridade="2" uf="23" cityCode="2301604" cityName="Assaré" />
+	<city prioridade="2" uf="23" cityCode="2302701" cityName="Campos Sales" />
+	<city prioridade="2" uf="23" cityCode="2311207" cityName="Potengi" />
+	<city prioridade="2" uf="23" cityCode="2311959" cityName="Salitre" />
+	<city prioridade="2" uf="23" cityCode="2300606" cityName="Altaneira" />
+	<city prioridade="2" uf="23" cityCode="2303204" cityName="Caririaçu" />
+	<city prioridade="2" uf="23" cityCode="2304301" cityName="Farias Brito" />
+	<city prioridade="2" uf="23" cityCode="2304806" cityName="Granjeiro" />
+	<city prioridade="2" uf="23" cityCode="2301703" cityName="Aurora" />
+	<city prioridade="2" uf="23" cityCode="2302008" cityName="Barro" />
+	<city prioridade="2" uf="23" cityCode="2308104" cityName="Mauriti" />
+	<city prioridade="2" uf="23" cityCode="2301901" cityName="Barbalha" />
+	<city prioridade="2" uf="23" cityCode="2304202" cityName="Crato" />
+	<city prioridade="2" uf="23" cityCode="2307106" cityName="Jardim" />
+	<city prioridade="2" uf="23" cityCode="2307304" cityName="Juazeiro do Norte" />
+	<city prioridade="2" uf="23" cityCode="2308401" cityName="Missão Velha" />
+	<city prioridade="2" uf="23" cityCode="2309201" cityName="Nova Olinda" />
+	<city prioridade="2" uf="23" cityCode="2311108" cityName="Porteiras" />
+	<city prioridade="2" uf="23" cityCode="2312106" cityName="Santana do Cariri" />
+	<city prioridade="2" uf="23" cityCode="2300101" cityName="Abaiara" />
+	<city prioridade="2" uf="23" cityCode="2302503" cityName="Brejo Santo" />
+	<city prioridade="2" uf="23" cityCode="2307205" cityName="Jati" />
+	<city prioridade="2" uf="23" cityCode="2308302" cityName="Milagres" />
+	<city prioridade="2" uf="23" cityCode="2310605" cityName="Penaforte" />
+</cities>

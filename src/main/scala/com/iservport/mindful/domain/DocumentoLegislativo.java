@@ -1,19 +1,11 @@
 package com.iservport.mindful.domain;
 
-import java.util.Date;
-
-import javax.persistence.Column;
-import javax.persistence.JoinColumn;
-import javax.persistence.Lob;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.persistence.UniqueConstraint;
-
 import org.helianto.core.domain.Entity;
 import org.helianto.core.domain.Feature;
 import org.helianto.core.internal.AbstractTrunkEntity;
+
+import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Projeto legislativo.

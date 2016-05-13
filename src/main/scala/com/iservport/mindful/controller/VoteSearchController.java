@@ -1,7 +1,8 @@
 package com.iservport.mindful.controller;
 
-import javax.inject.Inject;
-
+import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter;
+import com.iservport.mindful.service.VoteCommandService;
+import com.iservport.mindful.service.VoteQueryService;
 import org.helianto.security.internal.UserAuthentication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.iservport.mindful.repository.DocumentoLegislativoReadAdapter;
-import com.iservport.mindful.service.VoteCommandService;
-import com.iservport.mindful.service.VoteQueryService;
+import javax.inject.Inject;
 
 /**
  * Controlador de votos.
@@ -26,7 +25,7 @@ import com.iservport.mindful.service.VoteQueryService;
 @Controller
 public class VoteSearchController {
 
-	private static final Logger logger = LoggerFactory.getLogger(HouseSearchController.class);
+	private static final Logger logger = LoggerFactory.getLogger(VoteSearchController.class);
 	
 	@Inject
 	private VoteQueryService voteQueryService;

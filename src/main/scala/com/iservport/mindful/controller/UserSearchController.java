@@ -1,9 +1,8 @@
 package com.iservport.mindful.controller;
 
-import java.util.List;
-
-import javax.inject.Inject;
-
+import com.iservport.mindful.repository.UserRoleReadAdapter;
+import com.iservport.user.service.UserCommandService;
+import com.iservport.user.service.UserQueryService;
 import org.helianto.core.internal.QualifierAdapter;
 import org.helianto.security.internal.UserAuthentication;
 import org.helianto.user.repository.UserReadAdapter;
@@ -18,9 +17,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.iservport.mindful.repository.UserRoleReadAdapter;
-import com.iservport.user.service.UserCommandService;
-import com.iservport.user.service.UserQueryService;
+import javax.inject.Inject;
+import java.util.List;
 
 /**
  * Controlador de usuários (eleitores).
@@ -31,7 +29,7 @@ import com.iservport.user.service.UserQueryService;
 @Controller
 public class UserSearchController {
 
-	private static final Logger logger = LoggerFactory.getLogger(HouseSearchController.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserSearchController.class);
 	
 	@Inject
 	private UserQueryService userQueryService;

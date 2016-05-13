@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="AM" >
+	<city prioridade="2" uf="13" cityCode="1300409" cityName="Barcelos"/>
+	<city prioridade="2" uf="13" cityCode="1303205" cityName="Novo Airão"/>
+	<city prioridade="2" uf="13" cityCode="1303601" cityName="Santa Isabel do Rio Negro"/>
+	<city prioridade="2" uf="13" cityCode="1303809" cityName="São Gabriel da Cachoeira"/>
+	<city prioridade="2" uf="13" cityCode="1302108" cityName="Japurá"/>
+	<city prioridade="2" uf="13" cityCode="1302801" cityName="Maraã"/>
+	<city prioridade="2" uf="13" cityCode="1300060" cityName="Amaturá"/>
+	<city prioridade="2" uf="13" cityCode="1300201" cityName="Atalaia do Norte"/>
+	<city prioridade="2" uf="13" cityCode="1300607" cityName="Benjamin Constant"/>
+	<city prioridade="2" uf="13" cityCode="1301605" cityName="Fonte Boa"/>
+	<city prioridade="2" uf="13" cityCode="1302306" cityName="Jutaí"/>
+	<city prioridade="2" uf="13" cityCode="1303700" cityName="Santo Antônio do Içá"/>
+	<city prioridade="2" uf="13" cityCode="1303908" cityName="São Paulo de Olivença"/>
+	<city prioridade="2" uf="13" cityCode="1304062" cityName="Tabatinga"/>
+	<city prioridade="2" uf="13" cityCode="1304237" cityName="Tonantins"/>
+	<city prioridade="2" uf="13" cityCode="1301001" cityName="Carauari"/>
+	<city prioridade="2" uf="13" cityCode="1301407" cityName="Eirunepé"/>
+	<city prioridade="2" uf="13" cityCode="1301506" cityName="Envira"/>
+	<city prioridade="2" uf="13" cityCode="1301654" cityName="Guajará"/>
+	<city prioridade="2" uf="13" cityCode="1301803" cityName="Ipixuna"/>
+	<city prioridade="2" uf="13" cityCode="1301951" cityName="Itamarati"/>
+	<city prioridade="2" uf="13" cityCode="1302207" cityName="Juruá"/>
+	<city prioridade="2" uf="13" cityCode="1300029" cityName="Alvarães"/>
+	<city prioridade="2" uf="13" cityCode="1304203" cityName="Tefé"/>
+	<city prioridade="2" uf="13" cityCode="1304260" cityName="Uarini"/>
+	<city prioridade="2" uf="13" cityCode="1300086" cityName="Anamã"/>
+	<city prioridade="2" uf="13" cityCode="1300102" cityName="Anori"/>
+	<city prioridade="2" uf="13" cityCode="1300631" cityName="Beruri"/>
+	<city prioridade="2" uf="13" cityCode="1300839" cityName="Caapiranga"/>
+	<city prioridade="2" uf="13" cityCode="1301209" cityName="Coari"/>
+	<city prioridade="2" uf="13" cityCode="1301308" cityName="Codajás"/>
+	<city prioridade="2" uf="13" cityCode="1300300" cityName="Autazes"/>
+	<city prioridade="2" uf="13" cityCode="1301100" cityName="Careiro"/>
+	<city prioridade="2" uf="13" cityCode="1301159" cityName="Careiro da Várzea"/>
+	<city prioridade="2" uf="13" cityCode="1301852" cityName="Iranduba"/>
+	<city prioridade="2" uf="13" cityCode="1302504" cityName="Manacapuru"/>
+	<city prioridade="2" uf="13" cityCode="1302553" cityName="Manaquiri"/>
+	<city prioridade="2" uf="13" cityCode="1302603" cityName="Manaus"/>
+	<city prioridade="2" uf="13" cityCode="1303536" cityName="Presidente Figueiredo"/>
+	<city prioridade="2" uf="13" cityCode="1303569" cityName="Rio Preto da Eva"/>
+	<city prioridade="2" uf="13" cityCode="1301902" cityName="Itacoatiara"/>
+	<city prioridade="2" uf="13" cityCode="1302009" cityName="Itapiranga"/>
+	<city prioridade="2" uf="13" cityCode="1303106" cityName="Nova Olinda do Norte"/>
+	<city prioridade="2" uf="13" cityCode="1304005" cityName="Silves"/>
+	<city prioridade="2" uf="13" cityCode="1304401" cityName="Urucurituba"/>
+	<city prioridade="2" uf="13" cityCode="1300508" cityName="Barreirinha"/>
+	<city prioridade="2" uf="13" cityCode="1300680" cityName="Boa Vista do Ramos"/>
+	<city prioridade="2" uf="13" cityCode="1302900" cityName="Maués"/>
+	<city prioridade="2" uf="13" cityCode="1303007" cityName="Nhamundá"/>
+	<city prioridade="2" uf="13" cityCode="1303403" cityName="Parintins"/>
+	<city prioridade="2" uf="13" cityCode="1303957" cityName="São Sebastião do Uatumã"/>
+	<city prioridade="2" uf="13" cityCode="1304302" cityName="Urucará"/>
+	<city prioridade="2" uf="13" cityCode="1300706" cityName="Boca do Acre"/>
+	<city prioridade="2" uf="13" cityCode="1303502" cityName="Pauini"/>
+	<city prioridade="2" uf="13" cityCode="1300904" cityName="Canutama"/>
+	<city prioridade="2" uf="13" cityCode="1302405" cityName="Lábrea"/>
+	<city prioridade="2" uf="13" cityCode="1304104" cityName="Tapauá"/>
+	<city prioridade="2" uf="13" cityCode="1300144" cityName="Apuí"/>
+	<city prioridade="2" uf="13" cityCode="1300805" cityName="Borba"/>
+	<city prioridade="2" uf="13" cityCode="1301704" cityName="Humaitá"/>
+	<city prioridade="2" uf="13" cityCode="1302702" cityName="Manicoré"/>
+	<city prioridade="2" uf="13" cityCode="1303304" cityName="Novo Aripuanã"/>
+</cities>

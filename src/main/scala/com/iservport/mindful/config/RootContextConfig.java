@@ -1,25 +1,13 @@
 package com.iservport.mindful.config;
 
-import javax.naming.NamingException;
-import javax.persistence.EntityManagerFactory;
-import javax.sql.DataSource;
-
 import com.iservport.install.service.DefaultInstallStrategy;
-import org.apache.tika.config.TikaConfig;
-import org.apache.tika.exception.TikaException;
-import org.helianto.core.config.HeliantoServiceConfig;
+import org.helianto.core.config.HeliantoConfig;
 import org.helianto.install.service.EntityInstallStrategy;
-import org.hibernate.ejb.HibernatePersistence;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.jndi.JndiObjectFactoryBean;
-import org.springframework.orm.jpa.JpaVendorAdapter;
-import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -27,11 +15,7 @@ import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
-
-import com.fasterxml.jackson.datatype.hibernate3.Hibernate3Module;
 import org.springframework.web.util.UrlPathHelper;
-
-import java.io.IOException;
 
 /**
  * Configurações Java em geral.
@@ -40,16 +24,20 @@ import java.io.IOException;
  */
 @Configuration
 @EnableWebMvc
-@Import({HeliantoServiceConfig.class})
+@Import({HeliantoConfig.class})
 @ComponentScan(
 		basePackages = {
-				"com.iservport.*.repository"
-				, "com.iservport.*.service"
+				"com.iservport.*.service"
+				, "com.iservport.*.repository"
 				, "com.iservport.*.controller"
+				, "org.helianto.*.service"
+				, "org.helianto.*.repository"
+				, "org.helianto.*.controller"
 		})
 @EnableJpaRepositories(
 		basePackages={
 				"com.iservport.*.repository"
+				, "org.helianto.*.repository"
 		})
 public class RootContextConfig extends WebMvcConfigurerAdapter {
 

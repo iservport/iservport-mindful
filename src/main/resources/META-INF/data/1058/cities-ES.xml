@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="ES" >
+	<city prioridade="2" uf="32" cityCode="3200169" cityName="Água Doce do Norte"/>
+	<city prioridade="2" uf="32" cityCode="3200904" cityName="Barra de São Francisco"/>
+	<city prioridade="2" uf="32" cityCode="3202108" cityName="Ecoporanga"/>
+	<city prioridade="2" uf="32" cityCode="3203304" cityName="Mantenópolis"/>
+	<city prioridade="2" uf="32" cityCode="3200136" cityName="Águia Branca"/>
+	<city prioridade="2" uf="32" cityCode="3201001" cityName="Boa Esperança"/>
+	<city prioridade="2" uf="32" cityCode="3203908" cityName="Nova Venécia"/>
+	<city prioridade="2" uf="32" cityCode="3204708" cityName="São Gabriel da Palha"/>
+	<city prioridade="2" uf="32" cityCode="3205150" cityName="Vila Pavão"/>
+	<city prioridade="2" uf="32" cityCode="3205176" cityName="Vila Valério"/>
+	<city prioridade="2" uf="32" cityCode="3200359" cityName="Alto Rio Novo"/>
+	<city prioridade="2" uf="32" cityCode="3200805" cityName="Baixo Guandu"/>
+	<city prioridade="2" uf="32" cityCode="3201506" cityName="Colatina"/>
+	<city prioridade="2" uf="32" cityCode="3202256" cityName="Governador Lindenberg"/>
+	<city prioridade="2" uf="32" cityCode="3203353" cityName="Marilândia"/>
+	<city prioridade="2" uf="32" cityCode="3204005" cityName="Pancas"/>
+	<city prioridade="2" uf="32" cityCode="3204658" cityName="São Domingos do Norte"/>
+	<city prioridade="2" uf="32" cityCode="3203502" cityName="Montanha"/>
+	<city prioridade="2" uf="32" cityCode="3203601" cityName="Mucurici"/>
+	<city prioridade="2" uf="32" cityCode="3204104" cityName="Pinheiros"/>
+	<city prioridade="2" uf="32" cityCode="3204252" cityName="Ponto Belo"/>
+	<city prioridade="2" uf="32" cityCode="3201605" cityName="Conceição da Barra"/>
+	<city prioridade="2" uf="32" cityCode="3203056" cityName="Jaguaré"/>
+	<city prioridade="2" uf="32" cityCode="3204054" cityName="Pedro Canário"/>
+	<city prioridade="2" uf="32" cityCode="3204906" cityName="São Mateus"/>
+	<city prioridade="2" uf="32" cityCode="3200607" cityName="Aracruz"/>
+	<city prioridade="2" uf="32" cityCode="3202207" cityName="Fundão"/>
+	<city prioridade="2" uf="32" cityCode="3202504" cityName="Ibiraçu"/>
+	<city prioridade="2" uf="32" cityCode="3203130" cityName="João Neiva"/>
+	<city prioridade="2" uf="32" cityCode="3203205" cityName="Linhares"/>
+	<city prioridade="2" uf="32" cityCode="3204351" cityName="Rio Bananal"/>
+	<city prioridade="2" uf="32" cityCode="3205010" cityName="Sooretama"/>
+	<city prioridade="2" uf="32" cityCode="3200102" cityName="Afonso Cláudio"/>
+	<city prioridade="2" uf="32" cityCode="3201159" cityName="Brejetuba"/>
+	<city prioridade="2" uf="32" cityCode="3201704" cityName="Conceição do Castelo"/>
+	<city prioridade="2" uf="32" cityCode="3201902" cityName="Domingos Martins"/>
+	<city prioridade="2" uf="32" cityCode="3203163" cityName="Laranja da Terra"/>
+	<city prioridade="2" uf="32" cityCode="3203346" cityName="Marechal Floriano"/>
+	<city prioridade="2" uf="32" cityCode="3205069" cityName="Venda Nova do Imigrante"/>
+	<city prioridade="2" uf="32" cityCode="3202702" cityName="Itaguaçu"/>
+	<city prioridade="2" uf="32" cityCode="3202900" cityName="Itarana"/>
+	<city prioridade="2" uf="32" cityCode="3204500" cityName="Santa Leopoldina"/>
+	<city prioridade="2" uf="32" cityCode="3204559" cityName="Santa Maria de Jetibá"/>
+	<city prioridade="2" uf="32" cityCode="3204609" cityName="Santa Teresa"/>
+	<city prioridade="2" uf="32" cityCode="3204955" cityName="São Roque do Canaã"/>
+	<city prioridade="2" uf="32" cityCode="3201308" cityName="Cariacica"/>
+	<city prioridade="2" uf="32" cityCode="3205002" cityName="Serra"/>
+	<city prioridade="2" uf="32" cityCode="3205101" cityName="Viana"/>
+	<city prioridade="2" uf="32" cityCode="3205200" cityName="Vila Velha"/>
+	<city prioridade="2" uf="32" cityCode="3205309" cityName="Vitória"/>
+	<city prioridade="2" uf="32" cityCode="3200300" cityName="Alfredo Chaves"/>
+	<city prioridade="2" uf="32" cityCode="3200409" cityName="Anchieta"/>
+	<city prioridade="2" uf="32" cityCode="3202405" cityName="Guarapari"/>
+	<city prioridade="2" uf="32" cityCode="3202603" cityName="Iconha"/>
+	<city prioridade="2" uf="32" cityCode="3204203" cityName="Piúma"/>
+	<city prioridade="2" uf="32" cityCode="3204401" cityName="Rio Novo do Sul"/>
+	<city prioridade="2" uf="32" cityCode="3200201" cityName="Alegre"/>
+	<city prioridade="2" uf="32" cityCode="3201803" cityName="Divino de São Lourenço"/>
+	<city prioridade="2" uf="32" cityCode="3202009" cityName="Dores do Rio Preto"/>
+	<city prioridade="2" uf="32" cityCode="3202306" cityName="Guaçuí"/>
+	<city prioridade="2" uf="32" cityCode="3202454" cityName="Ibatiba"/>
+	<city prioridade="2" uf="32" cityCode="3202553" cityName="Ibitirama"/>
+	<city prioridade="2" uf="32" cityCode="3202652" cityName="Irupi"/>
+	<city prioridade="2" uf="32" cityCode="3203007" cityName="Iúna"/>
+	<city prioridade="2" uf="32" cityCode="3203700" cityName="Muniz Freire"/>
+	<city prioridade="2" uf="32" cityCode="3200508" cityName="Apiacá"/>
+	<city prioridade="2" uf="32" cityCode="3200706" cityName="Atilio Vivacqua"/>
+	<city prioridade="2" uf="32" cityCode="3201100" cityName="Bom Jesus do Norte"/>
+	<city prioridade="2" uf="32" cityCode="3201209" cityName="Cachoeiro de Itapemirim"/>
+	<city prioridade="2" uf="32" cityCode="3201407" cityName="Castelo"/>
+	<city prioridade="2" uf="32" cityCode="3203106" cityName="Jerônimo Monteiro"/>
+	<city prioridade="2" uf="32" cityCode="3203403" cityName="Mimoso do Sul"/>
+	<city prioridade="2" uf="32" cityCode="3203809" cityName="Muqui"/>
+	<city prioridade="2" uf="32" cityCode="3204807" cityName="São José do Calçado"/>
+	<city prioridade="2" uf="32" cityCode="3205036" cityName="Vargem Alta"/>
+	<city prioridade="2" uf="32" cityCode="3202801" cityName="Itapemirim"/>
+	<city prioridade="2" uf="32" cityCode="3203320" cityName="Marataízes"/>
+	<city prioridade="2" uf="32" cityCode="3204302" cityName="Presidente Kennedy"/>
+</cities>

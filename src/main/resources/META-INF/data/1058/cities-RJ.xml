@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="RJ" >
+	<city prioridade="2" uf="33" cityCode="3300605" cityName="Bom Jesus do Itabapoana"/>
+	<city prioridade="2" uf="33" cityCode="3302056" cityName="Italva"/>
+	<city prioridade="2" uf="33" cityCode="3302205" cityName="Itaperuna"/>
+	<city prioridade="2" uf="33" cityCode="3302304" cityName="Laje do Muriaé"/>
+	<city prioridade="2" uf="33" cityCode="3303104" cityName="Natividade"/>
+	<city prioridade="2" uf="33" cityCode="3304102" cityName="Porciúncula"/>
+	<city prioridade="2" uf="33" cityCode="3306156" cityName="Varre-Sai"/>
+	<city prioridade="2" uf="33" cityCode="3300159" cityName="Aperibé"/>
+	<city prioridade="2" uf="33" cityCode="3300902" cityName="Cambuci"/>
+	<city prioridade="2" uf="33" cityCode="3302106" cityName="Itaocara"/>
+	<city prioridade="2" uf="33" cityCode="3303005" cityName="Miracema"/>
+	<city prioridade="2" uf="33" cityCode="3304706" cityName="Santo Antônio de Pádua"/>
+	<city prioridade="2" uf="33" cityCode="3305133" cityName="São José de Ubá"/>
+	<city prioridade="2" uf="33" cityCode="3301009" cityName="Campos dos Goytacazes"/>
+	<city prioridade="2" uf="33" cityCode="3301157" cityName="Cardoso Moreira"/>
+	<city prioridade="2" uf="33" cityCode="3304755" cityName="São Francisco de Itabapoana"/>
+	<city prioridade="2" uf="33" cityCode="3304805" cityName="São Fidélis"/>
+	<city prioridade="2" uf="33" cityCode="3305000" cityName="São João da Barra"/>
+	<city prioridade="2" uf="33" cityCode="3300936" cityName="Carapebus"/>
+	<city prioridade="2" uf="33" cityCode="3301405" cityName="Conceição de Macabu"/>
+	<city prioridade="2" uf="33" cityCode="3302403" cityName="Macaé"/>
+	<city prioridade="2" uf="33" cityCode="3304151" cityName="Quissamã"/>
+	<city prioridade="2" uf="33" cityCode="3300225" cityName="Areal"/>
+	<city prioridade="2" uf="33" cityCode="3300951" cityName="Comendador Levy Gasparian"/>
+	<city prioridade="2" uf="33" cityCode="3303708" cityName="Paraíba do Sul"/>
+	<city prioridade="2" uf="33" cityCode="3305406" cityName="Sapucaia"/>
+	<city prioridade="2" uf="33" cityCode="3306008" cityName="Três Rios"/>
+	<city prioridade="2" uf="33" cityCode="3301108" cityName="Cantagalo"/>
+	<city prioridade="2" uf="33" cityCode="3301207" cityName="Carmo"/>
+	<city prioridade="2" uf="33" cityCode="3301504" cityName="Cordeiro"/>
+	<city prioridade="2" uf="33" cityCode="3302452" cityName="Macuco"/>
+	<city prioridade="2" uf="33" cityCode="3300506" cityName="Bom Jardim"/>
+	<city prioridade="2" uf="33" cityCode="3301603" cityName="Duas Barras"/>
+	<city prioridade="2" uf="33" cityCode="3303401" cityName="Nova Friburgo"/>
+	<city prioridade="2" uf="33" cityCode="3305703" cityName="Sumidouro"/>
+	<city prioridade="2" uf="33" cityCode="3304607" cityName="Santa Maria Madalena"/>
+	<city prioridade="2" uf="33" cityCode="3305307" cityName="São Sebastião do Alto"/>
+	<city prioridade="2" uf="33" cityCode="3305901" cityName="Trajano de Morais"/>
+	<city prioridade="2" uf="33" cityCode="3301306" cityName="Casimiro de Abreu"/>
+	<city prioridade="2" uf="33" cityCode="3304524" cityName="Rio das Ostras"/>
+	<city prioridade="2" uf="33" cityCode="3305604" cityName="Silva Jardim"/>
+	<city prioridade="2" uf="33" cityCode="3300209" cityName="Araruama"/>
+	<city prioridade="2" uf="33" cityCode="3300233" cityName="Armação dos Búzios"/>
+	<city prioridade="2" uf="33" cityCode="3300258" cityName="Arraial do Cabo"/>
+	<city prioridade="2" uf="33" cityCode="3300704" cityName="Cabo Frio"/>
+	<city prioridade="2" uf="33" cityCode="3301876" cityName="Iguaba Grande"/>
+	<city prioridade="2" uf="33" cityCode="3305208" cityName="São Pedro da Aldeia"/>
+	<city prioridade="2" uf="33" cityCode="3305505" cityName="Saquarema"/>
+	<city prioridade="2" uf="33" cityCode="3300407" cityName="Barra Mansa"/>
+	<city prioridade="2" uf="33" cityCode="3302254" cityName="Itatiaia"/>
+	<city prioridade="2" uf="33" cityCode="3303955" cityName="Pinheiral"/>
+	<city prioridade="2" uf="33" cityCode="3304003" cityName="Piraí"/>
+	<city prioridade="2" uf="33" cityCode="3304110" cityName="Porto Real"/>
+	<city prioridade="2" uf="33" cityCode="3304128" cityName="Quatis"/>
+	<city prioridade="2" uf="33" cityCode="3304201" cityName="Resende"/>
+	<city prioridade="2" uf="33" cityCode="3304409" cityName="Rio Claro"/>
+	<city prioridade="2" uf="33" cityCode="3306305" cityName="Volta Redonda"/>
+	<city prioridade="2" uf="33" cityCode="3300308" cityName="Barra do Piraí"/>
+	<city prioridade="2" uf="33" cityCode="3304508" cityName="Rio das Flores"/>
+	<city prioridade="2" uf="33" cityCode="3306107" cityName="Valença"/>
+	<city prioridade="2" uf="33" cityCode="3300100" cityName="Angra dos Reis"/>
+	<city prioridade="2" uf="33" cityCode="3303807" cityName="Parati"/>
+	<city prioridade="2" uf="33" cityCode="3301801" cityName="Engenheiro Paulo de Frontin"/>
+	<city prioridade="2" uf="33" cityCode="3302809" cityName="Mendes"/>
+	<city prioridade="2" uf="33" cityCode="3302908" cityName="Miguel Pereira"/>
+	<city prioridade="2" uf="33" cityCode="3303609" cityName="Paracambi"/>
+	<city prioridade="2" uf="33" cityCode="3303856" cityName="Paty do Alferes"/>
+	<city prioridade="2" uf="33" cityCode="3306206" cityName="Vassouras"/>
+	<city prioridade="2" uf="33" cityCode="3303906" cityName="Petrópolis"/>
+	<city prioridade="2" uf="33" cityCode="3305158" cityName="São José do Vale do Rio Preto"/>
+	<city prioridade="2" uf="33" cityCode="3305802" cityName="Teresópolis"/>
+	<city prioridade="2" uf="33" cityCode="3300803" cityName="Cachoeiras de Macacu"/>
+	<city prioridade="2" uf="33" cityCode="3304300" cityName="Rio Bonito"/>
+	<city prioridade="2" uf="33" cityCode="3302007" cityName="Itaguaí"/>
+	<city prioridade="2" uf="33" cityCode="3302601" cityName="Mangaratiba"/>
+	<city prioridade="2" uf="33" cityCode="3305554" cityName="Seropédica"/>
+	<city prioridade="2" uf="33" cityCode="3300456" cityName="Belford Roxo"/>
+	<city prioridade="2" uf="33" cityCode="3301702" cityName="Duque de Caxias"/>
+	<city prioridade="2" uf="33" cityCode="3301850" cityName="Guapimirim"/>
+	<city prioridade="2" uf="33" cityCode="3301900" cityName="Itaboraí"/>
+	<city prioridade="2" uf="33" cityCode="3302270" cityName="Japeri"/>
+	<city prioridade="2" uf="33" cityCode="3302502" cityName="Magé"/>
+	<city prioridade="2" uf="33" cityCode="3302700" cityName="Maricá"/>
+	<city prioridade="2" uf="33" cityCode="3302858" cityName="Mesquita"/>
+	<city prioridade="2" uf="33" cityCode="3303203" cityName="Nilópolis"/>
+	<city prioridade="2" uf="33" cityCode="3303302" cityName="Niterói"/>
+	<city prioridade="2" uf="33" cityCode="3303500" cityName="Nova Iguaçu"/>
+	<city prioridade="2" uf="33" cityCode="3304144" cityName="Queimados"/>
+	<city prioridade="2" uf="33" cityCode="3304557" cityName="Rio de Janeiro"/>
+	<city prioridade="2" uf="33" cityCode="3304904" cityName="São Gonçalo"/>
+	<city prioridade="2" uf="33" cityCode="3305109" cityName="São João de Meriti"/>
+	<city prioridade="2" uf="33" cityCode="3305752" cityName="Tanguá"/>
+</cities>

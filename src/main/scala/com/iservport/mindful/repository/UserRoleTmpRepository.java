@@ -37,7 +37,7 @@ public interface UserRoleTmpRepository
 	 */
 	@Query(
 			"select new "
-			+ "com.iservport.atuacao.repository.UserRoleReadAdapter"
+			+ "com.iservport.mindful.repository.UserRoleReadAdapter"
 			+ "( userRole.id" 
 			+ ", userAssociation.child.id" 
 			+ ", userRole.service.id" 
@@ -60,7 +60,7 @@ public interface UserRoleTmpRepository
 	 */
 	@Query(
 			"select new "
-			+ "com.iservport.atuacao.repository.UserRoleReadAdapter"
+			+ "com.iservport.mindful.repository.UserRoleReadAdapter"
 			+ "( userRole.id" 
 			+ ", userRole.userGroup.id" 
 			+ ", userRole.service.id" 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="AL" >
+	<city prioridade="2" uf="27" cityCode="2700102" cityName="Água Branca" />
+	<city prioridade="2" uf="27" cityCode="2701605" cityName="Canapi" />
+	<city prioridade="2" uf="27" cityCode="2703304" cityName="Inhapi" />
+	<city prioridade="2" uf="27" cityCode="2705002" cityName="Mata Grande" />
+	<city prioridade="2" uf="27" cityCode="2706422" cityName="Pariconha" />
+	<city prioridade="2" uf="27" cityCode="2702405" cityName="Delmiro Gouveia" />
+	<city prioridade="2" uf="27" cityCode="2705804" cityName="Olho d'Água do Casado" />
+	<city prioridade="2" uf="27" cityCode="2707107" cityName="Piranhas" />
+	<city prioridade="2" uf="27" cityCode="2701803" cityName="Carneiros" />
+	<city prioridade="2" uf="27" cityCode="2702504" cityName="Dois Riachos" />
+	<city prioridade="2" uf="27" cityCode="2704609" cityName="Maravilha" />
+	<city prioridade="2" uf="27" cityCode="2706109" cityName="Ouro Branco" />
+	<city prioridade="2" uf="27" cityCode="2706208" cityName="Palestina" />
+	<city prioridade="2" uf="27" cityCode="2706406" cityName="Pão de Açúcar" />
+	<city prioridade="2" uf="27" cityCode="2707206" cityName="Poço das Trincheiras" />
+	<city prioridade="2" uf="27" cityCode="2708006" cityName="Santana do Ipanema" />
+	<city prioridade="2" uf="27" cityCode="2708402" cityName="São José da Tapera" />
+	<city prioridade="2" uf="27" cityCode="2708956" cityName="Senador Rui Palmeira" />
+	<city prioridade="2" uf="27" cityCode="2700706" cityName="Batalha" />
+	<city prioridade="2" uf="27" cityCode="2700904" cityName="Belo Monte" />
+	<city prioridade="2" uf="27" cityCode="2703403" cityName="Jacaré dos Homens" />
+	<city prioridade="2" uf="27" cityCode="2703700" cityName="Jaramataia" />
+	<city prioridade="2" uf="27" cityCode="2704401" cityName="Major Isidoro" />
+	<city prioridade="2" uf="27" cityCode="2705408" cityName="Monteirópolis" />
+	<city prioridade="2" uf="27" cityCode="2705705" cityName="Olho d'Água das Flores" />
+	<city prioridade="2" uf="27" cityCode="2706000" cityName="Olivença" />
+	<city prioridade="2" uf="27" cityCode="2700805" cityName="Belém" />
+	<city prioridade="2" uf="27" cityCode="2701209" cityName="Cacimbinhas" />
+	<city prioridade="2" uf="27" cityCode="2702553" cityName="Estrela de Alagoas" />
+	<city prioridade="2" uf="27" cityCode="2703106" cityName="Igaci" />
+	<city prioridade="2" uf="27" cityCode="2704807" cityName="Maribondo" />
+	<city prioridade="2" uf="27" cityCode="2704906" cityName="Mar Vermelho" />
+	<city prioridade="2" uf="27" cityCode="2705309" cityName="Minador do Negrão" />
+	<city prioridade="2" uf="27" cityCode="2706307" cityName="Palmeira dos Índios" />
+	<city prioridade="2" uf="27" cityCode="2706604" cityName="Paulo Jacinto" />
+	<city prioridade="2" uf="27" cityCode="2707602" cityName="Quebrangulo" />
+	<city prioridade="2" uf="27" cityCode="2709004" cityName="Tanque d'Arca" />
+	<city prioridade="2" uf="27" cityCode="2700300" cityName="Arapiraca" />
+	<city prioridade="2" uf="27" cityCode="2701506" cityName="Campo Grande" />
+	<city prioridade="2" uf="27" cityCode="2702009" cityName="Coité do Nóia" />
+	<city prioridade="2" uf="27" cityCode="2702355" cityName="Craíbas" />
+	<city prioridade="2" uf="27" cityCode="2702603" cityName="Feira Grande" />
+	<city prioridade="2" uf="27" cityCode="2702900" cityName="Girau do Ponciano" />
+	<city prioridade="2" uf="27" cityCode="2704104" cityName="Lagoa da Canoa" />
+	<city prioridade="2" uf="27" cityCode="2704203" cityName="Limoeiro de Anadia" />
+	<city prioridade="2" uf="27" cityCode="2708808" cityName="São Sebastião" />
+	<city prioridade="2" uf="27" cityCode="2709103" cityName="Taquarana" />
+	<city prioridade="2" uf="27" cityCode="2705903" cityName="Olho d'Água Grande" />
+	<city prioridade="2" uf="27" cityCode="2708204" cityName="São Brás" />
+	<city prioridade="2" uf="27" cityCode="2709202" cityName="Traipu" />
+	<city prioridade="2" uf="27" cityCode="2701902" cityName="Chã Preta" />
+	<city prioridade="2" uf="27" cityCode="2703007" cityName="Ibateguara" />
+	<city prioridade="2" uf="27" cityCode="2707008" cityName="Pindoba" />
+	<city prioridade="2" uf="27" cityCode="2708105" cityName="Santana do Mundaú" />
+	<city prioridade="2" uf="27" cityCode="2708303" cityName="São José da Laje" />
+	<city prioridade="2" uf="27" cityCode="2709301" cityName="União dos Palmares" />
+	<city prioridade="2" uf="27" cityCode="2709400" cityName="Viçosa" />
+	<city prioridade="2" uf="27" cityCode="2700409" cityName="Atalaia" />
+	<city prioridade="2" uf="27" cityCode="2701100" cityName="Branquinha" />
+	<city prioridade="2" uf="27" cityCode="2701308" cityName="Cajueiro" />
+	<city prioridade="2" uf="27" cityCode="2701357" cityName="Campestre" />
+	<city prioridade="2" uf="27" cityCode="2701704" cityName="Capela" />
+	<city prioridade="2" uf="27" cityCode="2702108" cityName="Colônia Leopoldina" />
+	<city prioridade="2" uf="27" cityCode="2702801" cityName="Flexeiras" />
+	<city prioridade="2" uf="27" cityCode="2703502" cityName="Jacuípe" />
+	<city prioridade="2" uf="27" cityCode="2703809" cityName="Joaquim Gomes" />
+	<city prioridade="2" uf="27" cityCode="2703908" cityName="Jundiá" />
+	<city prioridade="2" uf="27" cityCode="2705101" cityName="Matriz de Camaragibe" />
+	<city prioridade="2" uf="27" cityCode="2705200" cityName="Messias" />
+	<city prioridade="2" uf="27" cityCode="2705507" cityName="Murici" />
+	<city prioridade="2" uf="27" cityCode="2705606" cityName="Novo Lino" />
+	<city prioridade="2" uf="27" cityCode="2707305" cityName="Porto Calvo" />
+	<city prioridade="2" uf="27" cityCode="2708501" cityName="São Luís do Quitunde" />
+	<city prioridade="2" uf="27" cityCode="2703601" cityName="Japaratinga" />
+	<city prioridade="2" uf="27" cityCode="2704500" cityName="Maragogi" />
+	<city prioridade="2" uf="27" cityCode="2706505" cityName="Passo de Camaragibe" />
+	<city prioridade="2" uf="27" cityCode="2707404" cityName="Porto de Pedras" />
+	<city prioridade="2" uf="27" cityCode="2708709" cityName="São Miguel dos Milagres" />
+	<city prioridade="2" uf="27" cityCode="2700508" cityName="Barra de Santo Antônio" />
+	<city prioridade="2" uf="27" cityCode="2700607" cityName="Barra de São Miguel" />
+	<city prioridade="2" uf="27" cityCode="2702207" cityName="Coqueiro Seco" />
+	<city prioridade="2" uf="27" cityCode="2704302" cityName="Maceió" />
+	<city prioridade="2" uf="27" cityCode="2704708" cityName="Marechal Deodoro" />
+	<city prioridade="2" uf="27" cityCode="2706448" cityName="Paripueira" />
+	<city prioridade="2" uf="27" cityCode="2706901" cityName="Pilar" />
+	<city prioridade="2" uf="27" cityCode="2707701" cityName="Rio Largo" />
+	<city prioridade="2" uf="27" cityCode="2707909" cityName="Santa Luzia do Norte" />
+	<city prioridade="2" uf="27" cityCode="2708907" cityName="Satuba" />
+	<city prioridade="2" uf="27" cityCode="2700201" cityName="Anadia" />
+	<city prioridade="2" uf="27" cityCode="2701001" cityName="Boca da Mata" />
+	<city prioridade="2" uf="27" cityCode="2701407" cityName="Campo Alegre" />
+	<city prioridade="2" uf="27" cityCode="2702306" cityName="Coruripe" />
+	<city prioridade="2" uf="27" cityCode="2703759" cityName="Jequiá da Praia" />
+	<city prioridade="2" uf="27" cityCode="2704005" cityName="Junqueiro" />
+	<city prioridade="2" uf="27" cityCode="2707800" cityName="Roteiro" />
+	<city prioridade="2" uf="27" cityCode="2708600" cityName="São Miguel dos Campos" />
+	<city prioridade="2" uf="27" cityCode="2709152" cityName="Teotônio Vilela" />
+	<city prioridade="2" uf="27" cityCode="2702702" cityName="Feliz Deserto" />
+	<city prioridade="2" uf="27" cityCode="2703205" cityName="Igreja Nova" />
+	<city prioridade="2" uf="27" cityCode="2706703" cityName="Penedo" />
+	<city prioridade="2" uf="27" cityCode="2706802" cityName="Piaçabuçu" />
+	<city prioridade="2" uf="27" cityCode="2707503" cityName="Porto Real do Colégio" />
+</cities>

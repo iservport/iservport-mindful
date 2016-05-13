@@ -17,7 +17,7 @@
   <logger name="org.springframework.beans.factory.support.DefaultListableBeanFactory" level="OFF"/>
   <logger name="org.springframework.transaction" level="OFF"/>
   <logger name="org.springframework.orm" level="OFF"/>
-  <logger name="org.springframework.security" level="OFF"/>
+  <logger name="org.springframework.security" level="DEBUG"/>
   <logger name="org.springframework.validation" level="OFF"/>
   <logger name="org.springframework.web.servlet.config" level="OFF"/>
   <logger name="org.springframework.web" level="ON"/>
@@ -36,6 +36,8 @@
   <logger name="com.iservport.category" level="DEBUG"/>
   
   <logger name="com.iservport.mindful" level="DEBUG"/>
+
+   <logger name="com.zaxxer.hikari" level="DEBUG"/>
   
   <root level="INFO">          
     <appender-ref ref="STDOUT" />

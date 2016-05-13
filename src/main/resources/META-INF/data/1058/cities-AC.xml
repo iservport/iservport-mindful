@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="AC" >
+	<city prioridade="2" uf="12" cityCode="1200203" cityName="Cruzeiro do Sul"/>
+	<city prioridade="2" uf="12" cityCode="1200336" cityName="Mâncio Lima"/>
+	<city prioridade="2" uf="12" cityCode="1200351" cityName="Marechal Thaumaturgo"/>
+	<city prioridade="2" uf="12" cityCode="1200393" cityName="Porto Walter"/>
+	<city prioridade="2" uf="12" cityCode="1200427" cityName="Rodrigues Alves"/>
+	<city prioridade="2" uf="12" cityCode="1200302" cityName="Feijó"/>
+	<city prioridade="2" uf="12" cityCode="1200328" cityName="Jordão"/>
+	<city prioridade="2" uf="12" cityCode="1200609" cityName="Tarauacá"/>
+	<city prioridade="2" uf="12" cityCode="1200344" cityName="Manoel Urbano"/>
+	<city prioridade="2" uf="12" cityCode="1200435" cityName="Santa Rosa do Purus"/>
+	<city prioridade="2" uf="12" cityCode="1200500" cityName="Sena Madureira"/>
+	<city prioridade="2" uf="12" cityCode="1200013" cityName="Acrelândia"/>
+	<city prioridade="2" uf="12" cityCode="1200138" cityName="Bujari"/>
+	<city prioridade="2" uf="12" cityCode="1200179" cityName="Capixaba"/>
+	<city prioridade="2" uf="12" cityCode="1200385" cityName="Plácido de Castro"/>
+	<city prioridade="2" uf="12" cityCode="1200401" cityName="Rio Branco"/>
+	<city prioridade="2" uf="12" cityCode="1200450" cityName="Senador Guiomard"/>
+	<city prioridade="2" uf="12" cityCode="1200807" cityName="Porto Acre"/>
+	<city prioridade="2" uf="12" cityCode="1200054" cityName="Assis Brasil"/>
+	<city prioridade="2" uf="12" cityCode="1200104" cityName="Brasiléia"/>
+	<city prioridade="2" uf="12" cityCode="1200252" cityName="Epitaciolândia"/>
+	<city prioridade="2" uf="12" cityCode="1200708" cityName="Xapuri"/>
+</cities>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="TO">
+	<city prioridade="2" uf="17" cityCode="1700301" cityName="Aguiarnópolis" />
+	<city prioridade="2" uf="17" cityCode="1701002" cityName="Ananás" />
+	<city prioridade="2" uf="17" cityCode="1701051" cityName="Angico" />
+	<city prioridade="2" uf="17" cityCode="1702208" cityName="Araguatins" />
+	<city prioridade="2" uf="17" cityCode="1702554" cityName="Augustinópolis" />
+	<city prioridade="2" uf="17" cityCode="1702901" cityName="Axixá do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1703800" cityName="Buriti do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1703826" cityName="Cachoeirinha" />
+	<city prioridade="2" uf="17" cityCode="1703891" cityName="Carrasco Bonito" />
+	<city prioridade="2" uf="17" cityCode="1706506" cityName="Darcinópolis" />
+	<city prioridade="2" uf="17" cityCode="1707405" cityName="Esperantina" />
+	<city prioridade="2" uf="17" cityCode="1710706" cityName="Itaguatins" />
+	<city prioridade="2" uf="17" cityCode="1712454" cityName="Luzinópolis" />
+	<city prioridade="2" uf="17" cityCode="1712801" cityName="Maurilândia do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1713809" cityName="Palmeiras do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1714302" cityName="Nazaré" />
+	<city prioridade="2" uf="17" cityCode="1718303" cityName="Praia Norte" />
+	<city prioridade="2" uf="17" cityCode="1718550" cityName="Riachinho" />
+	<city prioridade="2" uf="17" cityCode="1718808" cityName="Sampaio" />
+	<city prioridade="2" uf="17" cityCode="1720002"
+		cityName="Santa Terezinha do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720101" cityName="São Bento do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720200" cityName="São Miguel do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720309" cityName="São Sebastião do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720804" cityName="Sítio Novo do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1721208" cityName="Tocantinópolis" />
+	<city prioridade="2" uf="17" cityCode="1701309" cityName="Aragominas" />
+	<city prioridade="2" uf="17" cityCode="1702109" cityName="Araguaína" />
+	<city prioridade="2" uf="17" cityCode="1702158" cityName="Araguanã" />
+	<city prioridade="2" uf="17" cityCode="1702307" cityName="Arapoema" />
+	<city prioridade="2" uf="17" cityCode="1703008" cityName="Babaçulândia" />
+	<city prioridade="2" uf="17" cityCode="1703057" cityName="Bandeirantes do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1703883" cityName="Carmolândia" />
+	<city prioridade="2" uf="17" cityCode="1705508" cityName="Colinas do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1707702" cityName="Filadélfia" />
+	<city prioridade="2" uf="17" cityCode="1713957" cityName="Muricilândia" />
+	<city prioridade="2" uf="17" cityCode="1714880" cityName="Nova Olinda" />
+	<city prioridade="2" uf="17" cityCode="1715705" cityName="Palmeirante" />
+	<city prioridade="2" uf="17" cityCode="1716307" cityName="Pau D'Arco" />
+	<city prioridade="2" uf="17" cityCode="1717206" cityName="Piraquê" />
+	<city prioridade="2" uf="17" cityCode="1718865" cityName="Santa Fé do Araguaia" />
+	<city prioridade="2" uf="17" cityCode="1722081" cityName="Wanderlândia" />
+	<city prioridade="2" uf="17" cityCode="1722107" cityName="Xambioá" />
+	<city prioridade="2" uf="17" cityCode="1700251" cityName="Abreulândia" />
+	<city prioridade="2" uf="17" cityCode="1701903" cityName="Araguacema" />
+	<city prioridade="2" uf="17" cityCode="1703107" cityName="Barrolândia" />
+	<city prioridade="2" uf="17" cityCode="1703206" cityName="Bernardo Sayão" />
+	<city prioridade="2" uf="17" cityCode="1703602" cityName="Brasilândia do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1703909" cityName="Caseara" />
+	<city prioridade="2" uf="17" cityCode="1706001" cityName="Couto de Magalhães" />
+	<city prioridade="2" uf="17" cityCode="1707108" cityName="Divinópolis do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1707207" cityName="Dois Irmãos do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1708254" cityName="Fortaleza do Tabocão" />
+	<city prioridade="2" uf="17" cityCode="1708304" cityName="Goianorte" />
+	<city prioridade="2" uf="17" cityCode="1709302" cityName="Guaraí" />
+	<city prioridade="2" uf="17" cityCode="1711100" cityName="Itaporã do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1711803" cityName="Juarina" />
+	<city prioridade="2" uf="17" cityCode="1712504" cityName="Marianópolis do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1713205" cityName="Miracema do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1713304" cityName="Miranorte" />
+	<city prioridade="2" uf="17" cityCode="1713700" cityName="Monte Santo do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1716653" cityName="Pequizeiro" />
+	<city prioridade="2" uf="17" cityCode="1716703" cityName="Colméia" />
+	<city prioridade="2" uf="17" cityCode="1718402" cityName="Presidente Kennedy" />
+	<city prioridade="2" uf="17" cityCode="1718709" cityName="Rio dos Bois" />
+	<city prioridade="2" uf="17" cityCode="1721257" cityName="Tupirama" />
+	<city prioridade="2" uf="17" cityCode="1721307" cityName="Tupiratins" />
+	<city prioridade="2" uf="17" cityCode="1702000" cityName="Araguaçu" />
+	<city prioridade="2" uf="17" cityCode="1704600" cityName="Chapada de Areia" />
+	<city prioridade="2" uf="17" cityCode="1706100" cityName="Cristalândia" />
+	<city prioridade="2" uf="17" cityCode="1707306" cityName="Dueré" />
+	<city prioridade="2" uf="17" cityCode="1707553" cityName="Fátima" />
+	<city prioridade="2" uf="17" cityCode="1708205" cityName="Formoso do Araguaia" />
+	<city prioridade="2" uf="17" cityCode="1711902" cityName="Lagoa da Confusão" />
+	<city prioridade="2" uf="17" cityCode="1715002" cityName="Nova Rosalândia" />
+	<city prioridade="2" uf="17" cityCode="1715507" cityName="Oliveira de Fátima" />
+	<city prioridade="2" uf="17" cityCode="1716109" cityName="Paraíso do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1717503" cityName="Pium" />
+	<city prioridade="2" uf="17" cityCode="1718451" cityName="Pugmil" />
+	<city prioridade="2" uf="17" cityCode="1718840" cityName="Sandolândia" />
+	<city prioridade="2" uf="17" cityCode="1700350" cityName="Aliança do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1700707" cityName="Alvorada" />
+	<city prioridade="2" uf="17" cityCode="1703701" cityName="Brejinho de Nazaré" />
+	<city prioridade="2" uf="17" cityCode="1703867" cityName="Cariri do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1706258" cityName="Crixás do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1707652" cityName="Figueirópolis" />
+	<city prioridade="2" uf="17" cityCode="1709500" cityName="Gurupi" />
+	<city prioridade="2" uf="17" cityCode="1711506" cityName="Jaú do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1715754" cityName="Palmeirópolis" />
+	<city prioridade="2" uf="17" cityCode="1716604" cityName="Peixe" />
+	<city prioridade="2" uf="17" cityCode="1718899" cityName="Santa Rita do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720259" cityName="São Salvador do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720853" cityName="Sucupira" />
+	<city prioridade="2" uf="17" cityCode="1720978" cityName="Talismã" />
+	<city prioridade="2" uf="17" cityCode="1701101" cityName="Aparecida do Rio Negro" />
+	<city prioridade="2" uf="17" cityCode="1703305" cityName="Bom Jesus do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1709807" cityName="Ipueiras" />
+	<city prioridade="2" uf="17" cityCode="1712009" cityName="Lajeado" />
+	<city prioridade="2" uf="17" cityCode="1713601" cityName="Monte do Carmo" />
+	<city prioridade="2" uf="17" cityCode="1716505" cityName="Pedro Afonso" />
+	<city prioridade="2" uf="17" cityCode="1718204" cityName="Porto Nacional" />
+	<city prioridade="2" uf="17" cityCode="1718881" cityName="Santa Maria do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720655" cityName="Silvanópolis" />
+	<city prioridade="2" uf="17" cityCode="1721000" cityName="Palmas" />
+	<city prioridade="2" uf="17" cityCode="1721109" cityName="Tocantínia" />
+	<city prioridade="2" uf="17" cityCode="1703073" cityName="Barra do Ouro" />
+	<city prioridade="2" uf="17" cityCode="1703842" cityName="Campos Lindos" />
+	<city prioridade="2" uf="17" cityCode="1704105" cityName="Centenário" />
+	<city prioridade="2" uf="17" cityCode="1709005" cityName="Goiatins" />
+	<city prioridade="2" uf="17" cityCode="1710508" cityName="Itacajá" />
+	<city prioridade="2" uf="17" cityCode="1710904" cityName="Itapiratins" />
+	<city prioridade="2" uf="17" cityCode="1711951" cityName="Lagoa do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1712405" cityName="Lizarda" />
+	<city prioridade="2" uf="17" cityCode="1712702" cityName="Mateiros" />
+	<city prioridade="2" uf="17" cityCode="1715101" cityName="Novo Acordo" />
+	<city prioridade="2" uf="17" cityCode="1717909" cityName="Ponte Alta do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1718501" cityName="Recursolândia" />
+	<city prioridade="2" uf="17" cityCode="1718758" cityName="Rio Sono" />
+	<city prioridade="2" uf="17" cityCode="1719004" cityName="Santa Tereza do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720150" cityName="São Félix do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1700400" cityName="Almas" />
+	<city prioridade="2" uf="17" cityCode="1702406" cityName="Arraias" />
+	<city prioridade="2" uf="17" cityCode="1702703" cityName="Aurora do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1705102" cityName="Chapada da Natividade" />
+	<city prioridade="2" uf="17" cityCode="1705557" cityName="Combinado" />
+	<city prioridade="2" uf="17" cityCode="1705607" cityName="Conceição do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1707009" cityName="Dianópolis" />
+	<city prioridade="2" uf="17" cityCode="1712157" cityName="Lavandeira" />
+	<city prioridade="2" uf="17" cityCode="1714203" cityName="Natividade" />
+	<city prioridade="2" uf="17" cityCode="1715150" cityName="Novo Alegre" />
+	<city prioridade="2" uf="17" cityCode="1715259" cityName="Novo Jardim" />
+	<city prioridade="2" uf="17" cityCode="1716208" cityName="Paranã" />
+	<city prioridade="2" uf="17" cityCode="1717008" cityName="Pindorama do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1717800" cityName="Ponte Alta do Bom Jesus" />
+	<city prioridade="2" uf="17" cityCode="1718006" cityName="Porto Alegre do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1718659" cityName="Rio da Conceição" />
+	<city prioridade="2" uf="17" cityCode="1718907" cityName="Santa Rosa do Tocantins" />
+	<city prioridade="2" uf="17" cityCode="1720499" cityName="São Valério da Natividade" />
+	<city prioridade="2" uf="17" cityCode="1720903" cityName="Taguatinga" />
+	<city prioridade="2" uf="17" cityCode="1720937" cityName="Taipas do Tocantins" />
+</cities>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="PI" >
+	<city prioridade="2" uf="22" cityCode="2201200" cityName="Barras" />
+	<city prioridade="2" uf="22" cityCode="2201507" cityName="Batalha" />
+	<city prioridade="2" uf="22" cityCode="2201770" cityName="Boa Hora" />
+	<city prioridade="2" uf="22" cityCode="2201960" cityName="Brasileira" />
+	<city prioridade="2" uf="22" cityCode="2202059" cityName="Cabeceiras do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202174" cityName="Campo Largo do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2203701" cityName="Esperantina" />
+	<city prioridade="2" uf="22" cityCode="2205409" cityName="Joaquim Pires" />
+	<city prioridade="2" uf="22" cityCode="2205458" cityName="Joca Marques" />
+	<city prioridade="2" uf="22" cityCode="2205805" cityName="Luzilândia" />
+	<city prioridade="2" uf="22" cityCode="2205854" cityName="Madeiro" />
+	<city prioridade="2" uf="22" cityCode="2206100" cityName="Matias Olímpio" />
+	<city prioridade="2" uf="22" cityCode="2206209" cityName="Miguel Alves" />
+	<city prioridade="2" uf="22" cityCode="2206670" cityName="Morro do Chapéu do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2206803" cityName="Nossa Senhora dos Remédios" />
+	<city prioridade="2" uf="22" cityCode="2208403" cityName="Piripiri" />
+	<city prioridade="2" uf="22" cityCode="2208502" cityName="Porto" />
+	<city prioridade="2" uf="22" cityCode="2209971" cityName="São João do Arraial" />
+	<city prioridade="2" uf="22" cityCode="2201919" cityName="Bom Princípio do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202000" cityName="Buriti dos Lopes" />
+	<city prioridade="2" uf="22" cityCode="2202083" cityName="Cajueiro da Praia" />
+	<city prioridade="2" uf="22" cityCode="2202539" cityName="Caraúbas do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202653" cityName="Caxingó" />
+	<city prioridade="2" uf="22" cityCode="2202703" cityName="Cocal" />
+	<city prioridade="2" uf="22" cityCode="2202729" cityName="Cocal dos Alves" />
+	<city prioridade="2" uf="22" cityCode="2204659" cityName="Ilha Grande" />
+	<city prioridade="2" uf="22" cityCode="2205706" cityName="Luís Correia" />
+	<city prioridade="2" uf="22" cityCode="2206696" cityName="Murici dos Portelas" />
+	<city prioridade="2" uf="22" cityCode="2207702" cityName="Parnaíba" />
+	<city prioridade="2" uf="22" cityCode="2208304" cityName="Piracuruca" />
+	<city prioridade="2" uf="22" cityCode="2209872" cityName="São João da Fronteira" />
+	<city prioridade="2" uf="22" cityCode="2210052" cityName="São José do Divino" />
+	<city prioridade="2" uf="22" cityCode="2200400" cityName="Altos" />
+	<city prioridade="2" uf="22" cityCode="2201606" cityName="Beneditinos" />
+	<city prioridade="2" uf="22" cityCode="2202737" cityName="Coivaras" />
+	<city prioridade="2" uf="22" cityCode="2203255" cityName="Curralinhos" />
+	<city prioridade="2" uf="22" cityCode="2203305" cityName="Demerval Lobão" />
+	<city prioridade="2" uf="22" cityCode="2205508" cityName="José de Freitas" />
+	<city prioridade="2" uf="22" cityCode="2205557" cityName="Lagoa Alegre" />
+	<city prioridade="2" uf="22" cityCode="2205581" cityName="Lagoa do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2206308" cityName="Miguel Leão" />
+	<city prioridade="2" uf="22" cityCode="2206407" cityName="Monsenhor Gil" />
+	<city prioridade="2" uf="22" cityCode="2207793" cityName="Pau D'Arco do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2211001" cityName="Teresina" />
+	<city prioridade="2" uf="22" cityCode="2211100" cityName="União" />
+	<city prioridade="2" uf="22" cityCode="2200301" cityName="Alto Longá" />
+	<city prioridade="2" uf="22" cityCode="2201051" cityName="Assunção do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201945" cityName="Boqueirão do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202026" cityName="Buriti dos Montes" />
+	<city prioridade="2" uf="22" cityCode="2202208" cityName="Campo Maior" />
+	<city prioridade="2" uf="22" cityCode="2202406" cityName="Capitão de Campos" />
+	<city prioridade="2" uf="22" cityCode="2202604" cityName="Castelo do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202711" cityName="Cocal de Telha" />
+	<city prioridade="2" uf="22" cityCode="2203420" cityName="Domingos Mourão" />
+	<city prioridade="2" uf="22" cityCode="2205276" cityName="Jatobá do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2205516" cityName="Juazeiro do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2205573" cityName="Lagoa de São Francisco" />
+	<city prioridade="2" uf="22" cityCode="2206357" cityName="Milton Brandão" />
+	<city prioridade="2" uf="22" cityCode="2206753" cityName="Nossa Senhora de Nazaré" />
+	<city prioridade="2" uf="22" cityCode="2206951" cityName="Novo Santo Antônio" />
+	<city prioridade="2" uf="22" cityCode="2207900" cityName="Pedro II" />
+	<city prioridade="2" uf="22" cityCode="2209906" cityName="São João da Serra" />
+	<city prioridade="2" uf="22" cityCode="2210409" cityName="São Miguel do Tapuio" />
+	<city prioridade="2" uf="22" cityCode="2210656" cityName="Sigefredo Pacheco" />
+	<city prioridade="2" uf="22" cityCode="2200103" cityName="Agricolândia" />
+	<city prioridade="2" uf="22" cityCode="2200202" cityName="Água Branca" />
+	<city prioridade="2" uf="22" cityCode="2200509" cityName="Amarante" />
+	<city prioridade="2" uf="22" cityCode="2200608" cityName="Angical do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201002" cityName="Arraial" />
+	<city prioridade="2" uf="22" cityCode="2201408" cityName="Barro Duro" />
+	<city prioridade="2" uf="22" cityCode="2204105" cityName="Francisco Ayres" />
+	<city prioridade="2" uf="22" cityCode="2204600" cityName="Hugo Napoleão" />
+	<city prioridade="2" uf="22" cityCode="2205250" cityName="Jardim do Mulato" />
+	<city prioridade="2" uf="22" cityCode="2205540" cityName="Lagoinha do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207108" cityName="Olho D'Água do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207504" cityName="Palmeirais" />
+	<city prioridade="2" uf="22" cityCode="2207751" cityName="Passagem Franca do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2208809" cityName="Regeneração" />
+	<city prioridade="2" uf="22" cityCode="2209450" cityName="Santo Antônio dos Milagres" />
+	<city prioridade="2" uf="22" cityCode="2209807" cityName="São Gonçalo do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210508" cityName="São Pedro do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2200905" cityName="Aroazes" />
+	<city prioridade="2" uf="22" cityCode="2201176" cityName="Barra D'Alcântara" />
+	<city prioridade="2" uf="22" cityCode="2203503" cityName="Elesbão Veloso" />
+	<city prioridade="2" uf="22" cityCode="2204006" cityName="Francinópolis" />
+	<city prioridade="2" uf="22" cityCode="2204709" cityName="Inhuma" />
+	<city prioridade="2" uf="22" cityCode="2205599" cityName="Lagoa do Sítio" />
+	<city prioridade="2" uf="22" cityCode="2206902" cityName="Novo Oriente do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2208106" cityName="Pimenteiras" />
+	<city prioridade="2" uf="22" cityCode="2208601" cityName="Prata do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209153" cityName="Santa Cruz dos Milagres" />
+	<city prioridade="2" uf="22" cityCode="2209609" cityName="São Félix do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210383" cityName="São Miguel da Baixa Grande" />
+	<city prioridade="2" uf="22" cityCode="2211308" cityName="Valença do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2211407" cityName="Várzea Grande" />
+	<city prioridade="2" uf="22" cityCode="2201150" cityName="Baixa Grande do Ribeiro" />
+	<city prioridade="2" uf="22" cityCode="2208908" cityName="Ribeiro Gonçalves" />
+	<city prioridade="2" uf="22" cityCode="2209203" cityName="Santa Filomena" />
+	<city prioridade="2" uf="22" cityCode="2211209" cityName="Uruçuí" />
+	<city prioridade="2" uf="22" cityCode="2200806" cityName="Antônio Almeida" />
+	<city prioridade="2" uf="22" cityCode="2201705" cityName="Bertolínia" />
+	<city prioridade="2" uf="22" cityCode="2202752" cityName="Colônia do Gurguéia" />
+	<city prioridade="2" uf="22" cityCode="2203602" cityName="Eliseu Martins" />
+	<city prioridade="2" uf="22" cityCode="2205607" cityName="Landri Sales" />
+	<city prioridade="2" uf="22" cityCode="2205904" cityName="Manoel Emídio" />
+	<city prioridade="2" uf="22" cityCode="2206001" cityName="Marcos Parente" />
+	<city prioridade="2" uf="22" cityCode="2208551" cityName="Porto Alegre do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210631" cityName="Sebastião Leal" />
+	<city prioridade="2" uf="22" cityCode="2202251" cityName="Canavieira" />
+	<city prioridade="2" uf="22" cityCode="2203800" cityName="Flores do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2203909" cityName="Floriano" />
+	<city prioridade="2" uf="22" cityCode="2204501" cityName="Guadalupe" />
+	<city prioridade="2" uf="22" cityCode="2205102" cityName="Itaueira" />
+	<city prioridade="2" uf="22" cityCode="2205300" cityName="Jerumenha" />
+	<city prioridade="2" uf="22" cityCode="2206704" cityName="Nazaré do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207850" cityName="Pavussu" />
+	<city prioridade="2" uf="22" cityCode="2209005" cityName="Rio Grande do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209708" cityName="São Francisco do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210102" cityName="São José do Peixe" />
+	<city prioridade="2" uf="22" cityCode="2210391" cityName="São Miguel do Fidalgo" />
+	<city prioridade="2" uf="22" cityCode="2200459" cityName="Alvorada do Gurguéia" />
+	<city prioridade="2" uf="22" cityCode="2201309" cityName="Barreiras do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201903" cityName="Bom Jesus" />
+	<city prioridade="2" uf="22" cityCode="2203107" cityName="Cristino Castro" />
+	<city prioridade="2" uf="22" cityCode="2203230" cityName="Currais" />
+	<city prioridade="2" uf="22" cityCode="2204402" cityName="Gilbués" />
+	<city prioridade="2" uf="22" cityCode="2206605" cityName="Monte Alegre do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207405" cityName="Palmeira do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2208700" cityName="Redenção do Gurguéia" />
+	<city prioridade="2" uf="22" cityCode="2209302" cityName="Santa Luz" />
+	<city prioridade="2" uf="22" cityCode="2209757" cityName="São Gonçalo do Gurguéia" />
+	<city prioridade="2" uf="22" cityCode="2200707" cityName="Anísio de Abreu" />
+	<city prioridade="2" uf="22" cityCode="2201929" cityName="Bonfim do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201988" cityName="Brejo do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202307" cityName="Canto do Buriti" />
+	<city prioridade="2" uf="22" cityCode="2202505" cityName="Caracol" />
+	<city prioridade="2" uf="22" cityCode="2202851" cityName="Coronel José Dias" />
+	<city prioridade="2" uf="22" cityCode="2203354" cityName="Dirceu Arcoverde" />
+	<city prioridade="2" uf="22" cityCode="2203453" cityName="Dom Inocêncio" />
+	<city prioridade="2" uf="22" cityCode="2203750" cityName="Fartura do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2204550" cityName="Guaribas" />
+	<city prioridade="2" uf="22" cityCode="2205532" cityName="Jurema" />
+	<city prioridade="2" uf="22" cityCode="2207355" cityName="Pajeú do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209559" cityName="São Braz do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210359" cityName="São Lourenço do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210607" cityName="São Raimundo Nonato" />
+	<city prioridade="2" uf="22" cityCode="2210953" cityName="Tamboril do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2211357" cityName="Várzea Branca" />
+	<city prioridade="2" uf="22" cityCode="2201101" cityName="Avelino Lopes" />
+	<city prioridade="2" uf="22" cityCode="2202901" cityName="Corrente" />
+	<city prioridade="2" uf="22" cityCode="2203008" cityName="Cristalândia do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2203206" cityName="Curimatá" />
+	<city prioridade="2" uf="22" cityCode="2205524" cityName="Júlio Borges" />
+	<city prioridade="2" uf="22" cityCode="2206654" cityName="Morro Cabeça no Tempo" />
+	<city prioridade="2" uf="22" cityCode="2207603" cityName="Parnaguá" />
+	<city prioridade="2" uf="22" cityCode="2208858" cityName="Riacho Frio" />
+	<city prioridade="2" uf="22" cityCode="2210623" cityName="Sebastião Barros" />
+	<city prioridade="2" uf="22" cityCode="2200954" cityName="Aroeiras do Itaim" />
+	<city prioridade="2" uf="22" cityCode="2201804" cityName="Bocaina" />
+	<city prioridade="2" uf="22" cityCode="2202075" cityName="Cajazeiras do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202778" cityName="Colônia do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2203404" cityName="Dom Expedito Lopes" />
+	<city prioridade="2" uf="22" cityCode="2204352" cityName="Geminiano" />
+	<city prioridade="2" uf="22" cityCode="2204808" cityName="Ipiranga do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207009" cityName="Oeiras" />
+	<city prioridade="2" uf="22" cityCode="2207553" cityName="Paquetá" />
+	<city prioridade="2" uf="22" cityCode="2208007" cityName="Picos" />
+	<city prioridade="2" uf="22" cityCode="2209104" cityName="Santa Cruz do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209351" cityName="Santana do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209377" cityName="Santa Rosa do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209856" cityName="São João da Canabrava" />
+	<city prioridade="2" uf="22" cityCode="2209955" cityName="São João da Varjota" />
+	<city prioridade="2" uf="22" cityCode="2210201" cityName="São José do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210375" cityName="São Luis do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210938" cityName="Sussuapara" />
+	<city prioridade="2" uf="22" cityCode="2210979" cityName="Tanque do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2211704" cityName="Wall Ferraz" />
+	<city prioridade="2" uf="22" cityCode="2200251" cityName="Alagoinha do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2200277" cityName="Alegrete do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2204204" cityName="Francisco Santos" />
+	<city prioridade="2" uf="22" cityCode="2206506" cityName="Monsenhor Hipólito" />
+	<city prioridade="2" uf="22" cityCode="2208205" cityName="Pio IX" />
+	<city prioridade="2" uf="22" cityCode="2209401" cityName="Santo Antônio de Lisboa" />
+	<city prioridade="2" uf="22" cityCode="2210300" cityName="São Julião" />
+	<city prioridade="2" uf="22" cityCode="2200053" cityName="Acauã" />
+	<city prioridade="2" uf="22" cityCode="2201556" cityName="Bela Vista do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201572" cityName="Belém do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2201739" cityName="Betânia do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202091" cityName="Caldeirão Grande do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202109" cityName="Campinas do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202117" cityName="Campo Alegre do Fidalgo" />
+	<city prioridade="2" uf="22" cityCode="2202133" cityName="Campo Grande do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202455" cityName="Capitão Gervásio Oliveira" />
+	<city prioridade="2" uf="22" cityCode="2202554" cityName="Caridade do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2202802" cityName="Conceição do Canindé" />
+	<city prioridade="2" uf="22" cityCode="2203271" cityName="Curral Novo do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2203859" cityName="Floresta do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2204154" cityName="Francisco Macedo" />
+	<city prioridade="2" uf="22" cityCode="2204303" cityName="Fronteiras" />
+	<city prioridade="2" uf="22" cityCode="2204907" cityName="Isaías Coelho" />
+	<city prioridade="2" uf="22" cityCode="2205003" cityName="Itainópolis" />
+	<city prioridade="2" uf="22" cityCode="2205151" cityName="Jacobina do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2205201" cityName="Jaicós" />
+	<city prioridade="2" uf="22" cityCode="2205359" cityName="João Costa" />
+	<city prioridade="2" uf="22" cityCode="2205565" cityName="Lagoa do Barro do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2205953" cityName="Marcolândia" />
+	<city prioridade="2" uf="22" cityCode="2206050" cityName="Massapê do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207207" cityName="Padre Marcos" />
+	<city prioridade="2" uf="22" cityCode="2207306" cityName="Paes Landim" />
+	<city prioridade="2" uf="22" cityCode="2207777" cityName="Patos do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2207801" cityName="Paulistana" />
+	<city prioridade="2" uf="22" cityCode="2207934" cityName="Pedro Laurentino" />
+	<city prioridade="2" uf="22" cityCode="2207959" cityName="Nova Santa Rita" />
+	<city prioridade="2" uf="22" cityCode="2208650" cityName="Queimada Nova" />
+	<city prioridade="2" uf="22" cityCode="2208874" cityName="Ribeira do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209500" cityName="Santo Inácio do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2209658"
+		cityName="São Francisco de Assis do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210003" cityName="São João do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2210706" cityName="Simões" />
+	<city prioridade="2" uf="22" cityCode="2210805" cityName="Simplício Mendes" />
+	<city prioridade="2" uf="22" cityCode="2210904" cityName="Socorro do Piauí" />
+	<city prioridade="2" uf="22" cityCode="2211506" cityName="Vera Mendes" />
+	<city prioridade="2" uf="22" cityCode="2211605" cityName="Vila Nova do Piauí" />
+</cities>

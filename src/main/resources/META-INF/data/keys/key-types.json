@@ -1,0 +1,11 @@
+[
+	  {"keyCode":"CNPJ","keyGroup":"E", "keyName":"CNPJ","purpose":"Cadastro Nacional da pessoas Jurídicas","synonyms":"CNPJ", "contextId":1}
+	, {"keyCode":"CPF","keyGroup":"I", "keyName":"CPF","purpose":"Cadastro Nacional de Pessoas Físicas","synonyms":"CPF"}
+	, {"keyCode":"PIS","keyGroup":"I", "keyName":"PIS","purpose":" Programa de Integração Social","synonyms":"PASEP"}
+	, {"keyCode":"RG","keyGroup":"I", "keyName":"RG","purpose":"Registro Geral","synonyms":"R.G"}
+	, {"keyCode":"CRM","keyGroup":"I", "keyName":"CRM","purpose":"Inscrição no Conselho Regional de Medicina","synonyms":"CRM"}
+	
+]
+
+
+ 

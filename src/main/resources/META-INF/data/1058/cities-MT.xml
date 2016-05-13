@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="MT" >
+	<city prioridade="2" uf="51" cityCode="5101407" cityName="Aripuanã"/>
+	<city prioridade="2" uf="51" cityCode="5101902" cityName="Brasnorte"/>
+	<city prioridade="2" uf="51" cityCode="5102850" cityName="Castanheira"/>
+	<city prioridade="2" uf="51" cityCode="5103254" cityName="Colniza"/>
+	<city prioridade="2" uf="51" cityCode="5103379" cityName="Cotriguaçu"/>
+	<city prioridade="2" uf="51" cityCode="5105150" cityName="Juína"/>
+	<city prioridade="2" uf="51" cityCode="5105176" cityName="Juruena"/>
+	<city prioridade="2" uf="51" cityCode="5107578" cityName="Rondolândia"/>
+	<city prioridade="2" uf="51" cityCode="5100250" cityName="Alta Floresta"/>
+	<city prioridade="2" uf="51" cityCode="5100805" cityName="Apiacás"/>
+	<city prioridade="2" uf="51" cityCode="5102793" cityName="Carlinda"/>
+	<city prioridade="2" uf="51" cityCode="5106158" cityName="Nova Bandeirantes"/>
+	<city prioridade="2" uf="51" cityCode="5106299" cityName="Paranaíta"/>
+	<city prioridade="2" uf="51" cityCode="5108956" cityName="Nova Monte Verde"/>
+	<city prioridade="2" uf="51" cityCode="5103205" cityName="Colíder"/>
+	<city prioridade="2" uf="51" cityCode="5104104" cityName="Guarantã do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5105606" cityName="Matupá"/>
+	<city prioridade="2" uf="51" cityCode="5106216" cityName="Nova Canaã do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5106265" cityName="Novo Mundo"/>
+	<city prioridade="2" uf="51" cityCode="5106422" cityName="Peixoto de Azevedo"/>
+	<city prioridade="2" uf="51" cityCode="5108055" cityName="Terra Nova do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5108808" cityName="Nova Guarita"/>
+	<city prioridade="2" uf="51" cityCode="5102637" cityName="Campo Novo do Parecis"/>
+	<city prioridade="2" uf="51" cityCode="5102686" cityName="Campos de Júlio"/>
+	<city prioridade="2" uf="51" cityCode="5103304" cityName="Comodoro"/>
+	<city prioridade="2" uf="51" cityCode="5103502" cityName="Diamantino"/>
+	<city prioridade="2" uf="51" cityCode="5107875" cityName="Sapezal"/>
+	<city prioridade="2" uf="51" cityCode="5105101" cityName="Juara"/>
+	<city prioridade="2" uf="51" cityCode="5106273" cityName="Novo Horizonte do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5106802" cityName="Porto dos Gaúchos"/>
+	<city prioridade="2" uf="51" cityCode="5107305" cityName="São José do Rio Claro"/>
+	<city prioridade="2" uf="51" cityCode="5107941" cityName="Tabaporã"/>
+	<city prioridade="2" uf="51" cityCode="5108907" cityName="Nova Maringá"/>
+	<city prioridade="2" uf="51" cityCode="5104526" cityName="Ipiranga do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5104542" cityName="Itanhangá"/>
+	<city prioridade="2" uf="51" cityCode="5105259" cityName="Lucas do Rio Verde"/>
+	<city prioridade="2" uf="51" cityCode="5105903" cityName="Nobres"/>
+	<city prioridade="2" uf="51" cityCode="5106224" cityName="Nova Mutum"/>
+	<city prioridade="2" uf="51" cityCode="5106240" cityName="Nova Ubiratã"/>
+	<city prioridade="2" uf="51" cityCode="5107768" cityName="Santa Rita do Trivelato"/>
+	<city prioridade="2" uf="51" cityCode="5107925" cityName="Sorriso"/>
+	<city prioridade="2" uf="51" cityCode="5108006" cityName="Tapurah"/>
+	<city prioridade="2" uf="51" cityCode="5103056" cityName="Cláudia"/>
+	<city prioridade="2" uf="51" cityCode="5103700" cityName="Feliz Natal"/>
+	<city prioridade="2" uf="51" cityCode="5104559" cityName="Itaúba"/>
+	<city prioridade="2" uf="51" cityCode="5105580" cityName="Marcelândia"/>
+	<city prioridade="2" uf="51" cityCode="5106190" cityName="Nova Santa Helena"/>
+	<city prioridade="2" uf="51" cityCode="5107248" cityName="Santa Carmem"/>
+	<city prioridade="2" uf="51" cityCode="5107909" cityName="Sinop"/>
+	<city prioridade="2" uf="51" cityCode="5108303" cityName="União do Sul"/>
+	<city prioridade="2" uf="51" cityCode="5108501" cityName="Vera"/>
+	<city prioridade="2" uf="51" cityCode="5103858" cityName="Gaúcha do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5106208" cityName="Nova Brasilândia"/>
+	<city prioridade="2" uf="51" cityCode="5106307" cityName="Paranatinga"/>
+	<city prioridade="2" uf="51" cityCode="5106455" cityName="Planalto da Serra"/>
+	<city prioridade="2" uf="51" cityCode="5100359" cityName="Alto Boa Vista"/>
+	<city prioridade="2" uf="51" cityCode="5101852" cityName="Bom Jesus do Araguaia"/>
+	<city prioridade="2" uf="51" cityCode="5102694" cityName="Canabrava do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5103353" cityName="Confresa"/>
+	<city prioridade="2" uf="51" cityCode="5105309" cityName="Luciára"/>
+	<city prioridade="2" uf="51" cityCode="5106315" cityName="Novo Santo Antônio"/>
+	<city prioridade="2" uf="51" cityCode="5106778" cityName="Porto Alegre do Norte"/>
+	<city prioridade="2" uf="51" cityCode="5107180" cityName="Ribeirão Cascalheira"/>
+	<city prioridade="2" uf="51" cityCode="5107354" cityName="São José do Xingu"/>
+	<city prioridade="2" uf="51" cityCode="5107743" cityName="Santa Cruz do Xingu"/>
+	<city prioridade="2" uf="51" cityCode="5107776" cityName="Santa Terezinha"/>
+	<city prioridade="2" uf="51" cityCode="5107859" cityName="São Félix do Araguaia"/>
+	<city prioridade="2" uf="51" cityCode="5107883" cityName="Serra Nova Dourada"/>
+	<city prioridade="2" uf="51" cityCode="5108600" cityName="Vila Rica"/>
+	<city prioridade="2" uf="51" cityCode="5100201" cityName="Água Boa"/>
+	<city prioridade="2" uf="51" cityCode="5102603" cityName="Campinápolis"/>
+	<city prioridade="2" uf="51" cityCode="5102702" cityName="Canarana"/>
+	<city prioridade="2" uf="51" cityCode="5106174" cityName="Nova Nazaré"/>
+	<city prioridade="2" uf="51" cityCode="5106257" cityName="Nova Xavantina"/>
+	<city prioridade="2" uf="51" cityCode="5106281" cityName="Novo São Joaquim"/>
+	<city prioridade="2" uf="51" cityCode="5107065" cityName="Querência"/>
+	<city prioridade="2" uf="51" cityCode="5107792" cityName="Santo Antônio do Leste"/>
+	<city prioridade="2" uf="51" cityCode="5101001" cityName="Araguaiana"/>
+	<city prioridade="2" uf="51" cityCode="5101803" cityName="Barra do Garças"/>
+	<city prioridade="2" uf="51" cityCode="5103106" cityName="Cocalinho"/>
+	<city prioridade="2" uf="51" cityCode="5103361" cityName="Conquista D'Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5105507" cityName="Vila Bela da Santíssima Trindade"/>
+	<city prioridade="2" uf="51" cityCode="5106182" cityName="Nova Lacerda"/>
+	<city prioridade="2" uf="51" cityCode="5106752" cityName="Pontes e Lacerda"/>
+	<city prioridade="2" uf="51" cityCode="5108352" cityName="Vale de São Domingos"/>
+	<city prioridade="2" uf="51" cityCode="5101704" cityName="Barra do Bugres"/>
+	<city prioridade="2" uf="51" cityCode="5103452" cityName="Denise"/>
+	<city prioridade="2" uf="51" cityCode="5106232" cityName="Nova Olímpia"/>
+	<city prioridade="2" uf="51" cityCode="5106851" cityName="Porto Estrela"/>
+	<city prioridade="2" uf="51" cityCode="5107958" cityName="Tangará da Serra"/>
+	<city prioridade="2" uf="51" cityCode="5101258" cityName="Araputanga"/>
+	<city prioridade="2" uf="51" cityCode="5103809" cityName="Figueirópolis D'Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5103957" cityName="Glória D'Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5104500" cityName="Indiavaí"/>
+	<city prioridade="2" uf="51" cityCode="5105002" cityName="Jauru"/>
+	<city prioridade="2" uf="51" cityCode="5105234" cityName="Lambari D'Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5105622" cityName="Mirassol d'Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5106828" cityName="Porto Esperidião"/>
+	<city prioridade="2" uf="51" cityCode="5107107" cityName="São José dos Quatro Marcos"/>
+	<city prioridade="2" uf="51" cityCode="5107156" cityName="Reserva do Cabaçal"/>
+	<city prioridade="2" uf="51" cityCode="5107206" cityName="Rio Branco"/>
+	<city prioridade="2" uf="51" cityCode="5107750" cityName="Salto do Céu"/>
+	<city prioridade="2" uf="51" cityCode="5100508" cityName="Alto Paraguai"/>
+	<city prioridade="2" uf="51" cityCode="5101308" cityName="Arenápolis"/>
+	<city prioridade="2" uf="51" cityCode="5106000" cityName="Nortelândia"/>
+	<city prioridade="2" uf="51" cityCode="5107263" cityName="Santo Afonso"/>
+	<city prioridade="2" uf="51" cityCode="5108857" cityName="Nova Marilândia"/>
+	<city prioridade="2" uf="51" cityCode="5100102" cityName="Acorizal"/>
+	<city prioridade="2" uf="51" cityCode="5104906" cityName="Jangada"/>
+	<city prioridade="2" uf="51" cityCode="5107701" cityName="Rosário Oeste"/>
+	<city prioridade="2" uf="51" cityCode="5103007" cityName="Chapada dos Guimarães"/>
+	<city prioridade="2" uf="51" cityCode="5103403" cityName="Cuiabá"/>
+	<city prioridade="2" uf="51" cityCode="5106109" cityName="Nossa Senhora do Livramento"/>
+	<city prioridade="2" uf="51" cityCode="5107800" cityName="Santo Antônio do Leverger"/>
+	<city prioridade="2" uf="51" cityCode="5108402" cityName="Várzea Grande"/>
+	<city prioridade="2" uf="51" cityCode="5101605" cityName="Barão de Melgaço"/>
+	<city prioridade="2" uf="51" cityCode="5102504" cityName="Cáceres"/>
+	<city prioridade="2" uf="51" cityCode="5103437" cityName="Curvelândia"/>
+	<city prioridade="2" uf="51" cityCode="5106505" cityName="Poconé"/>
+	<city prioridade="2" uf="51" cityCode="5102678" cityName="Campo Verde"/>
+	<city prioridade="2" uf="51" cityCode="5107040" cityName="Primavera do Leste"/>
+	<city prioridade="2" uf="51" cityCode="5101209" cityName="Araguainha"/>
+	<city prioridade="2" uf="51" cityCode="5103908" cityName="General Carneiro"/>
+	<city prioridade="2" uf="51" cityCode="5104203" cityName="Guiratinga"/>
+	<city prioridade="2" uf="51" cityCode="5106653" cityName="Pontal do Araguaia"/>
+	<city prioridade="2" uf="51" cityCode="5106703" cityName="Ponte Branca"/>
+	<city prioridade="2" uf="51" cityCode="5107008" cityName="Poxoréo"/>
+	<city prioridade="2" uf="51" cityCode="5107198" cityName="Ribeirãozinho"/>
+	<city prioridade="2" uf="51" cityCode="5108105" cityName="Tesouro"/>
+	<city prioridade="2" uf="51" cityCode="5108204" cityName="Torixoréu"/>
+	<city prioridade="2" uf="51" cityCode="5103601" cityName="Dom Aquino"/>
+	<city prioridade="2" uf="51" cityCode="5104609" cityName="Itiquira"/>
+	<city prioridade="2" uf="51" cityCode="5104807" cityName="Jaciara"/>
+	<city prioridade="2" uf="51" cityCode="5105200" cityName="Juscimeira"/>
+	<city prioridade="2" uf="51" cityCode="5106372" cityName="Pedra Preta"/>
+	<city prioridade="2" uf="51" cityCode="5107297" cityName="São José do Povo"/>
+	<city prioridade="2" uf="51" cityCode="5107404" cityName="São Pedro da Cipa"/>
+	<city prioridade="2" uf="51" cityCode="5107602" cityName="Rondonópolis"/>
+	<city prioridade="2" uf="51" cityCode="5100300" cityName="Alto Araguaia"/>
+	<city prioridade="2" uf="51" cityCode="5100409" cityName="Alto Garças"/>
+	<city prioridade="2" uf="51" cityCode="5100607" cityName="Alto Taquari"/>
+</cities>

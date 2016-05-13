@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="PA" >
+	<city prioridade="2" uf="15" cityCode="1503002" cityName="Faro" />
+	<city prioridade="2" uf="15" cityCode="1503903" cityName="Juruti" />
+	<city prioridade="2" uf="15" cityCode="1505106" cityName="Óbidos" />
+	<city prioridade="2" uf="15" cityCode="1505304" cityName="Oriximiná" />
+	<city prioridade="2" uf="15" cityCode="1507979" cityName="Terra Santa" />
+	<city prioridade="2" uf="15" cityCode="1500404" cityName="Alenquer" />
+	<city prioridade="2" uf="15" cityCode="1501451" cityName="Belterra" />
+	<city prioridade="2" uf="15" cityCode="1502855" cityName="Curuá" />
+	<city prioridade="2" uf="15" cityCode="1504802" cityName="Monte Alegre" />
+	<city prioridade="2" uf="15" cityCode="1505650" cityName="Placas" />
+	<city prioridade="2" uf="15" cityCode="1506005" cityName="Prainha" />
+	<city prioridade="2" uf="15" cityCode="1506807" cityName="Santarém" />
+	<city prioridade="2" uf="15" cityCode="1500503" cityName="Almeirim" />
+	<city prioridade="2" uf="15" cityCode="1505908" cityName="Porto de Moz" />
+	<city prioridade="2" uf="15" cityCode="1501105" cityName="Bagre" />
+	<city prioridade="2" uf="15" cityCode="1503101" cityName="Gurupá" />
+	<city prioridade="2" uf="15" cityCode="1504505" cityName="Melgaço" />
+	<city prioridade="2" uf="15" cityCode="1505809" cityName="Portel" />
+	<city prioridade="2" uf="15" cityCode="1500305" cityName="Afuá" />
+	<city prioridade="2" uf="15" cityCode="1500701" cityName="Anajás" />
+	<city prioridade="2" uf="15" cityCode="1501808" cityName="Breves" />
+	<city prioridade="2" uf="15" cityCode="1502806" cityName="Curralinho" />
+	<city prioridade="2" uf="15" cityCode="1507706" cityName="São Sebastião da Boa Vista" />
+	<city prioridade="2" uf="15" cityCode="1502004" cityName="Cachoeira do Arari" />
+	<city prioridade="2" uf="15" cityCode="1502509" cityName="Chaves" />
+	<city prioridade="2" uf="15" cityCode="1504901" cityName="Muaná" />
+	<city prioridade="2" uf="15" cityCode="1505700" cityName="Ponta de Pedras" />
+	<city prioridade="2" uf="15" cityCode="1506302" cityName="Salvaterra" />
+	<city prioridade="2" uf="15" cityCode="1506401" cityName="Santa Cruz do Arari" />
+	<city prioridade="2" uf="15" cityCode="1507904" cityName="Soure" />
+	<city prioridade="2" uf="15" cityCode="1500800" cityName="Ananindeua" />
+	<city prioridade="2" uf="15" cityCode="1501303" cityName="Barcarena" />
+	<city prioridade="2" uf="15" cityCode="1501402" cityName="Belém" />
+	<city prioridade="2" uf="15" cityCode="1501501" cityName="Benevides" />
+	<city prioridade="2" uf="15" cityCode="1504422" cityName="Marituba" />
+	<city prioridade="2" uf="15" cityCode="1506351" cityName="Santa Bárbara do Pará" />
+	<city prioridade="2" uf="15" cityCode="1501907" cityName="Bujaru" />
+	<city prioridade="2" uf="15" cityCode="1502400" cityName="Castanhal" />
+	<city prioridade="2" uf="15" cityCode="1503408" cityName="Inhangapi" />
+	<city prioridade="2" uf="15" cityCode="1506500" cityName="Santa Isabel do Pará" />
+	<city prioridade="2" uf="15" cityCode="1507003" cityName="Santo Antônio do Tauá" />
+	<city prioridade="2" uf="15" cityCode="1502608" cityName="Colares" />
+	<city prioridade="2" uf="15" cityCode="1502905" cityName="Curuçá" />
+	<city prioridade="2" uf="15" cityCode="1504109" cityName="Magalhães Barata" />
+	<city prioridade="2" uf="15" cityCode="1504307" cityName="Maracanã" />
+	<city prioridade="2" uf="15" cityCode="1504406" cityName="Marapanim" />
+	<city prioridade="2" uf="15" cityCode="1506203" cityName="Salinópolis" />
+	<city prioridade="2" uf="15" cityCode="1507102" cityName="São Caetano de Odivelas" />
+	<city prioridade="2" uf="15" cityCode="1507466" cityName="São João da Ponta" />
+	<city prioridade="2" uf="15" cityCode="1507474" cityName="São João de Pirabas" />
+	<city prioridade="2" uf="15" cityCode="1507961" cityName="Terra Alta" />
+	<city prioridade="2" uf="15" cityCode="1508209" cityName="Vigia" />
+	<city prioridade="2" uf="15" cityCode="1500909" cityName="Augusto Corrêa" />
+	<city prioridade="2" uf="15" cityCode="1501600" cityName="Bonito" />
+	<city prioridade="2" uf="15" cityCode="1501709" cityName="Bragança" />
+	<city prioridade="2" uf="15" cityCode="1502202" cityName="Capanema" />
+	<city prioridade="2" uf="15" cityCode="1503200" cityName="Igarapé-Açu" />
+	<city prioridade="2" uf="15" cityCode="1505007" cityName="Nova Timboteua" />
+	<city prioridade="2" uf="15" cityCode="1505601" cityName="Peixe-Boi" />
+	<city prioridade="2" uf="15" cityCode="1506104" cityName="Primavera" />
+	<city prioridade="2" uf="15" cityCode="1506112" cityName="Quatipuru" />
+	<city prioridade="2" uf="15" cityCode="1506609" cityName="Santa Maria do Pará" />
+	<city prioridade="2" uf="15" cityCode="1506906" cityName="Santarém Novo" />
+	<city prioridade="2" uf="15" cityCode="1507409" cityName="São Francisco do Pará" />
+	<city prioridade="2" uf="15" cityCode="1508035" cityName="Tracuateua" />
+	<city prioridade="2" uf="15" cityCode="1500107" cityName="Abaetetuba" />
+	<city prioridade="2" uf="15" cityCode="1501204" cityName="Baião" />
+	<city prioridade="2" uf="15" cityCode="1502103" cityName="Cametá" />
+	<city prioridade="2" uf="15" cityCode="1503309" cityName="Igarapé-Miri" />
+	<city prioridade="2" uf="15" cityCode="1504000" cityName="Limoeiro do Ajuru" />
+	<city prioridade="2" uf="15" cityCode="1504604" cityName="Mocajuba" />
+	<city prioridade="2" uf="15" cityCode="1505205" cityName="Oeiras do Pará" />
+	<city prioridade="2" uf="15" cityCode="1500206" cityName="Acará" />
+	<city prioridade="2" uf="15" cityCode="1502756" cityName="Concórdia do Pará" />
+	<city prioridade="2" uf="15" cityCode="1504703" cityName="Moju" />
+	<city prioridade="2" uf="15" cityCode="1507953" cityName="Tailândia" />
+	<city prioridade="2" uf="15" cityCode="1508001" cityName="Tomé-Açu" />
+	<city prioridade="2" uf="15" cityCode="1500958" cityName="Aurora do Pará" />
+	<city prioridade="2" uf="15" cityCode="1501956" cityName="Cachoeira do Piriá" />
+	<city prioridade="2" uf="15" cityCode="1502301" cityName="Capitão Poço" />
+	<city prioridade="2" uf="15" cityCode="1503077" cityName="Garrafão do Norte" />
+	<city prioridade="2" uf="15" cityCode="1503457" cityName="Ipixuna do Pará" />
+	<city prioridade="2" uf="15" cityCode="1503507" cityName="Irituia" />
+	<city prioridade="2" uf="15" cityCode="1504059" cityName="Mãe do Rio" />
+	<city prioridade="2" uf="15" cityCode="1504950" cityName="Nova Esperança do Piriá" />
+	<city prioridade="2" uf="15" cityCode="1505403" cityName="Ourém" />
+	<city prioridade="2" uf="15" cityCode="1506559" cityName="Santa Luzia do Pará" />
+	<city prioridade="2" uf="15" cityCode="1507201" cityName="São Domingos do Capim" />
+	<city prioridade="2" uf="15" cityCode="1507607" cityName="São Miguel do Guamá" />
+	<city prioridade="2" uf="15" cityCode="1508308" cityName="Viseu" />
+	<city prioridade="2" uf="15" cityCode="1501006" cityName="Aveiro" />
+	<city prioridade="2" uf="15" cityCode="1503606" cityName="Itaituba" />
+	<city prioridade="2" uf="15" cityCode="1503754" cityName="Jacareacanga" />
+	<city prioridade="2" uf="15" cityCode="1505031" cityName="Novo Progresso" />
+	<city prioridade="2" uf="15" cityCode="1506195" cityName="Rurópolis" />
+	<city prioridade="2" uf="15" cityCode="1508050" cityName="Trairão" />
+	<city prioridade="2" uf="15" cityCode="1500602" cityName="Altamira" />
+	<city prioridade="2" uf="15" cityCode="1500859" cityName="Anapu" />
+	<city prioridade="2" uf="15" cityCode="1501725" cityName="Brasil Novo" />
+	<city prioridade="2" uf="15" cityCode="1504455" cityName="Medicilândia" />
+	<city prioridade="2" uf="15" cityCode="1505486" cityName="Pacajá" />
+	<city prioridade="2" uf="15" cityCode="1507805" cityName="Senador José Porfírio" />
+	<city prioridade="2" uf="15" cityCode="1508159" cityName="Uruará" />
+	<city prioridade="2" uf="15" cityCode="1508357" cityName="Vitória do Xingu" />
+	<city prioridade="2" uf="15" cityCode="1501782" cityName="Breu Branco" />
+	<city prioridade="2" uf="15" cityCode="1503705" cityName="Itupiranga" />
+	<city prioridade="2" uf="15" cityCode="1503804" cityName="Jacundá" />
+	<city prioridade="2" uf="15" cityCode="1504976" cityName="Nova Ipixuna" />
+	<city prioridade="2" uf="15" cityCode="1505064" cityName="Novo Repartimento" />
+	<city prioridade="2" uf="15" cityCode="1508100" cityName="Tucuruí" />
+	<city prioridade="2" uf="15" cityCode="1500131" cityName="Abel Figueiredo" />
+	<city prioridade="2" uf="15" cityCode="1501576" cityName="Bom Jesus do Tocantins" />
+	<city prioridade="2" uf="15" cityCode="1502939" cityName="Dom Eliseu" />
+	<city prioridade="2" uf="15" cityCode="1503093" cityName="Goianésia do Pará" />
+	<city prioridade="2" uf="15" cityCode="1505502" cityName="Paragominas" />
+	<city prioridade="2" uf="15" cityCode="1506187" cityName="Rondon do Pará" />
+	<city prioridade="2" uf="15" cityCode="1508126" cityName="Ulianópolis" />
+	<city prioridade="2" uf="15" cityCode="1501253" cityName="Bannach" />
+	<city prioridade="2" uf="15" cityCode="1502764" cityName="Cumaru do Norte" />
+	<city prioridade="2" uf="15" cityCode="1505437" cityName="Ourilândia do Norte" />
+	<city prioridade="2" uf="15" cityCode="1507300" cityName="São Félix do Xingu" />
+	<city prioridade="2" uf="15" cityCode="1508084" cityName="Tucumã" />
+	<city prioridade="2" uf="15" cityCode="1500347" cityName="Água Azul do Norte" />
+	<city prioridade="2" uf="15" cityCode="1502152" cityName="Canaã dos Carajás" />
+	<city prioridade="2" uf="15" cityCode="1502772" cityName="Curionópolis" />
+	<city prioridade="2" uf="15" cityCode="1502954" cityName="Eldorado dos Carajás" />
+	<city prioridade="2" uf="15" cityCode="1505536" cityName="Parauapebas" />
+	<city prioridade="2" uf="15" cityCode="1501758" cityName="Brejo Grande do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1504208" cityName="Marabá" />
+	<city prioridade="2" uf="15" cityCode="1505494" cityName="Palestina do Pará" />
+	<city prioridade="2" uf="15" cityCode="1507151" cityName="São Domingos do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1507508" cityName="São João do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1505551" cityName="Pau D'Arco" />
+	<city prioridade="2" uf="15" cityCode="1505635" cityName="Piçarra" />
+	<city prioridade="2" uf="15" cityCode="1506138" cityName="Redenção" />
+	<city prioridade="2" uf="15" cityCode="1506161" cityName="Rio Maria" />
+	<city prioridade="2" uf="15" cityCode="1507458" cityName="São Geraldo do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1507755" cityName="Sapucaia" />
+	<city prioridade="2" uf="15" cityCode="1508407" cityName="Xinguara" />
+	<city prioridade="2" uf="15" cityCode="1502707" cityName="Conceição do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1503044" cityName="Floresta do Araguaia" />
+	<city prioridade="2" uf="15" cityCode="1506583" cityName="Santa Maria das Barreiras" />
+	<city prioridade="2" uf="15" cityCode="1506708" cityName="Santana do Araguaia" />
+</cities>

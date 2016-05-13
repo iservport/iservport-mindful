@@ -1,11 +1,11 @@
 package com.iservport.mindful.repository;
 
-import java.util.List;
-
 import org.helianto.core.domain.Entity;
 import org.helianto.core.internal.SimpleCounter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
 
 
 /**

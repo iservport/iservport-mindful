@@ -95,9 +95,9 @@ public class MultiHttpSecurityConfig
 	public static class ExternalWebSecurityConfigurationAdapter extends WebSecurityConfigurerAdapter {
 		protected void configure(HttpSecurity http) throws Exception {
 			http
-                .antMatcher("/external/**")
+                .antMatcher("/external/**").antMatcher("/h2-console/**")
                 .authorizeRequests()
-                .anyRequest().permitAll().and().csrf().disable();
+                .anyRequest().permitAll().and().csrf().disable().headers().frameOptions().disable();
 		}
 	}
 
@@ -112,8 +112,9 @@ public class MultiHttpSecurityConfig
 		protected void configure(HttpSecurity http) throws Exception {
 			http
 					.antMatcher("/error/**")
+                    .antMatcher("/h2-console/**")
 					.authorizeRequests()
-					.anyRequest().permitAll().and().csrf().disable();
+					.anyRequest().permitAll().and().csrf().disable().headers().frameOptions().disable();
 		}
 	}
 

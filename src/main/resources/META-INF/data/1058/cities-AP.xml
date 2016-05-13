@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="AP" >
+	<city prioridade="2" uf="16" cityCode="1600204" cityName="Calçoene" />
+	<city prioridade="2" uf="16" cityCode="1600501" cityName="Oiapoque" />
+	<city prioridade="2" uf="16" cityCode="1600105" cityName="Amapá" />
+	<city prioridade="2" uf="16" cityCode="1600550" cityName="Pracuúba" />
+	<city prioridade="2" uf="16" cityCode="1600709" cityName="Tartarugalzinho" />
+	<city prioridade="2" uf="16" cityCode="1600055" cityName="Serra do Navio" />
+	<city prioridade="2" uf="16" cityCode="1600154" cityName="Pedra Branca do Amapari" />
+	<city prioridade="2" uf="16" cityCode="1600212" cityName="Cutias" />
+	<city prioridade="2" uf="16" cityCode="1600238" cityName="Ferreira Gomes" />
+	<city prioridade="2" uf="16" cityCode="1600253" cityName="Itaubal" />
+	<city prioridade="2" uf="16" cityCode="1600303" cityName="Macapá" />
+	<city prioridade="2" uf="16" cityCode="1600535" cityName="Porto Grande" />
+	<city prioridade="2" uf="16" cityCode="1600600" cityName="Santana" />
+	<city prioridade="2" uf="16" cityCode="1600279" cityName="Laranjal do Jari" />
+	<city prioridade="2" uf="16" cityCode="1600402" cityName="Mazagão" />
+	<city prioridade="2" uf="16" cityCode="1600808" cityName="Vitória do Jari" />
+</cities>

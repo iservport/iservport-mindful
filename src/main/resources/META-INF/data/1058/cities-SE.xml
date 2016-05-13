@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities  stateCode="SE">
+	<city prioridade="2" uf="28" cityCode="2801207" cityName="Canindé de São Francisco"/>
+	<city prioridade="2" uf="28" cityCode="2802205" cityName="Feira Nova"/>
+	<city prioridade="2" uf="28" cityCode="2802403" cityName="Gararu"/>
+	<city prioridade="2" uf="28" cityCode="2802601" cityName="Gracho Cardoso"/>
+	<city prioridade="2" uf="28" cityCode="2803104" cityName="Itabi"/>
+	<city prioridade="2" uf="28" cityCode="2804201" cityName="Monte Alegre de Sergipe"/>
+	<city prioridade="2" uf="28" cityCode="2804508" cityName="Nossa Senhora da Glória"/>
+	<city prioridade="2" uf="28" cityCode="2805406" cityName="Poço Redondo"/>
+	<city prioridade="2" uf="28" cityCode="2805604" cityName="Porto da Folha"/>
+	<city prioridade="2" uf="28" cityCode="2801405" cityName="Carira"/>
+	<city prioridade="2" uf="28" cityCode="2802304" cityName="Frei Paulo"/>
+	<city prioridade="2" uf="28" cityCode="2804458" cityName="Nossa Senhora Aparecida"/>
+	<city prioridade="2" uf="28" cityCode="2805000" cityName="Pedra Mole"/>
+	<city prioridade="2" uf="28" cityCode="2805208" cityName="Pinhão"/>
+	<city prioridade="2" uf="28" cityCode="2806008" cityName="Ribeirópolis"/>
+	<city prioridade="2" uf="28" cityCode="2800209" cityName="Aquidabã"/>
+	<city prioridade="2" uf="28" cityCode="2801900" cityName="Cumbe"/>
+	<city prioridade="2" uf="28" cityCode="2803807" cityName="Malhada dos Bois"/>
+	<city prioridade="2" uf="28" cityCode="2804300" cityName="Muribeca"/>
+	<city prioridade="2" uf="28" cityCode="2804607" cityName="Nossa Senhora das Dores"/>
+	<city prioridade="2" uf="28" cityCode="2807006" cityName="São Miguel do Aleixo"/>
+	<city prioridade="2" uf="28" cityCode="2800506" cityName="Areia Branca"/>
+	<city prioridade="2" uf="28" cityCode="2801009" cityName="Campo do Brito"/>
+	<city prioridade="2" uf="28" cityCode="2802908" cityName="Itabaiana"/>
+	<city prioridade="2" uf="28" cityCode="2803708" cityName="Macambira"/>
+	<city prioridade="2" uf="28" cityCode="2803906" cityName="Malhador"/>
+	<city prioridade="2" uf="28" cityCode="2804102" cityName="Moita Bonita"/>
+	<city prioridade="2" uf="28" cityCode="2806800" cityName="São Domingos"/>
+	<city prioridade="2" uf="28" cityCode="2805505" cityName="Poço Verde"/>
+	<city prioridade="2" uf="28" cityCode="2807105" cityName="Simão Dias"/>
+	<city prioridade="2" uf="28" cityCode="2807402" cityName="Tobias Barreto"/>
+	<city prioridade="2" uf="28" cityCode="2803500" cityName="Lagarto"/>
+	<city prioridade="2" uf="28" cityCode="2805802" cityName="Riachão do Dantas"/>
+	<city prioridade="2" uf="28" cityCode="2800100" cityName="Amparo de São Francisco"/>
+	<city prioridade="2" uf="28" cityCode="2800704" cityName="Brejo Grande"/>
+	<city prioridade="2" uf="28" cityCode="2801108" cityName="Canhoba"/>
+	<city prioridade="2" uf="28" cityCode="2801603" cityName="Cedro de São João"/>
+	<city prioridade="2" uf="28" cityCode="2802700" cityName="Ilha das Flores"/>
+	<city prioridade="2" uf="28" cityCode="2804409" cityName="Neópolis"/>
+	<city prioridade="2" uf="28" cityCode="2804706" cityName="Nossa Senhora de Lourdes"/>
+	<city prioridade="2" uf="28" cityCode="2805703" cityName="Propriá"/>
+	<city prioridade="2" uf="28" cityCode="2806404" cityName="Santana do São Francisco"/>
+	<city prioridade="2" uf="28" cityCode="2807303" cityName="Telha"/>
+	<city prioridade="2" uf="28" cityCode="2801306" cityName="Capela"/>
+	<city prioridade="2" uf="28" cityCode="2802007" cityName="Divina Pastora"/>
+	<city prioridade="2" uf="28" cityCode="2806503" cityName="Santa Rosa de Lima"/>
+	<city prioridade="2" uf="28" cityCode="2807204" cityName="Siriri"/>
+	<city prioridade="2" uf="28" cityCode="2803302" cityName="Japaratuba"/>
+	<city prioridade="2" uf="28" cityCode="2803401" cityName="Japoatã"/>
+	<city prioridade="2" uf="28" cityCode="2804904" cityName="Pacatuba"/>
+	<city prioridade="2" uf="28" cityCode="2805307" cityName="Pirambu"/>
+	<city prioridade="2" uf="28" cityCode="2806909" cityName="São Francisco"/>
+	<city prioridade="2" uf="28" cityCode="2801504" cityName="Carmópolis"/>
+	<city prioridade="2" uf="28" cityCode="2802502" cityName="General Maynard"/>
+	<city prioridade="2" uf="28" cityCode="2803609" cityName="Laranjeiras"/>
+	<city prioridade="2" uf="28" cityCode="2804003" cityName="Maruim"/>
+	<city prioridade="2" uf="28" cityCode="2805901" cityName="Riachuelo"/>
+	<city prioridade="2" uf="28" cityCode="2806107" cityName="Rosário do Catete"/>
+	<city prioridade="2" uf="28" cityCode="2806602" cityName="Santo Amaro das Brotas"/>
+	<city prioridade="2" uf="28" cityCode="2800308" cityName="Aracaju"/>
+	<city prioridade="2" uf="28" cityCode="2800605" cityName="Barra dos Coqueiros"/>
+	<city prioridade="2" uf="28" cityCode="2804805" cityName="Nossa Senhora do Socorro"/>
+	<city prioridade="2" uf="28" cityCode="2806701" cityName="São Cristóvão"/>
+	<city prioridade="2" uf="28" cityCode="2800407" cityName="Arauá"/>
+	<city prioridade="2" uf="28" cityCode="2800670" cityName="Boquim"/>
+	<city prioridade="2" uf="28" cityCode="2801702" cityName="Cristinápolis"/>
+	<city prioridade="2" uf="28" cityCode="2803005" cityName="Itabaianinha"/>
+	<city prioridade="2" uf="28" cityCode="2805109" cityName="Pedrinhas"/>
+	<city prioridade="2" uf="28" cityCode="2806206" cityName="Salgado"/>
+	<city prioridade="2" uf="28" cityCode="2807501" cityName="Tomar do Geru"/>
+	<city prioridade="2" uf="28" cityCode="2807600" cityName="Umbaúba"/>
+	<city prioridade="2" uf="28" cityCode="2802106" cityName="Estância"/>
+	<city prioridade="2" uf="28" cityCode="2802809" cityName="Indiaroba"/>
+	<city prioridade="2" uf="28" cityCode="2803203" cityName="Itaporanga d'Ajuda"/>
+	<city prioridade="2" uf="28" cityCode="2806305" cityName="Santa Luzia do Itanhy"/>
+</cities>

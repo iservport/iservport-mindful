@@ -7,7 +7,7 @@ import org.springframework.boot.orm.jpa.EntityScan;
 import org.springframework.context.ApplicationContext;
 
 @EnableAutoConfiguration
-@SpringBootApplication(scanBasePackages = {"com.iservport.config"})
+@SpringBootApplication(scanBasePackages = {"com.iservport.mindful.config"})
 @EntityScan({"org.helianto.*.domain", "com.iservport.*.domain"})
 public class Application {
 

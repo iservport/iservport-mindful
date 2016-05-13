@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<states>
+	<state stateName="Acre" stateCode="AC" />
+	<state stateName="Alagoas" stateCode="AL" />
+	<state stateName="Amazonas" stateCode="AM" />
+	<state stateName="Amapá" stateCode="AP" />
+	<state stateName="Bahia" stateCode="BA" />
+	<state stateName="Ceará" stateCode="CE" />
+	<state stateName="Distrito Federal" stateCode="DF" />
+	<state stateName="Espírito Santo" stateCode="ES" />
+	<state stateName="Goiás" stateCode="GO" />
+	<state stateName="Maranhão" stateCode="MA" />
+	<state stateName="Minas Gerais" stateCode="MG" />
+	<state stateName="Mato Grosso do Sul" stateCode="MS" />
+	<state stateName="Mato Grosso" stateCode="MT" />
+	<state stateName="Pará" stateCode="PA" />
+	<state stateName="Paraíba" stateCode="PB" />
+	<state stateName="Pernambuco" stateCode="PE" />
+	<state stateName="Piaui" stateCode="PI" />
+	<state stateName="Paraná" stateCode="PR" />
+	<state stateName="Rio de Janeiro" stateCode="RJ" />
+	<state stateName="Rio Grande do Norte" stateCode="RN" />
+	<state stateName="Rondônia" stateCode="RO" />
+	<state stateName="Roraima" stateCode="RR" />
+	<state stateName="Rio Grande do Sul" stateCode="RS" />
+	<state stateName="Santa Catarina" stateCode="SC" />
+	<state stateName="Sergipe" stateCode="SE" />
+	<state stateName="São Paulo" stateCode="SP" />
+	<state stateName="Tocantins" stateCode="TO"/>
+</states>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="RO" >
+	<city prioridade="2" uf="11" cityCode="1100148" cityName="Nova Brasilândia D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100320" cityName="São Miguel do Guaporé"/>
+	<city prioridade="2" uf="11" cityCode="1100346" cityName="Alvorada D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1101500" cityName="Seringueiras"/>
+	<city prioridade="2" uf="11" cityCode="1100015" cityName="Alta Floresta D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100049" cityName="Cacoal"/>
+	<city prioridade="2" uf="11" cityCode="1100098" cityName="Espigão D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100288" cityName="Rolim de Moura"/>
+	<city prioridade="2" uf="11" cityCode="1100296" cityName="Santa Luzia D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100379" cityName="Alto Alegre dos Parecis"/>
+	<city prioridade="2" uf="11" cityCode="1100502" cityName="Novo Horizonte do Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100908" cityName="Castanheiras"/>
+	<city prioridade="2" uf="11" cityCode="1101203" cityName="Ministro Andreazza"/>
+	<city prioridade="2" uf="11" cityCode="1100189" cityName="Pimenta Bueno"/>
+	<city prioridade="2" uf="11" cityCode="1100304" cityName="Vilhena"/>
+	<city prioridade="2" uf="11" cityCode="1100924" cityName="Chupinguaia"/>
+	<city prioridade="2" uf="11" cityCode="1101450" cityName="Parecis"/>
+	<city prioridade="2" uf="11" cityCode="1101476" cityName="Primavera de Rondônia"/>
+	<city prioridade="2" uf="11" cityCode="1101484" cityName="São Felipe D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100031" cityName="Cabixi"/>
+	<city prioridade="2" uf="11" cityCode="1100056" cityName="Cerejeiras"/>
+	<city prioridade="2" uf="11" cityCode="1100064" cityName="Colorado do Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100072" cityName="Corumbiara"/>
+	<city prioridade="2" uf="11" cityCode="1101468" cityName="Pimenteiras do Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100205" cityName="Porto Velho"/>
+	<city prioridade="2" uf="11" cityCode="1100338" cityName="Nova Mamoré"/>
+	<city prioridade="2" uf="11" cityCode="1100452" cityName="Buritis"/>
+	<city prioridade="2" uf="11" cityCode="1100700" cityName="Campo Novo de Rondônia"/>
+	<city prioridade="2" uf="11" cityCode="1100809" cityName="Candeias do Jamari"/>
+	<city prioridade="2" uf="11" cityCode="1100940" cityName="Cujubim"/>
+	<city prioridade="2" uf="11" cityCode="1101104" cityName="Itapuã do Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100080" cityName="Costa Marques"/>
+	<city prioridade="2" uf="11" cityCode="1100106" cityName="Guajará-Mirim"/>
+	<city prioridade="2" uf="11" cityCode="1101492" cityName="São Francisco do Guaporé"/>
+	<city prioridade="2" uf="11" cityCode="1100023" cityName="Ariquemes"/>
+	<city prioridade="2" uf="11" cityCode="1100130" cityName="Machadinho D'Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100262" cityName="Rio Crespo"/>
+	<city prioridade="2" uf="11" cityCode="1100403" cityName="Alto Paraíso"/>
+	<city prioridade="2" uf="11" cityCode="1100601" cityName="Cacaulândia"/>
+	<city prioridade="2" uf="11" cityCode="1101401" cityName="Monte Negro"/>
+	<city prioridade="2" uf="11" cityCode="1101757" cityName="Vale do Anari"/>
+	<city prioridade="2" uf="11" cityCode="1100114" cityName="Jaru"/>
+	<city prioridade="2" uf="11" cityCode="1100122" cityName="Ji-Paraná"/>
+	<city prioridade="2" uf="11" cityCode="1100155" cityName="Ouro Preto do Oeste"/>
+	<city prioridade="2" uf="11" cityCode="1100254" cityName="Presidente Médici"/>
+	<city prioridade="2" uf="11" cityCode="1101005" cityName="Governador Jorge Teixeira"/>
+	<city prioridade="2" uf="11" cityCode="1101302" cityName="Mirante da Serra"/>
+	<city prioridade="2" uf="11" cityCode="1101435" cityName="Nova União"/>
+	<city prioridade="2" uf="11" cityCode="1101559" cityName="Teixeirópolis"/>
+	<city prioridade="2" uf="11" cityCode="1101609" cityName="Theobroma"/>
+	<city prioridade="2" uf="11" cityCode="1101708" cityName="Urupá"/>
+	<city prioridade="2" uf="11" cityCode="1101807" cityName="Vale do Paraíso"/>
+</cities>

@@ -1,0 +1,51 @@
+[#ftl]
+<div class="security-container" data-ng-cloak >
+	<script >
+		var signed = false;
+	</script>
+	[#--
+     # Logo
+     #--]
+    [#include "../config/login-splash.html" /]
+
+	<script >
+		var email = [#if email??]'${email}' [#else]''[/#if];
+	</script>
+
+	<div class="heading">
+		<h2 align="middle">{{'VERIFY_EMAIL'|common}}</h2>
+	<div class="well well-lg">
+		[#if emailSent?? && !emailSent ]
+			<div class="alert alert-danger" role="alert">
+			<@spring.message "label.user.email.sent.not" /> 
+			</div>
+		[/#if]
+		
+		[#--
+		 # Send E-mail
+		 #--]
+		[#if emailSent?? && emailSent]
+
+		<h4>{{'_E_MAIL_SENT'|common}}</h4>
+		
+		<p>{{'_E_MAIL_SPAM_WARN'|common}}</p>
+		[/#if]
+		
+		[#if passError?? && passError ]
+			<div class="alert alert-danger" role="alert">
+			<@spring.message "label.user.password.create.not" /> 
+			</div>
+		[/#if]
+			
+		[#if passError?? && !passError]
+			<div class="alert alert-success" role="alert">
+			<@spring.message "label.user.password.create" /> 
+			</div>
+		[/#if]
+
+		<h2><a class="form-control btn btn-primary full-width" href="/home/">{{'_BACK_TO_LOGIN'|common}}</a></h2>
+		</div>
+	</div>
+    <footer class="footer" data-ng-include="'/asssets/security/legal.html'"></footer>
+</div>
+    

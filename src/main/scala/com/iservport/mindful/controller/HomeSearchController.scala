@@ -41,12 +41,6 @@ import com.iservport.mindful.service._
     return "frame-angular"
   }
 
-  @RequestMapping(value = Array("/error"), method = Array(RequestMethod.GET)) def loginError(model: Model, @RequestParam `type`: String) = {
-    model.addAttribute("loginFailMsg", "label.user.error." + `type`)
-    model.addAttribute("error", true)
-    "security/login"
-  }
-
   @PreAuthorize("isAuthenticated()")
   @RequestMapping(value = Array("/entity"), method = Array(RequestMethod.GET))
   @ResponseBody def entity(userAuthentication: UserAuthentication) =
@@ -56,14 +50,6 @@ import com.iservport.mindful.service._
   @RequestMapping(value = Array("/user"), method = Array(RequestMethod.GET))
   @ResponseBody def user(userAuthentication: UserAuthentication) =
     homeQueryService.user(userAuthentication.getUserId)
-
-
-  @RequestMapping(value = Array("/login"), method = Array(RequestMethod.GET)) def signin(error: String, model: Model, @RequestParam(required = false) logout: String): String = {
-    if (error != null && error == "1") {
-      model.addAttribute("error", "1")
-    }
-    return "security/login"
-  }
 
   @PreAuthorize("isAuthenticated()")
   @RequestMapping(value = Array("/stats"), method = Array(RequestMethod.GET))

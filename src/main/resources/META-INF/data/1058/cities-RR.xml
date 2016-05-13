@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cities stateCode="RR" >
+	<city prioridade="2" uf="14" cityCode="1400027" cityName="Amajari" />
+	<city prioridade="2" uf="14" cityCode="1400050" cityName="Alto Alegre" />
+	<city prioridade="2" uf="14" cityCode="1400100" cityName="Boa Vista" />
+	<city prioridade="2" uf="14" cityCode="1400456" cityName="Pacaraima" />
+	<city prioridade="2" uf="14" cityCode="1400159" cityName="Bonfim" />
+	<city prioridade="2" uf="14" cityCode="1400175" cityName="Cantá" />
+	<city prioridade="2" uf="14" cityCode="1400407" cityName="Normandia" />
+	<city prioridade="2" uf="14" cityCode="1400704" cityName="Uiramutã" />
+	<city prioridade="2" uf="14" cityCode="1400209" cityName="Caracaraí" />
+	<city prioridade="2" uf="14" cityCode="1400282" cityName="Iracema" />
+	<city prioridade="2" uf="14" cityCode="1400308" cityName="Mucajaí" />
+	<city prioridade="2" uf="14" cityCode="1400233" cityName="Caroebe" />
+	<city prioridade="2" uf="14" cityCode="1400472" cityName="Rorainópolis" />
+	<city prioridade="2" uf="14" cityCode="1400506" cityName="São João da Baliza" />
+	<city prioridade="2" uf="14" cityCode="1400605" cityName="São Luiz" />
+</cities>
