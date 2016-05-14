@@ -68,8 +68,8 @@
 	   	<script type="text/javascript" src='/static/js/defaut.js'></script>
 
 	   	<!--
-		<link type="image/x-icon" href="/static/images/favicon.ico" rel="shortcut icon">
-		<link type="image/x-icon" href="/static/images/favicon.ico" rel="icon">
+		<link type="images/x-icon" href="/static/images/favicon.ico" rel="shortcut icon">
+		<link type="images/x-icon" href="/static/images/favicon.ico" rel="icon">
 		-->
 		<link rel="localization"  href="/locales/manifest.json">
 		  <!-- i18n para menu -->

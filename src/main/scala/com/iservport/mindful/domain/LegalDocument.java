@@ -13,10 +13,10 @@ import java.util.Date;
  * @author Mauricio Fernandes de Castro
  */
 @javax.persistence.Entity
-@Table(name="hmu_projeto",
+@Table(name="mndf_document",
     uniqueConstraints = {@UniqueConstraint(columnNames={"entityId", "docCode"})}
 )
-public class DocumentoLegislativo extends AbstractTrunkEntity {
+public class LegalDocument extends AbstractTrunkEntity {
 
 	private static final long serialVersionUID = 1L;
 	
@@ -56,7 +56,7 @@ public class DocumentoLegislativo extends AbstractTrunkEntity {
     /**
 	 * Constructor.
 	 */
-	public DocumentoLegislativo() {
+	public LegalDocument() {
 		super();
 	}
 	
@@ -66,7 +66,7 @@ public class DocumentoLegislativo extends AbstractTrunkEntity {
 	 * @param entity
 	 * @param docCode
 	 */
-	public DocumentoLegislativo(Entity entity, String docCode) {
+	public LegalDocument(Entity entity, String docCode) {
 		this();
 		setEntity(entity);
 		setDocCode(docCode);
@@ -148,7 +148,7 @@ public class DocumentoLegislativo extends AbstractTrunkEntity {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		DocumentoLegislativo other = (DocumentoLegislativo) obj;
+		LegalDocument other = (LegalDocument) obj;
 		if (getEntity() == null) {
 			if (other.getEntity() != null)
 				return false;

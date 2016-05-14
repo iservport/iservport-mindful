@@ -6,6 +6,9 @@
 ### Vagrant ###
 .vagrant/
 
+### HSQLDB ###
+/hsql
+
 ### Gradle ###
 .gradle
 build/

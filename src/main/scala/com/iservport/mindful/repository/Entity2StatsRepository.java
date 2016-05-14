@@ -13,7 +13,7 @@ import java.util.List;
  * 
  * @author mauriciofernandesdecastro
  */
-public interface EntityStatsRepository
+public interface Entity2StatsRepository
 	extends JpaRepository<Entity, Integer>
 {
 	

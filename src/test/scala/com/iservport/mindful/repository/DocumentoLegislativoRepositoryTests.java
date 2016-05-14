@@ -22,7 +22,7 @@ public class DocumentoLegislativoRepositoryTests {
 	private static final Logger logger = LoggerFactory.getLogger(DocumentoLegislativoRepositoryTests.class);
 
 	@Autowired
-	private DocumentoLegislativoRepository repository;
+	private LegalDocumentRepository repository;
 	
 	@Test
 	public void testGroupByQualifier() {

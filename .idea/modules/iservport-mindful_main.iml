@@ -17,13 +17,13 @@
     <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.191" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-web:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-facebook-web:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-inventory:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.15-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-plan:0.6.2.15-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-inventory:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-plan:0.6.2.16-BUILD" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jets3t:jets3t:0.8.1" level="project" />

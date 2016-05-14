@@ -8,41 +8,41 @@ import java.text.DecimalFormat;
  * @author Eldevan Nery Junior
  *
  */
-public class VotoDetails {
+public class VoteDetails {
 
-	private Integer agree = 0;
+	private Long agree = 0L;
 	
-	private Integer disagree = 0;
+	private Long disagree = 0L;
 	
-	private Integer total = 1;
+	private Long total = 1L;
 
-	public VotoDetails(Integer agree, Integer disagree, Integer total) {
+	public VoteDetails(Long agree, Long disagree, Long total) {
 		this.agree = agree;
 		this.disagree = disagree;
 		this.total = total;
 	}
 
-	public Integer getAgree() {
+	public Long getAgree() {
 		return agree;
 	}
 
-	public Integer getDisagree() {
+	public Long getDisagree() {
 		return disagree;
 	}
 
-	public Integer getTotal() {
+	public Long getTotal() {
 		return total;
 	}
 
-	public void setAgree(Integer agree) {
+	public void setAgree(Long agree) {
 		this.agree = agree;
 	}
 
-	public void setDisagree(Integer disagree) {
+	public void setDisagree(Long disagree) {
 		this.disagree = disagree;
 	}
 
-	public void setTotal(Integer total) {
+	public void setTotal(Long total) {
 		this.total = total;
 	}
 	

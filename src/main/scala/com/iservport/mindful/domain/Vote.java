@@ -14,20 +14,20 @@ import javax.persistence.Version;
 import org.helianto.user.domain.User;
 
 /**
- * Voto.
+ * Vote.
  * 
  * @author Mauricio Fernandes de Castro
  */
 @javax.persistence.Entity
-@Table(name="hmu_voto",
+@Table(name="mndf_vote",
     uniqueConstraints = {@UniqueConstraint(columnNames={"documentId", "userId"})}
 )
-public class Voto implements Serializable {
+public class Vote implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
 	/*
-	 * Chaves
+	 * Keys
 	 */
 	
 	@Id @GeneratedValue(strategy=GenerationType.AUTO)
@@ -38,7 +38,7 @@ public class Voto implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name="documentId")
-    private DocumentoLegislativo documento;
+    private LegalDocument documento;
 	
 	@ManyToOne
 	@JoinColumn(name="userId")
@@ -49,7 +49,7 @@ public class Voto implements Serializable {
     /**
      * Constructor.
      */
-    public Voto() {
+    public Vote() {
 		super();
 	}
     
@@ -59,7 +59,7 @@ public class Voto implements Serializable {
      * @param documento
      * @param eleitor
      */
-    public Voto(DocumentoLegislativo documento, User eleitor) {
+    public Vote(LegalDocument documento, User eleitor) {
     	this();
     	setDocumento(documento);
 		setEleitor(eleitor);
@@ -79,10 +79,10 @@ public class Voto implements Serializable {
 		this.version = version;
 	}
 
-	public DocumentoLegislativo getDocumento() {
+	public LegalDocument getDocumento() {
 		return documento;
 	}
-	public void setDocumento(DocumentoLegislativo documento) {
+	public void setDocumento(LegalDocument documento) {
 		this.documento = documento;
 	}
 
@@ -124,7 +124,7 @@ public class Voto implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Voto other = (Voto) obj;
+		Vote other = (Vote) obj;
 		if (eleitor == null) {
 			if (other.eleitor != null)
 				return false;

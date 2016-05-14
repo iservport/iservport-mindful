@@ -46,7 +46,7 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 ext {
-    heliantoVersion = '0.6.2.15-BUILD'
+    heliantoVersion = '0.6.2.16-BUILD'
 }
 dependencies {
     compile group: 'org.scala-lang',             name: 'scala-library',      version: '2.11.7'

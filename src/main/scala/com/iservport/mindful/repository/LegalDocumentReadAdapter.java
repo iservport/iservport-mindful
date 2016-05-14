@@ -3,11 +3,9 @@ package com.iservport.mindful.repository;
 import java.util.Date;
 
 /**
- * Adaptador de Leitura do projeto legislativo.
- * 
- * @author Eldevan Nery Junior
+ * Legal document read adapter.
  */
-public class DocumentoLegislativoReadAdapter{
+public class LegalDocumentReadAdapter {
 	
 	private Integer id;
 
@@ -36,13 +34,13 @@ public class DocumentoLegislativoReadAdapter{
     /**
 	 * Constructor.
 	 */
-	public DocumentoLegislativoReadAdapter() {
+	public LegalDocumentReadAdapter() {
 		super();
 	}
 	
 	
 
-	public DocumentoLegislativoReadAdapter(Integer id
+	public LegalDocumentReadAdapter(Integer id
 			, String docCode
 			, String docName
 			, Date nextCheckDate

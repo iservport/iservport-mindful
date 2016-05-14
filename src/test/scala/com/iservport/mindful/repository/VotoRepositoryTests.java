@@ -22,7 +22,7 @@ public class VotoRepositoryTests {
 	private static final Logger logger = LoggerFactory.getLogger(VotoRepositoryTests.class);
 
 	@Autowired
-	private VotoRepository repository;
+	private VoteRepository repository;
 	
 	@Test
 	public void testGroupByQualifier() {
