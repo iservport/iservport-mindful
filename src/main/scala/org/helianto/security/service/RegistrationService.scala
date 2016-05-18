@@ -4,7 +4,7 @@ import java.util.Locale
 import javax.inject.Inject
 
 import org.helianto.core.social.SignupForm
-import org.helianto.security.SecurityNotification
+import org.helianto.install.service.SecurityNotification
 import org.helianto.security.internal.Registration
 import org.springframework.stereotype.Service
 import org.springframework.ui.Model

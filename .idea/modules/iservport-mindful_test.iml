@@ -18,13 +18,11 @@
     <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.191" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-web:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-facebook-web:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-inventory:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.16-BUILD" level="project" />
-    <orderEntry type="library" name="Gradle: org.helianto:helianto-plan:0.6.2.16-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-core:0.6.2.17-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-partner:0.6.2.17-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-document:0.6.2.17-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-resource:0.6.2.17-BUILD" level="project" />
+    <orderEntry type="library" name="Gradle: org.helianto:helianto-security:0.6.2.17-BUILD" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jets3t:jets3t:0.8.1" level="project" />
@@ -106,11 +104,8 @@
     <orderEntry type="library" name="Gradle: org.easymock:easymock:3.1" level="project" />
     <orderEntry type="library" name="Gradle: org.mockito:mockito-all:1.9.0" level="project" />
     <orderEntry type="library" name="Gradle: joda-time:joda-time:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-httpclient:commons-httpclient:3.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.sendgrid:smtpapi-java:0.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.jamesmurty.utils:java-xmlbuilder:0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars:ace:1.1.7-1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars:raphaeljs:2.1.2-1" level="project" />
@@ -156,14 +151,11 @@
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: cglib:cglib-nodep:2.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:1.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.json:json:20140107" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.zxing:core:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss:jandex:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.0.b2" level="project" />
-    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="iservport-mindful_main" />
 </module>

@@ -46,7 +46,7 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 ext {
-    heliantoVersion = '0.6.2.16-BUILD'
+    heliantoVersion = '0.6.2.17-BUILD'
 }
 dependencies {
     compile group: 'org.scala-lang',             name: 'scala-library',      version: '2.11.7'
@@ -60,9 +60,7 @@ dependencies {
     compile group: 'org.helianto', name: 'helianto-partner',   version: heliantoVersion
     compile group: 'org.helianto', name: 'helianto-document',  version: heliantoVersion
     compile group: 'org.helianto', name: 'helianto-resource',  version: heliantoVersion
-    compile group: 'org.helianto', name: 'helianto-inventory', version: heliantoVersion
     compile group: 'org.helianto', name: 'helianto-security',  version: heliantoVersion
-    compile group: 'org.helianto', name: 'helianto-plan',      version: heliantoVersion
     compile group: 'commons-io',          name: 'commons-io', version: '2.4'
     compile group: 'commons-fileupload',  name: 'commons-fileupload', version: '1.2.1'
     compile(group: 'net.java.dev.jets3t', name: 'jets3t', version: '0.8.1') {

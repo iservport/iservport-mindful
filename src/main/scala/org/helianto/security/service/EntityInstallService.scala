@@ -6,7 +6,7 @@ import org.helianto.core.`def`.UserState
 import org.helianto.core.domain._
 import org.helianto.core.repository._
 import org.helianto.install.service.{EntityInstallStrategy, UserInstallService}
-import org.helianto.security.SecurityNotification
+import org.helianto.install.service.SecurityNotification
 import org.helianto.security.domain.IdentitySecret
 import org.helianto.security.internal.Registration
 import org.helianto.user.domain.UserToken.TokenSources

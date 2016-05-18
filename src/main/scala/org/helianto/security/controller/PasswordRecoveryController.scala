@@ -18,7 +18,7 @@ package org.helianto.security.controller
 import java.util.Locale
 import javax.inject.Inject
 
-import org.helianto.security.SecurityNotification
+import org.helianto.install.service.SecurityNotification
 import org.helianto.security.service.{ResponseService, UserTokenQueryService}
 import org.helianto.user.domain.UserToken
 import org.springframework.stereotype.Controller
