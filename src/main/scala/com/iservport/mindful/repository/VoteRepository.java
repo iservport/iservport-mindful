@@ -1,20 +1,20 @@
 package com.iservport.mindful.repository;
 
-import java.io.Serializable;
-import java.util.List;
-
 import com.iservport.mindful.domain.Vote;
 import org.helianto.core.internal.SimpleCounter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
+import java.io.Serializable;
+import java.util.List;
+
 /**
  * Repositório de votos.
- * 
+ *
  * @author mauriciofernandesdecastro
  */
 public interface VoteRepository
-	extends JpaRepository<Vote, Serializable> {
+		extends JpaRepository<Vote, Serializable> {
 
 	@Query("select voto.voto "
 			+ "from Vote voto "

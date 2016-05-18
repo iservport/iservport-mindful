@@ -181,9 +181,9 @@ public class MultiHttpSecurityConfig
                 .loginPage("/login").permitAll()
                 .failureUrl("/login?error=bad_credentials")
                 .failureHandler(authenticationFailureHandler)
-            // secure channel
-            .and()
-                .requiresChannel().anyRequest().requiresSecure()
+//            // secure channel
+//            .and()
+//                .requiresChannel().anyRequest().requiresSecure()
             //habilita csrf
             .and()
                 .addFilterAfter(csrfHeaderFilter(), CsrfFilter.class)

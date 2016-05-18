@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation._
   */
 @PreAuthorize("isAuthenticated()")
 @RequestMapping(value = Array("/app/home"))
-@RestController 
+@RestController
 class HomeSearchController {
 
   @Inject private val homeQueryService: HomeQueryService = null

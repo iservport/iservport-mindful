@@ -1,5 +1,5 @@
 (function() {
-	app = angular.module('home', ['ui.bootstrap', 'ngResource', 'ngSanitize', 'helianto.security', 'stats']);
+	app = angular.module('home', ['ui.bootstrap', 'ngResource', 'ngSanitize', 'helianto.security']);
 	
 	app.controller('HomeController', ['$scope', '$http', '$resource', 'securityServices'
 	                                  , function($scope, $http, $resource, securityServices) {

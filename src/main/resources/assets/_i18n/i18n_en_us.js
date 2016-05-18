@@ -1,4 +1,4 @@
-angular.module('app.services').
+angular.module('helianto.security').
 value('common', {
 	_ACTIVE:'Ativo',
 	_ADD:'Adicionar',
