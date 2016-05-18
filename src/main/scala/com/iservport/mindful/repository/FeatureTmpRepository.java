@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Feature repository.
  */
-public interface FeatureRepository extends JpaRepository<Feature, Integer> {
+public interface FeatureTmpRepository extends JpaRepository<Feature, Integer> {
 
     /**
      * Find feature
