@@ -22,7 +22,6 @@ class UserTokenQueryService @Inject()
 (identityRepository: IdentityRepository
  , userTokenRepository: UserTokenRepository
  , userRepository: UserRepository
- , entityInstallService: EntityInstallService
  , entityRepository: EntityRepository
  , keyTypeRepository: KeyTypeRepository
  , operatorRepository: OperatorRepository

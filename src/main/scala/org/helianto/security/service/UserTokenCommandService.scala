@@ -5,6 +5,7 @@ import javax.inject.Inject
 import org.helianto.core.domain.Identity
 import org.helianto.core.repository.{IdentityRepository, SignupRepository}
 import org.helianto.core.social.UserTokenIdentityAdapter
+import org.helianto.install.service.IdentityInstallService
 import org.helianto.security.internal.Registration
 import org.helianto.user.domain.UserToken
 import org.helianto.user.domain.UserToken.TokenSources
@@ -21,10 +22,10 @@ import org.springframework.stereotype.Service
 class UserTokenCommandService @Inject()
 (  identityRepository: IdentityRepository
    , userTokenRepository: UserTokenRepository
-   , entityInstallService: EntityInstallService
+   , identityInstallService: IdentityInstallService
    , signupRepository: SignupRepository){
 
-  private val logger: Logger = LoggerFactory.getLogger(classOf[EntityInstallService])
+  private val logger: Logger = LoggerFactory.getLogger(classOf[UserTokenCommandService])
 
   /**
     * Save the signup form and create a Token.
@@ -53,12 +54,16 @@ class UserTokenCommandService @Inject()
   }
 
   def install(registration: Registration) : UserToken = {
-    val identity = entityInstallService.installIdentity(registration.getEmail, registration.getPassword)
-    Option(userTokenRepository.findByTokenSourceAndPrincipal(TokenSources.SIGNUP.name(), identity.getPrincipal)) match {
-      case Some(userToken) => userToken
-      case None => {
-        new UserToken(TokenSources.SIGNUP.name(),registration.getEmail).appendFirstName(identity.getIdentityFirstName)
-      }
+
+    Option(identityInstallService.installIdentity(registration.getEmail)) match {
+      case Some(identity) =>
+        Option(userTokenRepository.findByTokenSourceAndPrincipal(TokenSources.SIGNUP.name(), identity.getPrincipal)) match {
+          case Some(userToken) => userToken
+          case None => {
+            new UserToken(TokenSources.SIGNUP.name(),registration.getEmail).appendFirstName(identity.getIdentityFirstName)
+          }
+        }
+      case _ => throw new IllegalArgumentException("Unable to install token: registration must have valid e-mail.")
     }
   }
 

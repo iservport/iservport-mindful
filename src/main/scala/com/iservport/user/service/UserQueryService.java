@@ -5,12 +5,11 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import com.iservport.mindful.repository.UserStatsRepository;
 import org.helianto.core.internal.QualifierAdapter;
-import org.helianto.core.internal.SimpleCounter;
 import org.helianto.user.repository.UserGroupRepository;
 import org.helianto.user.repository.UserReadAdapter;
 import org.helianto.user.repository.UserRepository;
-import org.joda.time.DateMidnight;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -18,7 +17,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import com.iservport.mindful.repository.UserRoleReadAdapter;
 import com.iservport.mindful.repository.UserRoleTmpRepository;
-import com.iservport.mindful.repository.UserStatsRepository;
 import com.iservport.mindful.repository.UserTmpRepository;
 
 /**

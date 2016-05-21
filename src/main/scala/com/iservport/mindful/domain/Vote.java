@@ -101,7 +101,7 @@ public class Vote implements Serializable {
 	}
     
 	public boolean isParlamentar() {
-		return (getEleitor() instanceof Parlamentar);
+		return (getEleitor() instanceof Legislator);
 	}
 
 	@Override

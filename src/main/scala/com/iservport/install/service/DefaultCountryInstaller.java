@@ -2,6 +2,7 @@ package com.iservport.install.service;
 
 import org.helianto.core.domain.Country;
 import org.helianto.core.domain.Operator;
+import org.helianto.core.install.CountryInstaller;
 import org.helianto.core.repository.CountryRepository;
 import org.helianto.install.service.CountryParser;
 import org.slf4j.Logger;
@@ -44,7 +45,6 @@ public class DefaultCountryInstaller implements CountryInstaller {
 	 * Install countries, return the root country.
 	 * 
 	 * @param context
-	 * @param contextDataPath
 	 */
 	public Country installCountries(Operator context) {
 		String contextDataPath = env.getProperty("helianto.contextDataPath", "/META-INF/data/");

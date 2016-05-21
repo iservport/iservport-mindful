@@ -14,8 +14,6 @@ import org.springframework.stereotype.Service
 @Service
 class MindfulSecurityNotification extends SecurityNotification {
 
-  override def sendAdminNotify(entity: Entity, identity: Identity): Boolean = true
-
   override def sendWelcome(userToken: UserToken): Boolean = true
 
   override def sendSignUp(userToken: UserToken): Boolean = true

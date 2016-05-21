@@ -30,8 +30,6 @@ abstract class AbstractAppController  {
     */
   protected def response(userAuthentication: UserAuthentication, model: Model, baseName: String, navCollapsedMin: Boolean, locale: Locale, externalId: Integer) = {
     model.addAttribute("baseName", baseName)
-    // TODO tratar locale como é recebido do browser
-    // no momento forçamos para pt_BR (stdLocale ao invés de locale)
     val stdlocale = new Locale("pt", "BR")
     if (stdlocale != null) {
       model.addAttribute("locale", stdlocale.toString.toLowerCase)
@@ -46,7 +44,7 @@ abstract class AbstractAppController  {
     * Default template name.
     */
   protected def getTemplateName(baseName: String, model: Model) = {
-    "frame-bootstrap"
+    "frame-material"
   }
 
 

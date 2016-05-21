@@ -4,6 +4,7 @@ import org.helianto.core.domain.City;
 import org.helianto.core.domain.Country;
 import org.helianto.core.domain.Operator;
 import org.helianto.core.domain.State;
+import org.helianto.core.install.CityInstaller;
 import org.helianto.core.repository.CityRepository;
 import org.helianto.core.repository.StateRepository;
 import org.helianto.install.service.CityParser;
@@ -54,7 +55,7 @@ public class DefaultCityInstaller  implements CityInstaller {
 	 * Install states and cities, return the root city.
 	 * 
 	 * @param context
-	 * @param contextDataPath
+	 * @param country
 	 */
 	public City installStatesAndCities(Operator context, Country country) {
 		String contextDataPath = env.getProperty("helianto.contextDataPath", "/META-INF/data/");

@@ -8,13 +8,13 @@ import org.helianto.core.domain.Identity;
 import org.helianto.user.domain.User;
 
 /**
- * Parlamentar.
+ * Legislator.
  * 
  * @author Mauricio Fernandes de Castro
  */
 @javax.persistence.Entity
 @DiscriminatorValue("P")
-public class Parlamentar extends User {
+public class Legislator extends User {
 
 	private static final long serialVersionUID = 1L;
 	
@@ -28,7 +28,7 @@ public class Parlamentar extends User {
 	/**
 	 * Constructor.
 	 */
-	public Parlamentar() {
+	public Legislator() {
 		super();
 	}
 	
@@ -38,7 +38,7 @@ public class Parlamentar extends User {
 	 * @param entity
 	 * @param identity
 	 */
-	public Parlamentar(Entity entity, Identity identity) {
+	public Legislator(Entity entity, Identity identity) {
 		this();
 		setEntity(entity);
 		setIdentity(identity);
@@ -51,7 +51,7 @@ public class Parlamentar extends User {
 	 * @param identity
 	 * @param legislatura
 	 */
-	public Parlamentar(Entity entity, Identity identity, String legislatura) {
+	public Legislator(Entity entity, Identity identity, String legislatura) {
 		this(entity, identity);
 		setLegislatura(legislatura);
 	}

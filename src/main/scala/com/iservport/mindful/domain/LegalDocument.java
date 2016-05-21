@@ -49,7 +49,7 @@ public class LegalDocument extends AbstractTrunkEntity {
 	
 	@ManyToOne
 	@JoinColumn(name="authorId")
-    private Parlamentar author;
+    private Legislator author;
 	
     private Character resolution;
     
@@ -107,10 +107,10 @@ public class LegalDocument extends AbstractTrunkEntity {
 		this.content = content;
 	}
 
-	public Parlamentar getAuthor() {
+	public Legislator getAuthor() {
 		return author;
 	}
-	public void setAuthor(Parlamentar author) {
+	public void setAuthor(Legislator author) {
 		this.author = author;
 	}
 	

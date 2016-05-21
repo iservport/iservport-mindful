@@ -43,9 +43,6 @@ public class KeyTypeInstallService
 		
 	@Inject
 	private KeyTypeRepository keyTypeRepository;
-	
-	@Inject
-	private EntityInstallStrategy entityInstallStrategy;
 
 	@Inject
 	private OperatorRepository operatorRepository;

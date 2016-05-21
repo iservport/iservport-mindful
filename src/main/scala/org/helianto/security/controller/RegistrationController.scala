@@ -35,7 +35,6 @@ class RegistrationController @Inject()
 (responseService: ResponseService
  , userTokenQueryService: UserTokenQueryService
  , registrationService: RegistrationService
- , entityInstallService: EntityInstallService
 ) {
 
   /**
@@ -50,7 +49,6 @@ class RegistrationController @Inject()
     userTokenQueryService.findPreviousSignupAttempts(confirmationToken, 5) match {
       case Some(identity) =>
         model.addAttribute("form", new SignupForm(identity.getPrincipal, identity.getIdentityFirstName, identity.getIdentityLastName))
-        model.addAttribute("email", entityInstallService.removeLead(identity.getPrincipal))
         responseService.registerResponse(model, locale)
       case _ =>
         model.addAttribute("userConfirmed", false)

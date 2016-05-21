@@ -1,7 +1,7 @@
 package com.iservport.mindful.config;
 
-import com.iservport.install.service.DefaultInstallStrategy;
 import org.helianto.core.config.HeliantoConfig;
+import org.helianto.core.service.BootstrapInstaller;
 import org.helianto.install.service.EntityInstallStrategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -61,6 +61,11 @@ public class RootContextConfig extends WebMvcConfigurerAdapter {
 	}
 
 	@Bean
+	public BootstrapInstaller bootstrapInstaller() {
+		return new BootstrapInstaller();
+	}
+
+	@Bean
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
@@ -68,11 +73,6 @@ public class RootContextConfig extends WebMvcConfigurerAdapter {
 	@Bean
 	public Md5PasswordEncoder notificationEncoder() {
 		return new Md5PasswordEncoder();
-	}
-
-	@Bean(name = "defaultInstallStrategy")
-	public EntityInstallStrategy entityInstallStrategy() {
-		return new DefaultInstallStrategy();
 	}
 
 	/**

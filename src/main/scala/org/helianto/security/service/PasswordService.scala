@@ -25,10 +25,9 @@ class PasswordService @Inject()
 ){
 
   /**
-    * Switch a token by its corresponding identity.
+    * Exchange a token by its corresponding identity.
     *
     * @param confirmationToken
-    * @return
     */
   def getIdentityOption(confirmationToken: String): Option[Identity] = {
     Option(userTokenRepository.findByToken(confirmationToken)) match {
@@ -37,6 +36,12 @@ class PasswordService @Inject()
     }
   }
 
+  /**
+    * True encrypted password matches the changing one.
+    *
+    * @param pass
+    * @param identity
+    */
   def ckeckPassword(pass: String, identity: Identity): Boolean = {
     val identitySecret: IdentitySecret = identitySecretRepository.findByIdentityKey(identity.getPrincipal)
     if (BCrypt.checkpw(pass, identitySecret.getIdentitySecret)) {
@@ -48,6 +53,12 @@ class PasswordService @Inject()
     }
   }
 
+  /**
+    * Do change password.
+    *
+    * @param principal
+    * @param pass
+    */
   def changePassword(principal: String, pass: String) =
     identityCrypto.changeIdentitySecret(principal, pass)
 
