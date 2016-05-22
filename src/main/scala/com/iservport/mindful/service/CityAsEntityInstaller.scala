@@ -25,7 +25,7 @@ class CityAsEntityInstaller extends EntityInstaller {
       case Some(e) => e
       case _ =>
         val city = cityRepository.findOne(cityId)
-        logger.info("New entity for context {} and city {}.", city.getContext.getId, city)
+        logger.info("New entity for city {}.", city)
         entityByCityRepository.saveAndFlush(new Entity(city, city.getCityCode))
     }
     userInstallService.installUser(entity, principal)
