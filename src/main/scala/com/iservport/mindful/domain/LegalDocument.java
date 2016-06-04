@@ -115,7 +115,7 @@ public class LegalDocument extends AbstractTrunkEntity {
 	}
 	
 	public Character getResolution() {
-		if (getResolution()==null) {
+		if (this.resolution==null) {
 			return 'T';
 		}
 		return resolution;
@@ -129,6 +129,20 @@ public class LegalDocument extends AbstractTrunkEntity {
 	}
 	public void setNextCheckDate(Date nextCheckDate) {
 		this.nextCheckDate = nextCheckDate;
+	}
+
+	/**
+	 * Legal document merge.
+	 *
+	 * @param command
+	 * @return
+     */
+	public LegalDocument merge(LegalDocument command){
+		this.setContent(command.getContent());
+		this.setDocAbstract(command.getDocAbstract());
+		this.setDocName(command.getDocName());
+		this.setResolution(command.getResolution());
+		return this;
 	}
 
 	@Override

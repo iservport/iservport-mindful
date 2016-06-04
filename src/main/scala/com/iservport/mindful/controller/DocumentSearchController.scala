@@ -7,7 +7,7 @@ import com.iservport.mindful.service.{DocumentCommandService, DocumentQueryServi
 import org.helianto.security.internal.UserAuthentication
 import org.springframework.http.MediaType
 import org.springframework.security.access.prepost.PreAuthorize
-import org.springframework.web.bind.annotation.{RequestMapping, RequestMethod, RequestParam, RestController}
+import org.springframework.web.bind.annotation._
 
 /**
   * Document search controller.
@@ -44,6 +44,16 @@ class DocumentSearchController {
   def getDocumentCountByResolution(userAuthentication: UserAuthentication, @RequestParam resolution: Char) =
     queryService.getTotalDocuments(resolution, userAuthentication.getEntityId)
 
+   /**
+    * create a document.
+    *
+    * Post /app/document/
+    *
+    * @param userAuthentication
+    */
+  @RequestMapping(method = Array(RequestMethod.POST))
+  def createLegalDocument(userAuthentication: UserAuthentication) = commandService.create(userAuthentication.getEntityId)
+
   /**
     * Saves or updates a document.
     *
@@ -53,7 +63,7 @@ class DocumentSearchController {
     * @param command
     */
   @RequestMapping(method = Array(RequestMethod.PUT))
-  def putDocumentToSaveOrUpdate(userAuthentication: UserAuthentication, @RequestParam command: LegalDocument) =
+  def putDocumentToSaveOrUpdate(userAuthentication: UserAuthentication, @RequestBody command: LegalDocument) =
     commandService.saveOrUpdate(userAuthentication.getEntityId, userAuthentication.getIdentityId, command)
 
 }

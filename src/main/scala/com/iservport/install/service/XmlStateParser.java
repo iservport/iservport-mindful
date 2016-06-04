@@ -49,6 +49,7 @@ public class XmlStateParser implements StateParser {
 			    	String stateCode = parser.getAttributeValue("", "stateCode");
 			    	State state = new State(context, stateCode, parser.getAttributeValue("", "stateName"));
 			    	state.setCountry(country);
+					state.setPriority('0');
 			    	stateList.add(state);
 			    	logger.debug("Added {} to state list.", state);
 			    }

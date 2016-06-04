@@ -62,7 +62,7 @@
 		/*
 		 * initializers
 		 */
-		$scope.documentoResource = $resource(baseUrl);
+		$scope.documentoResource = $resource('/app/document');
 		$scope.featureResource = $resource(baseUrl+'feature');
 		
 
